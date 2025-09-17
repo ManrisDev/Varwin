@@ -1,0 +1,27 @@
+{
+    "name": "VarwinCore",
+    "rootNamespace": "",
+    "references": [
+        "ZFBrowser",
+        "Unity.TextMeshPro",
+        "Unity.Postprocessing.Runtime",
+        "SmartLocalization",
+        "ADec",
+        "Oculus.LipSync",
+        "KtxUnity",
+        "endel.nativewebsocket",
+        "Unity.Netcode.Components",
+        "Unity.Netcode.Runtime",
+        "Unity.Collections",
+        "AssimpImporter"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

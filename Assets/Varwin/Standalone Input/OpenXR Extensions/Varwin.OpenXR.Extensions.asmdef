@@ -1,0 +1,17 @@
+{
+    "name": "Varwin.OpenXR.Extensions",
+    "rootNamespace": "",
+    "references": [
+        "Varwin.OpenXR",
+        "Varwin.XR"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

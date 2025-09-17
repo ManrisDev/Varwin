@@ -1,0 +1,48 @@
+/******************************************************************
+*******************************************************************
+*
+*                      WARNING!
+*  This file is auto-generated. Editing it may break your objects. 
+*  Do it at your own risk.
+* 
+*  
+*  (c) 2022
+*
+*******************************************************************
+*******************************************************************/
+
+/* VARWIN_AUTOGEN_MARK_1.2 */
+
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
+
+namespace Varwin.Types.{%Namespace%}
+{
+    public class {%WrapperType%} : Wrapper
+    {
+        public readonly Varwin.Public.VarwinObjectDescriptor VarwinObjectDescriptor;
+        
+        {%ComponentReferences%}
+
+        {%ValueLists%}
+
+        public {%WrapperType%}(GameObject gameObject) : base(gameObject)
+        {
+            VarwinObjectDescriptor = gameObject.GetComponent<Varwin.Public.VarwinObjectDescriptor>();
+            
+            {%ComponentReferencesInitialization%}
+            
+            {%EventsSubscription%}
+            {%ValueListsInitialization%}
+        }
+
+        {%AnimationEnum%}  
+        {%Values%}
+        {%Properties%}
+        {%Checkers%}
+        {%Actions%}
+        {%Events%}
+        {%Dynamics%}
+    }
+}

@@ -1,0 +1,189 @@
+{
+   "action_manifest_version" : 0,
+   "alias_info" : {},
+   
+   "bindings" : {
+      "/actions/default" : {
+         "haptics" : [
+            {
+               "output" : "/actions/default/out/haptic",
+               "path" : "/user/hand/left/output/haptic"
+            },
+            {
+               "output" : "/actions/default/out/haptic",
+               "path" : "/user/hand/right/output/haptic"
+            }
+         ],
+         "poses" : [
+            {
+               "output" : "/actions/default/in/pose",
+               "path" : "/user/hand/left/pose/raw"
+            },
+            {
+               "output" : "/actions/default/in/pose",
+               "path" : "/user/hand/right/pose/raw"
+            }
+         ],
+         "skeleton" : [
+            {
+               "output" : "/actions/default/in/skeletonlefthand",
+               "path" : "/user/hand/left/input/skeleton/left"
+            },
+            {
+               "output" : "/actions/default/in/skeletonrighthand",
+               "path" : "/user/hand/right/input/skeleton/right"
+            }
+         ],
+         "sources" : [
+            {
+               "inputs" : {
+                  "held" : {
+                     "output" : "/actions/default/in/grabhold"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/grabtoggle"
+                  }
+               },
+               "mode" : "toggle_button",
+               "path" : "/user/hand/left/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/menu"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/application_menu"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/curlactionthxsteamvr"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/triggeruse"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "center" : {
+                     "output" : "/actions/default/in/touchpadpress"
+                  },
+                  "east" : {
+                     "output" : "/actions/default/in/turnright"
+                  },
+                  "north" : {
+                     "output" : "/actions/default/in/touchpadpress"
+                  },
+                  "south" : {
+                     "output" : "/actions/default/in/touchpadpress"
+                  },
+                  "west" : {
+                     "output" : "/actions/default/in/turnleft"
+                  }
+               },
+               "mode" : "dpad",
+               "parameters" : {
+                  "deadzone_pct" : "50",
+                  "overlap_pct" : "0",
+                  "sub_mode" : "click"
+               },
+               "path" : "/user/hand/left/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/menu"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/application_menu"
+            },
+            {
+               "inputs" : {
+                  "held" : {
+                     "output" : "/actions/default/in/grabhold"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/grabtoggle"
+                  }
+               },
+               "mode" : "toggle_button",
+               "path" : "/user/hand/right/input/grip"
+            },
+            {
+               "inputs" : {
+                  "center" : {
+                     "output" : "/actions/default/in/touchpadpress"
+                  },
+                  "east" : {
+                     "output" : "/actions/default/in/turnright"
+                  },
+                  "north" : {
+                     "output" : "/actions/default/in/touchpadpress"
+                  },
+                  "south" : {
+                     "output" : "/actions/default/in/touchpadpress"
+                  },
+                  "west" : {
+                     "output" : "/actions/default/in/turnleft"
+                  }
+               },
+               "mode" : "dpad",
+               "parameters" : {
+                  "deadzone_pct" : "50",
+                  "overlap_pct" : "0",
+                  "sub_mode" : "click"
+               },
+               "path" : "/user/hand/right/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/curlactionthxsteamvr"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/triggeruse"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/trigger"
+            }
+         ]
+      }
+   },
+   "category" : "steamvr_input",
+   "controller_type" : "vive_controller",
+   "description" : "",
+   "name" : "VarwinClient [Testing] Vive Controller",
+   "options" : {},
+   "simulated_actions" : []
+}

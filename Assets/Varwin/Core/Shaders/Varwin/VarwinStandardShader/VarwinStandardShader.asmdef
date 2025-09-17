@@ -1,0 +1,13 @@
+{
+  "name": "VarwinStandardShader",
+  "references": [],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "allowUnsafeCode": false,
+  "autoReferenced": true,
+  "defineConstraints": []
+}

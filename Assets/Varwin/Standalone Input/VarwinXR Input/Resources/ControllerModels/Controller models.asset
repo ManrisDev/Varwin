@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f2326146f84f239ddf513081d4b48b, type: 3}
+  m_Name: Controller models
+  m_EditorClassIdentifier: 
+  "_\u0441ontrollers":
+  - Name: 'HTC Vive '
+    AssignedControllerNames:
+    - HTC Vive Controller OpenXR
+    - HTC Vive Controller Left
+    - HTC Vive Controller Right
+    HeadsetNames: []
+    LeftPrefab: {fileID: 827583995887688423, guid: 44cf6948c8e3fb841882a90f662e6bac, type: 3}
+    RightPrefab: {fileID: 2778746803349370992, guid: 1d631b158dc86794ca82bc56a0da8ade, type: 3}
+    UseSubstring: 0
+  - Name: Oculus Quest 2
+    AssignedControllerNames:
+    - Oculus Touch Controller OpenXR
+    - Oculus Touch Controller - Left
+    - Oculus Touch Controller - Right
+    - Oculus Touch Controller Left
+    - Oculus Touch Controller Right
+    HeadsetNames:
+    - Oculus Quest2
+    - 'SteamVR/OpenXR : oculus'
+    - Meta Quest 2
+    LeftPrefab: {fileID: 20628699464342060, guid: f7c52d24b765d13438266303e9fad9d0, type: 3}
+    RightPrefab: {fileID: 4345497454474476577, guid: 7242720b4f9767c4997a0cc1f9f25ae7, type: 3}
+    UseSubstring: 0
+  - Name: Oculus Quest 1
+    AssignedControllerNames:
+    - Oculus Touch Controller OpenXR
+    - Oculus Touch Controller - Left
+    - Oculus Touch Controller - Right
+    - Oculus Touch Controller Left
+    - Oculus Touch Controller Right
+    HeadsetNames:
+    - Oculus Quest
+    - 'SteamVR/OpenXR : oculus'
+    - Meta Quest
+    LeftPrefab: {fileID: 1141143830523417259, guid: 5ea438bfc46b37c45b543f7a507500a8, type: 3}
+    RightPrefab: {fileID: 9042511604619950085, guid: c9fd9274b0bef9647ba9f0c27603e720, type: 3}
+    UseSubstring: 0
+  - Name: HTC Vive Focus 1
+    AssignedControllerNames:
+    - WVR_CONTROLLER_FINCH3DOF
+    HeadsetNames:
+    - WVR HMD
+    LeftPrefab: {fileID: 2413152349958661177, guid: 32275f94b1542454f9f70eeddd08ae1b, type: 3}
+    RightPrefab: {fileID: 2356036989288900601, guid: b71dd95c3702f7f489643c9eb73e3cfc, type: 3}
+    UseSubstring: 1
+  - Name: Oculus Rift CV1
+    AssignedControllerNames:
+    - Oculus Touch Controller Left
+    - Oculus Touch Controller Right
+    HeadsetNames:
+    - Oculus Rift CV1
+    LeftPrefab: {fileID: 4819881940075755930, guid: 7d4558279664a474fa945e246595355c, type: 3}
+    RightPrefab: {fileID: 8644010161715836873, guid: 84738dd740bc1e744beebc3e0b50a054, type: 3}
+    UseSubstring: 0
+  - Name: HTC Vive Focus Plus
+    AssignedControllerNames:
+    - WVR_CONTROLLER_ASPEN_MI6_1
+    HeadsetNames:
+    - WVR HMD
+    LeftPrefab: {fileID: 5255756837258740969, guid: f8be6282c6395504781399fe052996a4, type: 3}
+    RightPrefab: {fileID: 6729941254926418177, guid: 9ff3d60bd6ff6084f94336d37e395c2d, type: 3}
+    UseSubstring: 0
+  - Name: HTC Vive Focus 3
+    AssignedControllerNames:
+    - WVR_CR_Left_001
+    - WVR_CR_Right_001
+    - Oculus Touch Controller Left
+    - Oculus Touch Controller Right
+    HeadsetNames:
+    - WVR HMD
+    - 'Vive OpenXR: Vive SRanipal'
+    LeftPrefab: {fileID: 877317170521885568, guid: d2872d26795f69b4a885dfab7dd6c3ce, type: 3}
+    RightPrefab: {fileID: 1277175653763782191, guid: 8a258d026d4695a458881b82713d3710, type: 3}
+    UseSubstring: 0
+  - Name: Windows Mixed Reality
+    AssignedControllerNames:
+    - Windows MR Controller OpenXR
+    - Microsoft Mixed Reality Motion Controller Left
+    - Microsoft Mixed Reality Motion Controller Right
+    HeadsetNames:
+    - Windows Mixed Reality
+    - Windows MR Controller OpenXR
+    - 'SteamVR/OpenXR : holographic'
+    LeftPrefab: {fileID: 6252541585700315714, guid: aa9fde43f8201ea4da256ccb6f8a66e7, type: 3}
+    RightPrefab: {fileID: 8723217791953748625, guid: 32b18548f773ab342a8d8f3d84972a8f, type: 3}
+    UseSubstring: 0
+  - Name: Pico Neo 3 Pro
+    AssignedControllerNames:
+    - Oculus Touch Controller OpenXR
+    - PICO Controller-Left
+    - PICO Controller-Right
+    - PicoXR Controller-Left
+    - PicoXR Controller-Right
+    - Oculus Touch Controller Left
+    - Oculus Touch Controller Right
+    - Pico Touch Controller Left
+    - Pico Touch Controller Right
+    HeadsetNames:
+    - PICO HMD
+    - Pico Neo 3
+    - 'SteamVR/OpenXR : pico'
+    LeftPrefab: {fileID: 1893328045135736353, guid: 5134ac22a6a012d4cbc1c5bd00d439cb, type: 3}
+    RightPrefab: {fileID: 4270410960302876502, guid: 322a920723ca7d7418f57c0e35fd9e08, type: 3}
+    UseSubstring: 0
+  - Name: HTC Vive Cosmos
+    AssignedControllerNames:
+    - Oculus Touch Controller Left
+    - Oculus Touch Controller Right
+    HeadsetNames:
+    - Vive Reality system
+    - 'SteamVR/OpenXR : vive_eyes'
+    LeftPrefab: {fileID: 6290790657175311048, guid: 7ee84c6cfedb6584e98e2c93a5f4f152, type: 3}
+    RightPrefab: {fileID: 7367997105851312953, guid: 3e50851521290494e9681aba15b73fff, type: 3}
+    UseSubstring: 0
+  - Name: PolyVR
+    AssignedControllerNames:
+    - X3C01
+    HeadsetNames:
+    - Skyworth HMD
+    LeftPrefab: {fileID: 2602801370498360464, guid: 9b3a0232bd1190947833f547e0a1f72f, type: 3}
+    RightPrefab: {fileID: 1612177265139035893, guid: 7725c9b903153c24da1246426fdac5a6, type: 3}
+    UseSubstring: 1
+  - Name: Pico Neo 2
+    AssignedControllerNames:
+    - PicoXR Controller-Left
+    - PicoXR Controller-Right
+    - Oculus Touch Controller Left
+    - Oculus Touch Controller Right
+    - Pico Touch Controller Left
+    - Pico Touch Controller Right
+    HeadsetNames:
+    - Pico Neo 2
+    LeftPrefab: {fileID: 7449517224062717573, guid: d6b1e8f94b59d614098d963b67a22b66, type: 3}
+    RightPrefab: {fileID: 8045899690630475021, guid: 016fd5d76e6f3e24f90832bd5dd875d5, type: 3}
+    UseSubstring: 0
+  - Name: Pico 4
+    AssignedControllerNames:
+    - PicoXR Controller-Left
+    - PicoXR Controller-Right
+    - Oculus Touch Controller Left
+    - Oculus Touch Controller Right
+    - Pico Touch Controller Left
+    - Pico Touch Controller Right
+    HeadsetNames:
+    - Pico Neo 4
+    - PICO 4
+    - PICO 4 Pro
+    LeftPrefab: {fileID: 6910768368326602173, guid: 1ff75140eeb62724b940d9432ab872be, type: 3}
+    RightPrefab: {fileID: 8518068129814508374, guid: a27d606ce13881446a515cbd0e41e348, type: 3}
+    UseSubstring: 0
+  - Name: Pico G2 4K
+    AssignedControllerNames:
+    - PicoXR Controller-Left
+    - PicoXR Controller-Right
+    - Oculus Touch Controller Left
+    - Oculus Touch Controller Right
+    HeadsetNames:
+    - Pico G2 4K
+    LeftPrefab: {fileID: 5169090239854826346, guid: 430bc33371e65534588222f95f098c0a, type: 3}
+    RightPrefab: {fileID: 7478528806489626503, guid: a17dc624eb36f0d4e8f84533d84ec2a7, type: 3}
+    UseSubstring: 0
+  - Name: Meta Quest Pro
+    AssignedControllerNames:
+    - Oculus Touch Controller OpenXR
+    - Oculus Touch Controller - Left
+    - Oculus Touch Controller - Right
+    - Oculus Touch Controller Left
+    - Oculus Touch Controller Right
+    HeadsetNames:
+    - Meta Quest Pro
+    - 'SteamVR/OpenXR : oculus'
+    LeftPrefab: {fileID: 8055571475694501607, guid: a6975a2ff450e4f4596958047820e0be, type: 3}
+    RightPrefab: {fileID: 8271456139323125757, guid: 0cda9dabfd0aead4d8bffa73b8f335ec, type: 3}
+    UseSubstring: 0
+  - Name: Meta Quest 3
+    AssignedControllerNames:
+    - Oculus Touch Controller OpenXR
+    - Oculus Touch Controller - Left
+    - Oculus Touch Controller - Right
+    - Oculus Touch Controller Left
+    - Oculus Touch Controller Right
+    HeadsetNames:
+    - Meta Quest 3
+    - 'SteamVR/OpenXR : oculus'
+    LeftPrefab: {fileID: 6765100987199999248, guid: c7cd2ee0e14b1c244abcb3fe65e860a1, type: 3}
+    RightPrefab: {fileID: 3132471202373100099, guid: 81351576ed11f2744a77a3f8954a9479, type: 3}
+    UseSubstring: 0
+  - Name: Pico 4 Ultra
+    AssignedControllerNames:
+    - PicoXR Controller-Left
+    - PicoXR Controller-Right
+    - Oculus Touch Controller Left
+    - Oculus Touch Controller Right
+    - Pico Touch Controller Left
+    - Pico Touch Controller Right
+    HeadsetNames:
+    - Pico 4 Ultra
+    - PICO 4 Ultra
+    LeftPrefab: {fileID: 5307570987787588935, guid: 6f6a43708cd574b49ad6c391930eacd2, type: 3}
+    RightPrefab: {fileID: 205093892180035161, guid: c99826b58750a834f96ae128624637ce, type: 3}
+    UseSubstring: 0
+  _fallbackControllerModel:
+    Name: Oculus Touch Controller OpenXR
+    AssignedControllerNames: []
+    HeadsetNames: []
+    LeftPrefab: {fileID: 20628699464342060, guid: f7c52d24b765d13438266303e9fad9d0, type: 3}
+    RightPrefab: {fileID: 4345497454474476577, guid: 7242720b4f9767c4997a0cc1f9f25ae7, type: 3}
+    UseSubstring: 0

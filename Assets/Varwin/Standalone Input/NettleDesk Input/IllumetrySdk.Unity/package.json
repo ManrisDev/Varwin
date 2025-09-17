@@ -1,0 +1,23 @@
+{
+  "name": "com.illumetry.sdk",
+  "displayName": "Illumetry SDK",
+  "version": "2.0.0",
+  "author": "Illumetry",
+  "homepage": "https://illumetry.com",
+  "description": "Illumetry SDK",
+  "keywords": [
+    "illumetry",
+    "tracking"
+  ],
+  "dependencies": {
+    "com.antilatency.sdk": "4.0.0"
+  },
+  "samples":
+  [
+	{
+		"displayName": "Hello illumetry",
+		"description": "Contains sample scenes",
+		"path": "Samples~/hello-illumetry"
+	}
+  ]
+}

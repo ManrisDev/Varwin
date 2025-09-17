@@ -1,0 +1,1155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="ACTIONS" xml:space="preserve">
+		<value>액션</value>
+	</data>
+	<data name="ARRAY_ELEMENT" xml:space="preserve">
+		<value>요소</value>
+	</data>
+	<data name="BACKUP_LOCALIZATION_STRING" xml:space="preserve">
+		<value>변경 내역에서 장면이 복원되었습니다. 클라이언트가 다시 시작됩니다</value>
+	</data>
+	<data name="BLOCK_ACTION_PREFIX" xml:space="preserve">
+		<value>실행)</value>
+	</data>
+	<data name="BLOCK_CHECKER_PREFIX" xml:space="preserve">
+		<value>BLOCK_CHECKER_PREFIX</value>
+	</data>
+	<data name="BLOCK_EVENT_PREFIX" xml:space="preserve">
+		<value>이벤트)</value>
+	</data>
+	<data name="BLOCK_FUNCTION_PREFIX" xml:space="preserve">
+		<value>실행)</value>
+	</data>
+	<data name="BLOCK_GETTER_PREFIX" xml:space="preserve">
+		<value>반환)</value>
+	</data>
+	<data name="BLOCK_SETTER_PREFIX" xml:space="preserve">
+		<value>설정)</value>
+	</data>
+	<data name="BRIGHTNESS" xml:space="preserve">
+		<value>밝기</value>
+	</data>
+	<data name="BUTTON" xml:space="preserve">
+		<value>기본 버튼</value>
+	</data>
+	<data name="CAMERA_SETTINGS_LABEL" xml:space="preserve">
+		<value>부드러운 카메라</value>
+	</data>
+	<data name="CANCEL" xml:space="preserve">
+		<value>취소</value>
+	</data>
+	<data name="CANNOT_NOT_PREVIEW" xml:space="preserve">
+		<value>미리보기 모드에서 할 수 없습니다.</value>
+	</data>
+	<data name="CHOOSE_PARENT" xml:space="preserve">
+		<value>부모 객체 선택</value>
+	</data>
+	<data name="CHOOSE_PROJECT_CONFIG" xml:space="preserve">
+		<value>프로젝트 구성 선택</value>
+	</data>
+	<data name="CLIENT_TERMINATE" xml:space="preserve">
+		<value>에디터를 닫습니다. 변경한 내용을 저장하시겠습니까?</value>
+	</data>
+	<data name="CLOSE_APP" xml:space="preserve">
+		<value>앱을 닫으시겠습니까?</value>
+	</data>
+	<data name="CLOSE_BUTTON" xml:space="preserve">
+		<value>닫기</value>
+	</data>
+	<data name="COLLIDER_VISUALIZATION_EDGES" xml:space="preserve">
+		<value>테두리</value>
+	</data>
+	<data name="COLLIDER_VISUALIZATION_NONE" xml:space="preserve">
+		<value>없음</value>
+	</data>
+	<data name="COLLIDER_VISUALIZATION_SOLID" xml:space="preserve">
+		<value>입체</value>
+	</data>
+	<data name="COLOR_PICKER_WINDOW" xml:space="preserve">
+		<value>색 선택기</value>
+	</data>
+	<data name="COMPILE_CODE_ERROR" xml:space="preserve">
+		<value>컴파일 오류</value>
+	</data>
+	<data name="CONNECTING" xml:space="preserve">
+		<value>연결 중...</value>
+	</data>
+	<data name="CONNECTION_ERROR" xml:space="preserve">
+		<value>연결이 끊어졌습니다. 다시 연결해 보세요.</value>
+	</data>
+	<data name="CONTROLLER_EMULATION" xml:space="preserve">
+		<value>컨트롤러 에뮬레이터</value>
+	</data>
+	<data name="CURRENT_SCENE_TEMPLATE_DELETED" xml:space="preserve">
+		<value>현재 씬 템플릿이 삭제되었습니다.</value>
+	</data>
+	<data name="DELETE_OBJECT" xml:space="preserve">
+		<value>삭제</value>
+	</data>
+	<data name="DISABLED" xml:space="preserve">
+		<value>비활성화</value>
+	</data>
+	<data name="DISPLAY" xml:space="preserve">
+		<value>기본 디스플레이</value>
+	</data>
+	<data name="ENABLE_IN_BLOCKLY_EDITOR" xml:space="preserve">
+		<value>블록 에디터 활성화</value>
+	</data>
+	<data name="ENTER_ROOM" xml:space="preserve">
+		<value>방에 들어가는 중</value>
+	</data>
+	<data name="ENVIRONMENT_ERROR" xml:space="preserve">
+		<value>환경 설정 오류</value>
+	</data>
+	<data name="ENVIRONMENT_NOT_FOUND" xml:space="preserve">
+		<value>오류. 씬 템플릿을 찾을 수 없음</value>
+	</data>
+	<data name="ERROR_API_CLIENT_VERSION_MISMATCH" xml:space="preserve">
+		<value>오류입니다. RMS 버전과 클라이언트 버전이 일치하지 않습니다. RMS 버전 '{{rms_version}}', 클라이언트 버전 '{{client_version}}'</value>
+	</data>
+	<data name="ERROR_CANT_CLONE_A_CLONED_OBJECT" xml:space="preserve">
+		<value>'{{object_name}}' 객체는 그 자체가 클론이므로 복제할 수 없습니다.</value>
+	</data>
+	<data name="ERROR_CANT_CLONE_AT_POSITION_TYPE_MISMATCH" xml:space="preserve">
+		<value>잘못된 유형의 객체 '{{type}}'이(가) 위치 값에 전달되었기에, '{{need_type}}'이(가) 필요하므로 '{{object_name}}'을(를) 지정한 위치에 복사할 수 없습니다.</value>
+	</data>
+	<data name="ERROR_CANT_CLONE_EMBEDDED_OBJECT" xml:space="preserve">
+		<value>'{{object_name}}' 객체는 씬에 포함되어 있으므로 복제할 수 없습니다.</value>
+	</data>
+	<data name="ERROR_CANT_CLONE_TYPE_MISMATCH" xml:space="preserve">
+		<value>잘못된 유형 '{{type}}'이(가) 전달되어 '객체'가 필요하므로 복제할 수 없습니다.</value>
+	</data>
+	<data name="ERROR_CANT_CLONE_UNCLONABLE_OBJECT" xml:space="preserve">
+		<value>'{{object_name}}' 객체는 복제가 불가능하므로 복제할 수 없습니다.</value>
+	</data>
+	<data name="ERROR_DESKTOP_POPUP_MESSAGE" xml:space="preserve">
+		<value>로직/객체 오류가 발생했습니다. 프로젝트가 불안정 할 수 있습니다.</value>
+	</data>
+	<data name="ERROR_DESTROY_CLONE_IS_NOT_CLONE" xml:space="preserve">
+		<value>"{{object_name}}"객체는 클론이 아니므로 삭제할 수 없습니다.</value>
+	</data>
+	<data name="ERROR_DESTROY_CLONE_OBJECT_NOT_EXISTS" xml:space="preserve">
+		<value>파괴하려는 객체는 존재하지 않습니다.</value>
+	</data>
+	<data name="ERROR_DESTROY_CLONE_TYPE_MISMATCH" xml:space="preserve">
+		<value>잘못된 유형 '{{type}}'이(가) 전달되었고 '객체'가 필요하므로 클론을 삭제할 수 없습니다.</value>
+	</data>
+	<data name="ERROR_DESTROY_CLONES_IS_NOT_ORIGINAL" xml:space="preserve">
+		<value>"{{object_name}}" 객체는 원본 복제 객체가 아니므로 삭제할 수 없습니다.</value>
+	</data>
+	<data name="ERROR_DESTROY_CLONES_TYPE_MISMATCH" xml:space="preserve">
+		<value>잘못된 유형 '{{type}}'이(가) 전달되었고 '객체'가 필요하므로 클론을 삭제할 수 없습니다.</value>
+	</data>
+	<data name="ERROR_GET_CLONES_IS_NOT_ORIGINAL" xml:space="preserve">
+		<value>객체 '{{object_name}}'이(가) 원 객체가 아니므로 클론을 나열할 수 없습니다.</value>
+	</data>
+	<data name="ERROR_GET_CLONES_TYPE_MISMATCH" xml:space="preserve">
+		<value>잘못된 유형 '{{type}}'이(가) 전달되었고 '객체'가 필요했기 때문에 객체 복제 목록을 가져올 수 없습니다.</value>
+	</data>
+	<data name="ERROR_GET_SERVER_CONFIG" xml:space="preserve">
+		<value>서버를 구성하는 중 오류가 발생하였습니다</value>
+	</data>
+	<data name="ERROR_IS_CLONE_TYPE_MISMATCH" xml:space="preserve">
+		<value>잘못된 '{{type}}'유형이 적용되어 거부되었기에 객체가 클론인지 여부를 확인할 수 없습니다.</value>
+	</data>
+	<data name="ERROR_IS_DESTROYED_TYPE_MISMATCH" xml:space="preserve">
+		<value>'{{type}}'이라는 잘못된 유형이 전달되었고 '객체'가 예상되었기 때문에 객체가 소멸되었는지 여부를 확인할 수 없습니다.</value>
+	</data>
+	<data name="ERROR_LIST_IS_EMPTY" xml:space="preserve">
+		<value>리스트가 비어 있음.</value>
+	</data>
+	<data name="ERROR_LIST_OUT_OF_RANGE" xml:space="preserve">
+		<value>인덱스 [{0}]이(가) 범위를 벗어남. 리스트 길이: [{1}].</value>
+	</data>
+	<data name="ERROR_LIST_WRONG_INDEX_TYPE" xml:space="preserve">
+		<value>잘못된 인덱스 타입. 제공된 인덱스 타입: {0}. 필요한 인덱스 타입: 정수.</value>
+	</data>
+	<data name="ERROR_LIST_WRONG_TYPE" xml:space="preserve">
+		<value>잘못된 변수 유형. 제공된 변수 유형: {0}. 필수 변수 유형은: List&lt;T&gt;.</value>
+	</data>
+	<data name="ERROR_LOCAL_SERVER_CONNECTION" xml:space="preserve">
+		<value>&lt;b&gt;로컬서버 연결 오류.&lt;/b&gt;
+컴퓨터의 프록시 설정을 확인하세요. 프록시 서버를 사용 중이면 로컬 호스트와 127.0.0.1 주소를 무시 목록에 추가하세요.</value>
+	</data>
+	<data name="ERROR_LOCAL_SERVER_PARSE_CONFIG" xml:space="preserve">
+		<value>&lt;b&gt;로컬 서버의 응답이 잘못되었습니다.  &lt;/b&gt;
+PC에서 프록시 설정을 확인하세요. 프록시 서버를 사용 중이면 로컬 호스트와 127.0.0.1을 무시 목록에 추가하세요.</value>
+	</data>
+	<data name="ERROR_POPUP_MESSAGE" xml:space="preserve">
+		<value>로직/객체 오류가 발생했습니다. 프로젝트가 불안정 할 수 있습니다.</value>
+	</data>
+	<data name="ERROR_POPUP_TITLE" xml:space="preserve">
+		<value>문제가 발생했습니다</value>
+	</data>
+	<data name="ERROR_PROJECT_LAUNCH" xml:space="preserve">
+		<value>프로젝트를 실행하는 동안 오류가 발생했습니다. 프로젝트 파일이 손상되었거나 오류가 있는 상태로 로드 되었을 수 있습니다.</value>
+	</data>
+	<data name="ERROR_READ_STARTUP_ARGS" xml:space="preserve">
+		<value>오류. 명령행 인자(Command line arguments)를 읽을 수 없습니다</value>
+	</data>
+	<data name="ERROR_REMOTE_SERVER_CONNECTION" xml:space="preserve">
+		<value>&lt;b&gt;원격 서버 연결 오류&lt;/b&gt;
+아래 사항을 확인해 주세요:
+1. 서버 주소 및 포트가 올바르게 지정되어 있나요?(XRMS "서버"설정에서 확인 가능)
+2. 서버에서 Varwin Server Edition 라이선스가 적용되었나요?
+3. 인터넷 연결이 되어 있나요?
+4. 사용 중인 포트가 외부 연결을 위해 열려 있나요?</value>
+	</data>
+	<data name="ERROR_REMOTE_SERVER_PARSE_CONFIG" xml:space="preserve">
+		<value>&lt;b&gt;원격 서버의 응답이 잘못되었습니다.&lt;/b&gt;
+아래를 확인해 주세요:
+1.서버의 주소 및 포트가 올바르게 지정되어 있나요?(XRMS "서버"설정에서 확인)
+2.서버에서 Varwin Server Edition 라이센스가 활성화되어 있나요?
+3.인터넷이 연결되어 있나요?</value>
+	</data>
+	<data name="ERROR_SERVER_DISCONNECT" xml:space="preserve">
+		<value>오류. 서버가 오프라인 상태 입니다</value>
+	</data>
+	<data name="ERROR_TITLE" xml:space="preserve">
+		<value>오류</value>
+	</data>
+	<data name="ERROR_VR_POPUP_MESSAGE" xml:space="preserve">
+		<value>헤드셋을 제거하고 PC 에디터에서 오류를 확인하십시오.</value>
+	</data>
+	<data name="ERRORS_ERROR_IN_METHOD" xml:space="preserve">
+		<value>오류: &lt;color=lightblue&gt;{0}&lt;/color&gt;. 인자 &lt;color=lightblue&gt;{1}&lt;/color&gt; 은(는) &lt;color=lightblue&gt;{2}&lt;/color&gt;를 기대하지만 값 &lt;color=red&gt;{4}&lt;/color&gt;값으로 &lt;color=red&gt;{3 }&lt;/color&gt;을(를) 통과합니다.</value>
+	</data>
+	<data name="ERRORS_ERROR_IN_SETTER" xml:space="preserve">
+		<value>오류: &lt;color=lightblue&gt;{0}&lt;/color&gt; 필수 유형: &lt;Color=lightblue&gt;{1}&lt;/Color&gt;. 제공된 유형: &lt;Color=red&gt;{2}&lt;/Color&gt;. 오류를 해결하려면 할당된 속성 값을 블록으로 변경하세요.</value>
+	</data>
+	<data name="EXCEPTION_IN_OBJECT" xml:space="preserve">
+		<value>객체 오류</value>
+	</data>
+	<data name="EXECUTE_LOGIC_ERROR" xml:space="preserve">
+		<value>로직 실행 실패</value>
+	</data>
+	<data name="EXIT" xml:space="preserve">
+		<value>종료</value>
+	</data>
+	<data name="EXIT_DESKTOP_PLAYER_MESSAGE" xml:space="preserve">
+		<value>데스크톱 뷰어를 종료하시겠습니까?</value>
+	</data>
+	<data name="EXIT_DESKTOP_PLAYER_TITLE" xml:space="preserve">
+		<value>데스크톱 뷰 모드 종료</value>
+	</data>
+	<data name="EXIT_NETTLEDESK_PLAYER_MESSAGE" xml:space="preserve">
+		<value>Illumetry IO 모드를 종료하시겠습니까?</value>
+	</data>
+	<data name="EXIT_NETTLEDESK_PLAYER_TITLE" xml:space="preserve">
+		<value>Illumetry IO 모드 종료</value>
+	</data>
+	<data name="EXIT_TO_AR" xml:space="preserve">
+		<value>AR로 전환</value>
+	</data>
+	<data name="EXIT_TO_DESKTOP" xml:space="preserve">
+		<value>VR 비활성화</value>
+	</data>
+	<data name="EXIT_TO_DESKTOP_FROM_AR" xml:space="preserve">
+		<value>AR 비활성화</value>
+	</data>
+	<data name="EXIT_TO_DESKTOP_FROM_NETTLEDESK" xml:space="preserve">
+		<value>Illumetry IO 비활성화</value>
+	</data>
+	<data name="EXIT_TO_EDIT" xml:space="preserve">
+		<value>편집 모드</value>
+	</data>
+	<data name="EXIT_TO_MAIN_MENU" xml:space="preserve">
+		<value>메인 메뉴로 돌아가시겠습니까?</value>
+	</data>
+	<data name="EXIT_TO_NETTLEDESK" xml:space="preserve">
+		<value>Illumetry IO로 전환</value>
+	</data>
+	<data name="EXIT_TO_VR" xml:space="preserve">
+		<value>VR로 전환</value>
+	</data>
+	<data name="EXIT_VR_PLAYER_MESSAGE" xml:space="preserve">
+		<value>VR 모드를 종료하시겠습니까?</value>
+	</data>
+	<data name="EXIT_VR_PLAYER_TITLE" xml:space="preserve">
+		<value>VR 모드 종료</value>
+	</data>
+	<data name="FIELD_OF_VIEW" xml:space="preserve">
+		<value>시야각</value>
+	</data>
+	<data name="GET_SCENE_TEMPLATE_DATA" xml:space="preserve">
+		<value>씬 템플릿 데이터를 가져오는 중</value>
+	</data>
+	<data name="GROUP_NOT_SAVED" xml:space="preserve">
+		<value>저장하지 않은 변경 사항은 손실됩니다. 변경 사항을 저장하시겠습니까?</value>
+	</data>
+	<data name="HEADSET_NOT_FOUND_HINT" xml:space="preserve">
+		<value>1.VR 헤드셋이 PC에 연결되어 있는지 확인하세요. 
+2.&lt;link="start_openxr"&gt;&lt;b&gt;&lt;u&gt;OpenXR&lt;/u&gt;&lt;/b&gt;&lt;/link&gt;런타임이 실행 중인지 확인하세요.
+3. 애플리케이션을 다시 실행하세요.</value>
+	</data>
+	<data name="HEADSET_NOT_FOUND_WITH_SETTINGS" xml:space="preserve">
+		<value>1. VR 헤드셋이 컴퓨터에 연결되어 있는지 확인하세요.
+2. &lt;link="start_openxr"&gt;&lt;b&gt;&lt;u&gt;OpenXR&lt;/u&gt;&lt;/b&gt;&lt;/link&gt; 런타임이 실행 중인지 확인하세요.
+3. 현재  &lt;link="start_openxr"&gt;&lt;b&gt;&lt;u&gt;OpenXR&lt;/u&gt;&lt;/b&gt;&lt;/link&gt; 런타임 환경이 다음과 같이 설치되어 있는지 확인합니다&lt;link="open_settings"&gt;&lt;b&gt;&lt;u&gt;settings&lt;/u&gt;&lt;/b&gt;&lt;/link&gt;.
+4. 프로그램 다시 시작하기.</value>
+	</data>
+	<data name="HEADSET_TRACKING_LOST" xml:space="preserve">
+		<value>헤드셋을 추적할 수 없습니다</value>
+	</data>
+	<data name="HIERARCHY" xml:space="preserve">
+		<value>객체</value>
+	</data>
+	<data name="HIERARCHY_SCENE" xml:space="preserve">
+		<value>씬</value>
+	</data>
+	<data name="HIERARCHY_SCENE_TEMPLATE" xml:space="preserve">
+		<value>씬 템플릿</value>
+	</data>
+	<data name="HUE" xml:space="preserve">
+		<value>색조</value>
+	</data>
+	<data name="IN_OBJECT_HAS_ERROR" xml:space="preserve">
+		<value>객체에서 오류가 발생했습니다.</value>
+	</data>
+	<data name="INIT_LOGIC_ERROR" xml:space="preserve">
+		<value>로직 초기화 오류</value>
+	</data>
+	<data name="INSPECTOR" xml:space="preserve">
+		<value>인스펙터</value>
+	</data>
+	<data name="INSPECTOR_MISSING_RESOURCE" xml:space="preserve">
+		<value>누락됨</value>
+	</data>
+	<data name="INSPECTOR_PROPERTY_ACTION" xml:space="preserve">
+		<value>액션</value>
+	</data>
+	<data name="INSPECTOR_PROPERTY_OBJECT_NAME" xml:space="preserve">
+		<value>객체 이름</value>
+	</data>
+	<data name="INSPECTOR_PROPERTY_PROPERTY_NAME" xml:space="preserve">
+		<value>속성 이름</value>
+	</data>
+	<data name="INSPECTOR_PROPERTY_RESOURCE_NAME" xml:space="preserve">
+		<value>자원 이름</value>
+	</data>
+	<data name="JOIN_TO_ROOM" xml:space="preserve">
+		<value>방 참여 중</value>
+	</data>
+	<data name="LAMP" xml:space="preserve">
+		<value>기본 전구</value>
+	</data>
+	<data name="LETS_GO" xml:space="preserve">
+		<value>출발!</value>
+	</data>
+	<data name="LIBRARY" xml:space="preserve">
+		<value>라이브러리</value>
+	</data>
+	<data name="LIBRARY_OBJECTS" xml:space="preserve">
+		<value>라이브러리의 객체</value>
+	</data>
+	<data name="LIBRARY_WAS_CHANGED" xml:space="preserve">
+		<value>라이브러리가 변경되었습니다</value>
+	</data>
+	<data name="LICENSE_KEY_ERROR" xml:space="preserve">
+		<value>라이선스 정보를 가져올 수 없습니다.</value>
+	</data>
+	<data name="LIST_ERROR_GET_FIRST_ITEM" xml:space="preserve">
+		<value>리스트의 첫 번째 요소를 가져오는 중 오류 발생</value>
+	</data>
+	<data name="LIST_ERROR_GET_INDEX_OF_ITEM" xml:space="preserve">
+		<value>요소의 인덱스를 가져오는 중 오류 발생</value>
+	</data>
+	<data name="LIST_ERROR_GET_ITEM" xml:space="preserve">
+		<value>리스트에서 값 가져오던 중 오류 발생.</value>
+	</data>
+	<data name="LIST_ERROR_GET_LAST_INDEX_OF" xml:space="preserve">
+		<value>리스트의 요소 중 마지막 인덱스를 가져오는 데 오류 발생.</value>
+	</data>
+	<data name="LIST_ERROR_GET_LAST_ITEM" xml:space="preserve">
+		<value>리스트에서 마지막 값 가져오던 중 오류 발생.</value>
+	</data>
+	<data name="LIST_ERROR_GET_RANDOM_ITEM" xml:space="preserve">
+		<value>리스트에서 랜덤 값 가져오던 중 오류 발생.</value>
+	</data>
+	<data name="LIST_ERROR_GET_SUBLIST" xml:space="preserve">
+		<value>하위 리스트를 가져오는 중 오류 발생.</value>
+	</data>
+	<data name="LIST_ERROR_SET_ITEM" xml:space="preserve">
+		<value>리스트에 값을 설정하는 동안 오류 발생.</value>
+	</data>
+	<data name="LIST_OF_NOT_LINUX_READY_OBJECTS" xml:space="preserve">
+		<value>Linux 지원이 없는 객체 또는 씬 템플릿</value>
+	</data>
+	<data name="LOAD_CONFIGURATION" xml:space="preserve">
+		<value>시작하다</value>
+	</data>
+	<data name="LOAD_INVALID_RESOURCE_ERROR" xml:space="preserve">
+		<value>리소스를 로드하는 중 오류가 발생했습니다. 파일이 손상되었거나 잘못된 형식일 수 있습니다.</value>
+	</data>
+	<data name="LOAD_OBJECT_ERROR" xml:space="preserve">
+		<value>객체를 불러올 수 없음</value>
+	</data>
+	<data name="LOAD_PROJECTS_ERROR" xml:space="preserve">
+		<value>프로젝트 목록을 불러올 수 없음</value>
+	</data>
+	<data name="LOAD_RESOURCE_ERROR" xml:space="preserve">
+		<value>리소스를 불러올 수 없음</value>
+	</data>
+	<data name="LOAD_SCENE_ERROR" xml:space="preserve">
+		<value>씬 템플릿을 불러올 수 없음</value>
+	</data>
+	<data name="LOAD_WORKSPACES_ERROR" xml:space="preserve">
+		<value>작업공간 목록을 불러올 수 없음</value>
+	</data>
+	<data name="LOADING" xml:space="preserve">
+		<value>다음 사항들 불러오는 중:</value>
+	</data>
+	<data name="LOADING_AUTHORIZATION" xml:space="preserve">
+		<value>권한 부여</value>
+	</data>
+	<data name="LOADING_FILE" xml:space="preserve">
+		<value>{{file_name}} 다운로드 중 {{file_size}} / {{downloaded_size}} Mb</value>
+	</data>
+	<data name="LOADING_PROJECTS" xml:space="preserve">
+		<value>라이브러리 다운로드</value>
+	</data>
+	<data name="LOADING_SCENE_TEMPLATE" xml:space="preserve">
+		<value>씬 템플릿 "{{name}}" 불러오는 중</value>
+	</data>
+	<data name="LOADING_SERVER_INFO" xml:space="preserve">
+		<value>서버 정보 업로드</value>
+	</data>
+	<data name="LOADING_WORKSPACES" xml:space="preserve">
+		<value>작업 공간 로드</value>
+	</data>
+	<data name="LOCK_CHILDREN" xml:space="preserve">
+		<value>플레이 모드에서 하이어라키 잠그기</value>
+	</data>
+	<data name="LOCK_HIERARCHY_COMPONENT_TOOLTIP" xml:space="preserve">
+		<value>현재 개체를 계층 구조에 있는 개체의 부모 개체로 설정합니다. 부모 개체의 모든 자손은 하나로 간주됩니다.</value>
+	</data>
+	<data name="LOCK_SELECTABILITY" xml:space="preserve">
+		<value>씬에서 선택 활성화</value>
+	</data>
+	<data name="MAINMENU_ACTIVE_OPENXR_RUNTIME" xml:space="preserve">
+		<value>OpenXR 런타임 활성화</value>
+	</data>
+	<data name="MAINMENU_AUTHORIZATION_TEXT" xml:space="preserve">
+		<value>사용자 로그인 및 비밀번호를 입력하여 워크스페이스에 액세스합니다.</value>
+	</data>
+	<data name="MAINMENU_AUTHORIZATION_TITLE" xml:space="preserve">
+		<value>권한 부여</value>
+	</data>
+	<data name="MAINMENU_CANCEL" xml:space="preserve">
+		<value>취소</value>
+	</data>
+	<data name="MAINMENU_CHANGEWORKSPACE" xml:space="preserve">
+		<value>변경</value>
+	</data>
+	<data name="MAINMENU_CONNECT" xml:space="preserve">
+		<value>연결</value>
+	</data>
+	<data name="MAINMENU_CONNECTING_TO_SERVER_TEXT" xml:space="preserve">
+		<value>Varwin 프로젝트에 액세스하려면 서버의 IP 주소를 입력합니다.</value>
+	</data>
+	<data name="MAINMENU_CONNECTING_TO_SERVER_TITLE" xml:space="preserve">
+		<value>서버에 연결 중</value>
+	</data>
+	<data name="MAINMENU_CONNECTING_XRMS_NO_PROJECT" xml:space="preserve">
+		<value>Varwin XRMS에 적합한 프로젝트가 없습니다</value>
+	</data>
+	<data name="MAINMENU_DELETE_PROJECT" xml:space="preserve">
+		<value>삭제</value>
+	</data>
+	<data name="MAINMENU_ENTER" xml:space="preserve">
+		<value>로그인</value>
+	</data>
+	<data name="MAINMENU_IPINPUT" xml:space="preserve">
+		<value>IP 주소 입력</value>
+	</data>
+	<data name="MAINMENU_LOCAL" xml:space="preserve">
+		<value>로컬</value>
+	</data>
+	<data name="MAINMENU_LOGIN" xml:space="preserve">
+		<value>로그인</value>
+	</data>
+	<data name="MAINMENU_LOGOUT" xml:space="preserve">
+		<value>로그아웃</value>
+	</data>
+	<data name="MAINMENU_MOBILE_VR_IS_NOT_AVAILABLE" xml:space="preserve">
+		<value>Varwin 라이선스가 VR 모드를 지원하지 않습니다. 라이선스 제공업체에 문의하십시오.</value>
+	</data>
+	<data name="MAINMENU_MULTIPLAYER" xml:space="preserve">
+		<value>멀티플레이어</value>
+	</data>
+	<data name="MAINMENU_MULTIPLAYER_TEXT" xml:space="preserve">
+		<value>멀티플레이어 모드는 프로젝트의 공동 테스트를 위한 모드입니다. 서버에 연결하려면 해당 서버의 IP 주소를 입력합니다.</value>
+	</data>
+	<data name="MAINMENU_NO_PROJECTS" xml:space="preserve">
+		<value>사용 가능한 프로젝트 없음</value>
+	</data>
+	<data name="MAINMENU_NO_SAVED_PROJECTS" xml:space="preserve">
+		<value>로드된 프로젝트 목록이 비어 있습니다. 인터넷에 접속하지 않고 작업하려면 "서버" 탭에서 프로젝트를 다운로드하세요.</value>
+	</data>
+	<data name="MAINMENU_NO_SCENES" xml:space="preserve">
+		<value>사용 가능한 씬 없음</value>
+	</data>
+	<data name="MAINMENU_NOTIFICATION_RESTART_VR_MODE" xml:space="preserve">
+		<value>클라이언트를 다시 시작하거나 디스플레이 모드를 변경하여 변경사항을 적용합니다</value>
+	</data>
+	<data name="MAINMENU_OPENXR_SINGLEPASS" xml:space="preserve">
+		<value>싱글 패스 렌더링</value>
+	</data>
+	<data name="MAINMENU_OPENXR_SINGLEPASS_WARNING" xml:space="preserve">
+		<value>경고! 이 작동 모드에 적합하지 않은 일부 개체 또는 장면은
+렌더링 문제가 발생할 수 있습니다</value>
+	</data>
+	<data name="MAINMENU_PASSWORD" xml:space="preserve">
+		<value>비밀번호</value>
+	</data>
+	<data name="MAINMENU_PLAYER_MOVE_TYPE" xml:space="preserve">
+		<value>이동유형</value>
+	</data>
+	<data name="MAINMENU_POINTER_DIRECTION" xml:space="preserve">
+		<value>포인터 방향</value>
+	</data>
+	<data name="MAINMENU_POINTER_DIRECTION_NATIVE" xml:space="preserve">
+		<value>기본</value>
+	</data>
+	<data name="MAINMENU_POINTER_DIRECTION_VARWIN" xml:space="preserve">
+		<value>Varwin</value>
+	</data>
+	<data name="MAINMENU_PROJECTS" xml:space="preserve">
+		<value>프로젝트</value>
+	</data>
+	<data name="MAINMENU_REMEMBERME" xml:space="preserve">
+		<value>기억하기</value>
+	</data>
+	<data name="MAINMENU_SAVE_PROJECT" xml:space="preserve">
+		<value>다운로드</value>
+	</data>
+	<data name="MAINMENU_SAVED_PROJECTS" xml:space="preserve">
+		<value>로드된 프로젝트</value>
+	</data>
+	<data name="MAINMENU_SERVER" xml:space="preserve">
+		<value>서버</value>
+	</data>
+	<data name="MAINMENU_UPDATED AT" xml:space="preserve">
+		<value>업데이트 시간</value>
+	</data>
+	<data name="MAINMENU_VIGNETTE" xml:space="preserve">
+		<value>화면 가장자리 어둡게 하기</value>
+	</data>
+	<data name="MAINMENU_VIGNETTE_MEDIUM" xml:space="preserve">
+		<value>중간</value>
+	</data>
+	<data name="MAINMENU_VIGNETTE_OFF" xml:space="preserve">
+		<value>꺼짐</value>
+	</data>
+	<data name="MAINMENU_VIGNETTE_STRONG" xml:space="preserve">
+		<value>강함</value>
+	</data>
+	<data name="MAINMENU_VIGNETTE_WEAK" xml:space="preserve">
+		<value>약함</value>
+	</data>
+	<data name="MAINMENU_WORKSPACES" xml:space="preserve">
+		<value>작업 공간</value>
+	</data>
+	<data name="MENU" xml:space="preserve">
+		<value>메뉴</value>
+	</data>
+	<data name="MOBILE_READY_CHANGED" xml:space="preserve">
+		<value>VR 지원 상태가 변경되었습니다. 프로젝트가 다시 로드 됩니다.</value>
+	</data>
+	<data name="MODE" xml:space="preserve">
+		<value>모드</value>
+	</data>
+	<data name="MULTIPLAYER_AR" xml:space="preserve">
+		<value>AR</value>
+	</data>
+	<data name="MULTIPLAYER_BACK" xml:space="preserve">
+		<value>뒤로가기</value>
+	</data>
+	<data name="MULTIPLAYER_CONNECT" xml:space="preserve">
+		<value>연결</value>
+	</data>
+	<data name="MULTIPLAYER_CONNECTINGTOHOST" xml:space="preserve">
+		<value>호스트에 연결 중</value>
+	</data>
+	<data name="MULTIPLAYER_CONNECTINGTOSESSION" xml:space="preserve">
+		<value>세션에 연결 중</value>
+	</data>
+	<data name="MULTIPLAYER_CONNECTION_ERROR_DESCRIPTION" xml:space="preserve">
+		<value>입력한 정보가 정확한지 확인하고 다시 시도하십시오.</value>
+	</data>
+	<data name="MULTIPLAYER_CONNECTIONERROR" xml:space="preserve">
+		<value>연결 오류</value>
+	</data>
+	<data name="MULTIPLAYER_DESKTOP" xml:space="preserve">
+		<value>데스크톱</value>
+	</data>
+	<data name="MULTIPLAYER_ENTERIPADDRESS" xml:space="preserve">
+		<value>서버 IP주소 입력</value>
+	</data>
+	<data name="MULTIPLAYER_HOST_DISCONNECTED_BUTTON" xml:space="preserve">
+		<value>종료</value>
+	</data>
+	<data name="MULTIPLAYER_HOST_DISCONNECTED_MESSAGE" xml:space="preserve">
+		<value>호스트가 연결이 끊어졌습니다</value>
+	</data>
+	<data name="MULTIPLAYER_HOST_IP" xml:space="preserve">
+		<value>서버 IP</value>
+	</data>
+	<data name="MULTIPLAYER_HOST_NAME" xml:space="preserve">
+		<value>서버</value>
+	</data>
+	<data name="MULTIPLAYER_LISTOFPLAYERS" xml:space="preserve">
+		<value>플레이어 목록</value>
+	</data>
+	<data name="MULTIPLAYER_NETTLEDESK" xml:space="preserve">
+		<value>Illumetry IO</value>
+	</data>
+	<data name="MULTIPLAYER_PLAYERS_NAME" xml:space="preserve">
+		<value>이름</value>
+	</data>
+	<data name="MULTIPLAYER_PLAYERS_STATUS" xml:space="preserve">
+		<value>상태</value>
+	</data>
+	<data name="MULTIPLAYER_PLAYERS_STATUS_CONNECTING" xml:space="preserve">
+		<value>연결 중</value>
+	</data>
+	<data name="MULTIPLAYER_PLAYERS_STATUS_HOST" xml:space="preserve">
+		<value>호스트</value>
+	</data>
+	<data name="MULTIPLAYER_PLAYERS_STATUS_READY" xml:space="preserve">
+		<value>준비완료</value>
+	</data>
+	<data name="MULTIPLAYER_PROJECTLOADING" xml:space="preserve">
+		<value>프로젝트 로딩</value>
+	</data>
+	<data name="MULTIPLAYER_SELECT_GAMEMODE" xml:space="preserve">
+		<value>모드 선택</value>
+	</data>
+	<data name="MULTIPLAYER_SESSION_CREATIION" xml:space="preserve">
+		<value>세션 생성</value>
+	</data>
+	<data name="MULTIPLAYER_SPECTATOR" xml:space="preserve">
+		<value>관전자</value>
+	</data>
+	<data name="MULTIPLAYER_STARTGAMEMODE" xml:space="preserve">
+		<value>모드로 시작</value>
+	</data>
+	<data name="MULTIPLAYER_STARTSESSION" xml:space="preserve">
+		<value>시작</value>
+	</data>
+	<data name="MULTIPLAYER_VR" xml:space="preserve">
+		<value>VR</value>
+	</data>
+	<data name="NETTLEDESK_STYLUS_SUPPORT" xml:space="preserve">
+		<value>스타일러스 지원</value>
+	</data>
+	<data name="NO" xml:space="preserve">
+		<value>아니요</value>
+	</data>
+	<data name="NOT_FOR_COMMERCIAL_USE" xml:space="preserve">
+		<value>Varwin 데모 버전입니다.
+데모 제한을 해제하려면 프로페셔널 또는 비즈니스 에디션으로 업그레이드하세요.</value>
+	</data>
+	<data name="OBJECT_NAME" xml:space="preserve">
+		<value>객체 유형</value>
+	</data>
+	<data name="OBJECT_USE_IN_LOGIC" xml:space="preserve">
+		<value>객체가 로직에 포함되어 있습니다. 삭제하시겠습니까?</value>
+	</data>
+	<data name="OBJECT_VERSION_CHANGED" xml:space="preserve">
+		<value>객체의 버전이 변경되었습니다. 프로젝트를 다시 시작해야 합니다.</value>
+	</data>
+	<data name="OBJECT_VERSION_WINDOW" xml:space="preserve">
+		<value>객체 버전 제어</value>
+	</data>
+	<data name="OBJECT_WAS_COPIED" xml:space="preserve">
+		<value>객체가 복사되었습니다</value>
+	</data>
+	<data name="OBJECT_WAS_DUPLICATED" xml:space="preserve">
+		<value>객체가 복제되었습니다</value>
+	</data>
+	<data name="OBJECT_WAS_PASTED" xml:space="preserve">
+		<value>객체를 붙여넣었습니다</value>
+	</data>
+	<data name="OK" xml:space="preserve">
+		<value>확인</value>
+	</data>
+	<data name="OPEN_CONSOLE" xml:space="preserve">
+		<value>콘솔 열기</value>
+	</data>
+	<data name="OPEN_CONSOLE_FOR_MORE_INFO" xml:space="preserve">
+		<value>자세한 정보를 보려면 콘솔을 열고</value>
+	</data>
+	<data name="OPEN_DOCUMENTATION" xml:space="preserve">
+		<value>문서 열기</value>
+	</data>
+	<data name="OPENXR_INITIALIZATION" xml:space="preserve">
+		<value>OpenXR 초기화</value>
+	</data>
+	<data name="PHOTON_DISCONECT" xml:space="preserve">
+		<value>멀티플레이어 서버 연결이 해제되었습니다</value>
+	</data>
+	<data name="PIVOT_MODE_CENTER" xml:space="preserve">
+		<value>중앙</value>
+	</data>
+	<data name="PIVOT_MODE_PIVOT" xml:space="preserve">
+		<value>중심축(Pivot)</value>
+	</data>
+	<data name="PLATFORM_MODE" xml:space="preserve">
+		<value>디스플레이 모드</value>
+	</data>
+	<data name="PLATFORM_MODE_IS_NOT_AVAILABLE_TITLE" xml:space="preserve">
+		<value>{{platform_mode}} 모드 사용 불가능</value>
+	</data>
+	<data name="PLATFORM_MODE_IS_NOT_AVAILABLE_UNDER_LICENSE" xml:space="preserve">
+		<value>이 라이선스로는 {0} 모드를 사용할 수 없습니다. 프로젝트 구성에서 모드를 변경해야 합니다.</value>
+	</data>
+	<data name="PLAYER_MOVE_TYPE_LOCOMOTION" xml:space="preserve">
+		<value>로코모션</value>
+	</data>
+	<data name="PLAYER_MOVE_TYPE_TELEPORT" xml:space="preserve">
+		<value>텔레포트</value>
+	</data>
+	<data name="POSITION" xml:space="preserve">
+		<value>위치</value>
+	</data>
+	<data name="PROJECT_CONFIG_ERROR" xml:space="preserve">
+		<value>오류. 프로젝트 구성이 로드되지 않았습니다</value>
+	</data>
+	<data name="PROJECT_CONFIG_NULL" xml:space="preserve">
+		<value>프로젝트 구성이 존재하지 않습니다</value>
+	</data>
+	<data name="PROJECT_CONFIGURATION" xml:space="preserve">
+		<value>시작 구성</value>
+	</data>
+	<data name="PROJECT_DOWNLOAD_ERROR" xml:space="preserve">
+		<value>프로젝트 '{{project_name}}'을(를) 다운로드하는 동안 오류가 발생했습니다.</value>
+	</data>
+	<data name="PROJECT_WAS_REMOVED" xml:space="preserve">
+		<value>현재 프로젝트가 제거되었습니다. 에디터를 닫습니다.</value>
+	</data>
+	<data name="PROPERTY_INSPECTOR" xml:space="preserve">
+		<value>속성</value>
+	</data>
+	<data name="READ_LAUNCH_ARGS_RABBIT_ERROR" xml:space="preserve">
+		<value>오류. 서버를 사용 할 수 없습니다</value>
+	</data>
+	<data name="REFRESH" xml:space="preserve">
+		<value>새로 고침</value>
+	</data>
+	<data name="RELOAD" xml:space="preserve">
+		<value>다시 불러오기</value>
+	</data>
+	<data name="REMOVED_OBJECTS_WARNING" xml:space="preserve">
+		<value>하나 이상의 오브젝트가 Varwin XRMS 라이브러리에서 제거되었습니다. 장면 데이터를 저장하려면 장면에서 누락된 개체를 제거하십시오.</value>
+	</data>
+	<data name="REMOVED_OBJECTS_WARNING_SUCCESS" xml:space="preserve">
+		<value>라이브러리에서 누락된 모든 객체가 제거되었습니다. 씬을 저장할 수 있습니다!</value>
+	</data>
+	<data name="REMOVED_RESOURCES_WARNING" xml:space="preserve">
+		<value>씬에 사용된 리소스가 Varwin XRMS 라이브러리에서 제거되었습니다. 누락된 리소스를 사용하는 프로퍼티의 값을 변경해 주세요.</value>
+	</data>
+	<data name="REMOVED_RESOURCES_WARNING_SUCCESS" xml:space="preserve">
+		<value>누락된 리소스는 더 이상 씬에서 사용되지 않습니다. 프로젝트를 저장할 수 있습니다!</value>
+	</data>
+	<data name="RESET_CHANGES" xml:space="preserve">
+		<value>변경 사항 초기화</value>
+	</data>
+	<data name="RESOURCE_MISSING_AUDIO" xml:space="preserve">
+		<value>오디오</value>
+	</data>
+	<data name="RESOURCE_MISSING_BASE" xml:space="preserve">
+		<value>리소스를 표시할 수 없습니다. 리소스 재생을 위한 표준 객체를 찾을 수 없습니다.</value>
+	</data>
+	<data name="RESOURCE_MISSING_IMAGE" xml:space="preserve">
+		<value>이미지</value>
+	</data>
+	<data name="RESOURCE_MISSING_MODEL" xml:space="preserve">
+		<value>3D 모델</value>
+	</data>
+	<data name="RESOURCE_MISSING_VIDEO" xml:space="preserve">
+		<value>비디오</value>
+	</data>
+	<data name="RESOURCE_SELECT_WINDOW" xml:space="preserve">
+		<value>리소스 선택</value>
+	</data>
+	<data name="RESOURCES" xml:space="preserve">
+		<value>리소스</value>
+	</data>
+	<data name="RESOURCES_NOT_FOUND" xml:space="preserve">
+		<value>리소스를 찾을 수 없습니다</value>
+	</data>
+	<data name="RESOURCES_OBJECTS" xml:space="preserve">
+		<value>라이브러리의 리소스</value>
+	</data>
+	<data name="RETURN" xml:space="preserve">
+		<value>돌아가기</value>
+	</data>
+	<data name="ROOM_CREATING" xml:space="preserve">
+		<value>방 생성 중...</value>
+	</data>
+	<data name="ROTATION" xml:space="preserve">
+		<value>회전</value>
+	</data>
+	<data name="RUNTIME_CODE_ERROR" xml:space="preserve">
+		<value>런타임 코드 오류</value>
+	</data>
+	<data name="SATURATION" xml:space="preserve">
+		<value>채도</value>
+	</data>
+	<data name="SAVE" xml:space="preserve">
+		<value>저장</value>
+	</data>
+	<data name="SAVE_ERROR" xml:space="preserve">
+		<value>저장할 수 없음</value>
+	</data>
+	<data name="SAVED" xml:space="preserve">
+		<value>저장됨</value>
+	</data>
+	<data name="SCALE" xml:space="preserve">
+		<value>배율</value>
+	</data>
+	<data name="SCENE_LOADING" xml:space="preserve">
+		<value>씬 템플릿 불러오는 중</value>
+	</data>
+	<data name="SCENE_OBJECTS" xml:space="preserve">
+		<value>씬의 객체</value>
+	</data>
+	<data name="SCENE_OBJECTS_CHANGED" xml:space="preserve">
+		<value>다른 사용자가 씬을 변경하였습니다. 변경 사항을 저장하거나 새 버전으로 다시 불러오시겠습니까?</value>
+	</data>
+	<data name="SCENE_OBJECTS_HAVE_NOT_SAVED_BEHAVIOURS_CONSOLE" xml:space="preserve">
+		<value>일부 오브젝트는 서버와 클라이언트 측에서 표준 동작이 다릅니다. 편집 모드에서 프로젝트를 열고 장면 저장을 시도해 보세요. 잘못된 오브젝트입니다:
+{0}</value>
+	</data>
+	<data name="SCENE_OBJECTS_HAVE_NOT_SAVED_BEHAVIOURS_POPUP" xml:space="preserve">
+		<value>장면에 유효하지 않은 개체가 있습니다. 콘솔을 열어(~를 누르세요) 자세한 설명을 확인합니다.</value>
+	</data>
+	<data name="SCENE_OBJECTS_SAVED_AFTER_UPDATE" xml:space="preserve">
+		<value>객체를 업데이트하면 씬이 자동으로 저장됩니다.</value>
+	</data>
+	<data name="SCENE_PREPARATION" xml:space="preserve">
+		<value>씬 준비 중</value>
+	</data>
+	<data name="SCENE_SAVED" xml:space="preserve">
+		<value>씬이 성공적으로 저장되었습니다</value>
+	</data>
+	<data name="SCENE_TEMPLATE_CHANGED" xml:space="preserve">
+		<value>씬 템플릿이 변경되었습니다. 변경 사항을 저장하고 씬을 다시 불러오시겠습니까?</value>
+	</data>
+	<data name="SCENE_WAS_REMOVED" xml:space="preserve">
+		<value>현재 씬이 제거되었습니다. 에디터를 닫습니다.</value>
+	</data>
+	<data name="SEND_REPORT" xml:space="preserve">
+		<value>보고서 보내기</value>
+	</data>
+	<data name="SET_MODE_SAVE_POPUP_MESSAGE" xml:space="preserve">
+		<value>씬에 대한 변경 사항을 저장하시겠습니까?</value>
+	</data>
+	<data name="SETTINGS" xml:space="preserve">
+		<value>설정</value>
+	</data>
+	<data name="SIZE" xml:space="preserve">
+		<value>크기</value>
+	</data>
+	<data name="SOME_OBJECTS_IS_NOT_LINUX_READY_MESSAGE" xml:space="preserve">
+		<value>일부 객체 또는 씬 템플릿은 Linux를 지원하지 않습니다. 지원 중인 버전으로 업데이트를 권장합니다.</value>
+	</data>
+	<data name="SOME_OBJECTS_IS_NOT_LINUX_READY_TITLE" xml:space="preserve">
+		<value>문제가 발생했습니다</value>
+	</data>
+	<data name="SPACE_MODE_LOCAL" xml:space="preserve">
+		<value>로컬</value>
+	</data>
+	<data name="SPACE_MODE_WORLD" xml:space="preserve">
+		<value>세계</value>
+	</data>
+	<data name="SPAWN_PAID_WINDOW_BUY_LICENSE" xml:space="preserve">
+		<value>라이센스 구매</value>
+	</data>
+	<data name="SPAWN_PAID_WINDOW_CLOSE" xml:space="preserve">
+		<value>닫기</value>
+	</data>
+	<data name="SPAWN_PAID_WINDOW_TITLE" xml:space="preserve">
+		<value>이 객체는 유료 라이선스로만 사용할 수 있습니다</value>
+	</data>
+	<data name="SPAWN_POINT_ERROR" xml:space="preserve">
+		<value>플레이어 생성지점(Spawn point)를 찾을 수 없습니다</value>
+	</data>
+	<data name="SPAWN_WITH_PARENT" xml:space="preserve">
+		<value>새로운 객체를 생성하여 이 객체를 상위(parent) 객체로 지정합니다.</value>
+	</data>
+	<data name="SPAWNING_SCENE_OBJECTS" xml:space="preserve">
+		<value>장면 개체 생성</value>
+	</data>
+	<data name="STEAM_VR_INITIALIZATION" xml:space="preserve">
+		<value>Steam VR 초기화</value>
+	</data>
+	<data name="TOOLTIP_AR_MODE" xml:space="preserve">
+		<value>AR에서 미리보기</value>
+	</data>
+	<data name="TOOLTIP_COLLIDER_VISUALIZATION_EDGES" xml:space="preserve">
+		<value>콜라이더(Collider) 시각화 모드 변경[Ctrl+Alt+C] 
+
+테두리만</value>
+	</data>
+	<data name="TOOLTIP_COLLIDER_VISUALIZATION_NONE" xml:space="preserve">
+		<value>콜라이더(Collider) 시각화 모드 변경[Ctrl+Alt+C] 
+
+보이지 않음</value>
+	</data>
+	<data name="TOOLTIP_COLLIDER_VISUALIZATION_SOLID" xml:space="preserve">
+		<value>콜라이더(Collider) 시각화 모드 변경[Ctrl+Alt+C] 
+
+테두리와 면</value>
+	</data>
+	<data name="TOOLTIP_COPY" xml:space="preserve">
+		<value>복사[Ctrl+C]</value>
+	</data>
+	<data name="TOOLTIP_DESKTOP_PLAYER_MODE" xml:space="preserve">
+		<value>데스크톱에서 미리보기</value>
+	</data>
+	<data name="TOOLTIP_DOCUMENTATION_LINK" xml:space="preserve">
+		<value>문서 링크 열기</value>
+	</data>
+	<data name="TOOLTIP_HAND_TOOL" xml:space="preserve">
+		<value>손 도구[Q]</value>
+	</data>
+	<data name="TOOLTIP_MOVE_TOOL" xml:space="preserve">
+		<value>이동 도구[W]</value>
+	</data>
+	<data name="TOOLTIP_NETTLEDESK_MODE" xml:space="preserve">
+		<value>Illumetry IO 모드에서 미리보기</value>
+	</data>
+	<data name="TOOLTIP_PASTE" xml:space="preserve">
+		<value>붙여넣기[Ctrl+V]</value>
+	</data>
+	<data name="TOOLTIP_PIVOT_MODE_CENTER" xml:space="preserve">
+		<value>도구 핸들(Tool Handle) 위치 전환[Z]
+
+도구 핸들이 선택한 항목의 중심에 배치됩니다.</value>
+	</data>
+	<data name="TOOLTIP_PIVOT_MODE_PIVOT" xml:space="preserve">
+		<value>도구 핸들(Tool Handle) 위치 전환[Z]
+
+도구 핸들이 활성화 된 객체의 피벗(Pivot) 중심에 배치됩니다.</value>
+	</data>
+	<data name="TOOLTIP_REDO" xml:space="preserve">
+		<value>재실행[Ctrl+Y]</value>
+	</data>
+	<data name="TOOLTIP_ROTATE_TOOL" xml:space="preserve">
+		<value>회전 도구[E]</value>
+	</data>
+	<data name="TOOLTIP_SAVE" xml:space="preserve">
+		<value>저장[Ctrl+S]</value>
+	</data>
+	<data name="TOOLTIP_SCALE_TOOL" xml:space="preserve">
+		<value>배율 도구[R]</value>
+	</data>
+	<data name="TOOLTIP_UNDO" xml:space="preserve">
+		<value>실행 취소[Ctrl+Z]</value>
+	</data>
+	<data name="TOOLTIP_VERSION_CONTROL" xml:space="preserve">
+		<value>객체 버전 관리 창</value>
+	</data>
+	<data name="TOOLTIP_VR_MODE" xml:space="preserve">
+		<value>VR에서 미리보기</value>
+	</data>
+	<data name="TOOLTIP_WORLD_MODE_GLOBAL" xml:space="preserve">
+		<value>도구 핸들(Tool Handle) 회전 전환 [X]
+
+도구 핸들이 전역 기준으로 회전합니다.</value>
+	</data>
+	<data name="TOOLTIP_WORLD_MODE_LOCAL" xml:space="preserve">
+		<value>도구 핸들(Tool Handle) 회전 전환 [X]
+
+도구 핸들이 활성화 된 객체 기준으로 회전합니다.</value>
+	</data>
+	<data name="TRANSFORM" xml:space="preserve">
+		<value>변형</value>
+	</data>
+	<data name="TRY_AGAIN" xml:space="preserve">
+		<value>다시 시도하세요.</value>
+	</data>
+	<data name="TRY_TO_CONNECT_TO_RANDOM_ROOM" xml:space="preserve">
+		<value>임의의 방에 연결 시도 중</value>
+	</data>
+	<data name="TYPE_ARRAY" xml:space="preserve">
+		<value>{0}유형 요소 배열</value>
+	</data>
+	<data name="TYPE_BOOLEAN" xml:space="preserve">
+		<value>논리유형</value>
+	</data>
+	<data name="TYPE_COLOR" xml:space="preserve">
+		<value>색</value>
+	</data>
+	<data name="TYPE_DOUBLE" xml:space="preserve">
+		<value>분수</value>
+	</data>
+	<data name="TYPE_INTEGER" xml:space="preserve">
+		<value>전체 번호</value>
+	</data>
+	<data name="TYPE_LIST" xml:space="preserve">
+		<value>{0}유형 요소의 목록</value>
+	</data>
+	<data name="TYPE_LIST_NO_PARAMETER" xml:space="preserve">
+		<value>TYPE_LIST_NO_PARAMETER</value>
+	</data>
+	<data name="TYPE_NULL" xml:space="preserve">
+		<value>null</value>
+	</data>
+	<data name="TYPE_STRING" xml:space="preserve">
+		<value>문자열</value>
+	</data>
+	<data name="TYPE_VECTOR" xml:space="preserve">
+		<value>벡터</value>
+	</data>
+	<data name="TYPE_WRAPPER" xml:space="preserve">
+		<value>객체</value>
+	</data>
+	<data name="UNKNOWN_ERROR" xml:space="preserve">
+		<value>알수 없는 오류</value>
+	</data>
+	<data name="UNLINK_PARENT" xml:space="preserve">
+		<value>부모 객체 취소</value>
+	</data>
+	<data name="VALIDATE_METHOD_EXCEPTION" xml:space="preserve">
+		<value>인수 &lt;Color=lightblue&gt;{0}&lt;/Color&gt; 는 다음 타입을 기대합니다:&lt;Color=lightblue&gt;{1}&lt;/Color&gt;, 및 &lt;Color=red&gt;{2} ({3}) 통과되어 집니다.&lt;/Color&gt; 오류를 수정하려면 인수 값을 변경하십시오. </value>
+	</data>
+	<data name="VERSION_CHANGE_UNSAVED" xml:space="preserve">
+		<value>객체나 씬 템플릿의 버전을 변경할 때 모든 저장되지 않은 변경 사항이 손실됩니다.</value>
+	</data>
+	<data name="WARNING" xml:space="preserve">
+		<value>경고</value>
+	</data>
+	<data name="WRONG_LOGIN_OR_PASSWORD" xml:space="preserve">
+		<value>잘못된 로그인 또는 비밀번호
+</value>
+	</data>
+	<data name="YES" xml:space="preserve">
+		<value>예</value>
+	</data>
+	<data name="YOU_CAN_GO_TO_PREVIEW_MODE" xml:space="preserve">
+		<value>&lt;link="set_dp_mode"&gt;&lt;b&gt;&lt;u&gt;PC 미리보기 모드&lt;/u&gt;&lt;/b&gt;&lt;/link&gt;로 전환할 수도 있습니다.</value>
+	</data>
+	<data name="ERROR_WRAPPER_WITH_ID_NOT_FOUND" xml:space="preserve">
+		<value />
+	</data>
+</root>

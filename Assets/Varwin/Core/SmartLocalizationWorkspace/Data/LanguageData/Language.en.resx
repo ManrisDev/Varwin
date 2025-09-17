@@ -1,0 +1,1155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="ACTIONS" xml:space="preserve">
+		<value>Actions</value>
+	</data>
+	<data name="ARRAY_ELEMENT" xml:space="preserve">
+		<value>Element</value>
+	</data>
+	<data name="BACKUP_LOCALIZATION_STRING" xml:space="preserve">
+		<value>The scene has been restored from the change history. The client will be restarted</value>
+	</data>
+	<data name="BLOCK_ACTION_PREFIX" xml:space="preserve">
+		<value>do</value>
+	</data>
+	<data name="BLOCK_CHECKER_PREFIX" xml:space="preserve">
+		<value>BLOCK_CHECKER_PREFIX</value>
+	</data>
+	<data name="BLOCK_EVENT_PREFIX" xml:space="preserve">
+		<value>do on:</value>
+	</data>
+	<data name="BLOCK_FUNCTION_PREFIX" xml:space="preserve">
+		<value>do</value>
+	</data>
+	<data name="BLOCK_GETTER_PREFIX" xml:space="preserve">
+		<value>get from object</value>
+	</data>
+	<data name="BLOCK_SETTER_PREFIX" xml:space="preserve">
+		<value>set</value>
+	</data>
+	<data name="BRIGHTNESS" xml:space="preserve">
+		<value>Brightness</value>
+	</data>
+	<data name="BUTTON" xml:space="preserve">
+		<value>Simple Button</value>
+	</data>
+	<data name="CAMERA_SETTINGS_LABEL" xml:space="preserve">
+		<value>Smooth camera</value>
+	</data>
+	<data name="CANCEL" xml:space="preserve">
+		<value>Cancel</value>
+	</data>
+	<data name="CANNOT_NOT_PREVIEW" xml:space="preserve">
+		<value>Can't do it in preview mode</value>
+	</data>
+	<data name="CHOOSE_PARENT" xml:space="preserve">
+		<value>Choose a parent object</value>
+	</data>
+	<data name="CHOOSE_PROJECT_CONFIG" xml:space="preserve">
+		<value>Choose project configuration</value>
+	</data>
+	<data name="CLIENT_TERMINATE" xml:space="preserve">
+		<value>The editor going to close now. Do you want to save changes?</value>
+	</data>
+	<data name="CLOSE_APP" xml:space="preserve">
+		<value>Close the application?</value>
+	</data>
+	<data name="CLOSE_BUTTON" xml:space="preserve">
+		<value>Close</value>
+	</data>
+	<data name="COLLIDER_VISUALIZATION_EDGES" xml:space="preserve">
+		<value>Edges</value>
+	</data>
+	<data name="COLLIDER_VISUALIZATION_NONE" xml:space="preserve">
+		<value>None</value>
+	</data>
+	<data name="COLLIDER_VISUALIZATION_SOLID" xml:space="preserve">
+		<value>Solid</value>
+	</data>
+	<data name="COLOR_PICKER_WINDOW" xml:space="preserve">
+		<value>Color Picker</value>
+	</data>
+	<data name="COMPILE_CODE_ERROR" xml:space="preserve">
+		<value>Compilation error</value>
+	</data>
+	<data name="CONNECTING" xml:space="preserve">
+		<value>Connecting...</value>
+	</data>
+	<data name="CONNECTION_ERROR" xml:space="preserve">
+		<value>Connection lost, try connecting again</value>
+	</data>
+	<data name="CONTROLLER_EMULATION" xml:space="preserve">
+		<value>Controller emulation</value>
+	</data>
+	<data name="CURRENT_SCENE_TEMPLATE_DELETED" xml:space="preserve">
+		<value>Current scene template was deleted</value>
+	</data>
+	<data name="DELETE_OBJECT" xml:space="preserve">
+		<value>Delete</value>
+	</data>
+	<data name="DISABLED" xml:space="preserve">
+		<value>Disabled</value>
+	</data>
+	<data name="DISPLAY" xml:space="preserve">
+		<value>Simple Display</value>
+	</data>
+	<data name="ENABLE_IN_BLOCKLY_EDITOR" xml:space="preserve">
+		<value>Enable in Blockly Editor</value>
+	</data>
+	<data name="ENTER_ROOM" xml:space="preserve">
+		<value>Entering room...</value>
+	</data>
+	<data name="ENVIRONMENT_ERROR" xml:space="preserve">
+		<value>Environment setup error</value>
+	</data>
+	<data name="ENVIRONMENT_NOT_FOUND" xml:space="preserve">
+		<value>Error. Scene template not found</value>
+	</data>
+	<data name="ERROR_API_CLIENT_VERSION_MISMATCH" xml:space="preserve">
+		<value>Error. The RMS and client versions do not match. RMS Version '{{rms_version}}', Client Version '{{client_version}}'</value>
+	</data>
+	<data name="ERROR_CANT_CLONE_A_CLONED_OBJECT" xml:space="preserve">
+		<value>The object '{{object_name}}' cannot be cloned because it is itself a clone.</value>
+	</data>
+	<data name="ERROR_CANT_CLONE_AT_POSITION_TYPE_MISMATCH" xml:space="preserve">
+		<value>Cannot clone '{{object_name}}' to the given position because an object of the wrong type '{{type}}' was passed in the position value and '{{need_type}}' was expected.</value>
+	</data>
+	<data name="ERROR_CANT_CLONE_EMBEDDED_OBJECT" xml:space="preserve">
+		<value>The object '{{object_name}}' cannot be cloned because it is embedded in the scene.</value>
+	</data>
+	<data name="ERROR_CANT_CLONE_TYPE_MISMATCH" xml:space="preserve">
+		<value>Cannot clone because incorrect type '{{type}}' was passed and 'object' was expected.</value>
+	</data>
+	<data name="ERROR_CANT_CLONE_UNCLONABLE_OBJECT" xml:space="preserve">
+		<value>The object '{{object_name}}' cannot be cloned because it is unclonable.</value>
+	</data>
+	<data name="ERROR_DESKTOP_POPUP_MESSAGE" xml:space="preserve">
+		<value>A logic/object error has occurred. Possible instability of the project</value>
+	</data>
+	<data name="ERROR_DESTROY_CLONE_IS_NOT_CLONE" xml:space="preserve">
+		<value>The object "{{object_name}}" cannot be deleted because it is not a clone.</value>
+	</data>
+	<data name="ERROR_DESTROY_CLONE_OBJECT_NOT_EXISTS" xml:space="preserve">
+		<value>The object you are trying to destroy does not exist.</value>
+	</data>
+	<data name="ERROR_DESTROY_CLONE_TYPE_MISMATCH" xml:space="preserve">
+		<value>The clone cannot be deleted because the wrong type '{{type}}' was passed and 'object' was expected.</value>
+	</data>
+	<data name="ERROR_DESTROY_CLONES_IS_NOT_ORIGINAL" xml:space="preserve">
+		<value>The object "{{object_name}}" cannot be deleted because it is not the original cloning object.</value>
+	</data>
+	<data name="ERROR_DESTROY_CLONES_TYPE_MISMATCH" xml:space="preserve">
+		<value>Cannot delete object clones because the wrong type '{{type}}' was passed and 'object' was expected.</value>
+	</data>
+	<data name="ERROR_GET_CLONES_IS_NOT_ORIGINAL" xml:space="preserve">
+		<value>Cannot list clones of object '{{object_name}}' because it is not the original object.</value>
+	</data>
+	<data name="ERROR_GET_CLONES_TYPE_MISMATCH" xml:space="preserve">
+		<value>Unable to get a list of object clones because the wrong type '{{type}}' was passed and 'object' was expected.</value>
+	</data>
+	<data name="ERROR_GET_SERVER_CONFIG" xml:space="preserve">
+		<value>Error receiving configuration from the server.</value>
+	</data>
+	<data name="ERROR_IS_CLONE_TYPE_MISMATCH" xml:space="preserve">
+		<value>It is not possible to determine whether the object is a clone because the wrong type '{{type}}' was passed and 'object' was expected.</value>
+	</data>
+	<data name="ERROR_IS_DESTROYED_TYPE_MISMATCH" xml:space="preserve">
+		<value>It is not possible to determine whether the object is destroyed because the wrong type '{{type}}' was passed and 'object' was expected.</value>
+	</data>
+	<data name="ERROR_LIST_IS_EMPTY" xml:space="preserve">
+		<value>List is empty.</value>
+	</data>
+	<data name="ERROR_LIST_OUT_OF_RANGE" xml:space="preserve">
+		<value>Index [{{current_index}}] is out of range. List length: [{{array_length}}].</value>
+	</data>
+	<data name="ERROR_LIST_WRONG_INDEX_TYPE" xml:space="preserve">
+		<value>Wrong index type. Provided index type: {{index_type}}. Required index type: integer.</value>
+	</data>
+	<data name="ERROR_LIST_WRONG_TYPE" xml:space="preserve">
+		<value>Wrong type of variable. Provided type is {{provided_type}}. Required type is {{required_type}}</value>
+	</data>
+	<data name="ERROR_LOCAL_SERVER_CONNECTION" xml:space="preserve">
+		<value>&lt;b&gt;Error connecting to local server.&lt;/b&gt;
+Please check the proxy settings on your PC. If a proxy server is used, add localhost and 127.0.0.1 addresses to the ignore list.</value>
+	</data>
+	<data name="ERROR_LOCAL_SERVER_PARSE_CONFIG" xml:space="preserve">
+		<value>&lt;b&gt;Incorrect response from the local server. &lt;/b&gt;
+Please check the proxy settings on your PC. If you are using a proxy server, add localhost and 127.0.0.1 to the ignore list.</value>
+	</data>
+	<data name="ERROR_POPUP_MESSAGE" xml:space="preserve">
+		<value>A logic/object error has occurred. Possible instability of the project</value>
+	</data>
+	<data name="ERROR_POPUP_TITLE" xml:space="preserve">
+		<value>Something went wrong</value>
+	</data>
+	<data name="ERROR_PROJECT_LAUNCH" xml:space="preserve">
+		<value>An error occurred while starting the project. Perhaps the project files were corrupted or loaded with an error</value>
+	</data>
+	<data name="ERROR_READ_STARTUP_ARGS" xml:space="preserve">
+		<value>Error. Can't read command line arguments</value>
+	</data>
+	<data name="ERROR_REMOTE_SERVER_CONNECTION" xml:space="preserve">
+		<value>&lt;b&gt;Error connecting to the remote server.&lt;/b&gt;
+Check, please:
+1. The server address and port are specified correctly (in the XRMS "Servers" settings)
+2. Availability of a Varwin Server Edition license on the server
+3. Availability of Internet connection
+4. The port being used is open for external connections</value>
+	</data>
+	<data name="ERROR_REMOTE_SERVER_PARSE_CONFIG" xml:space="preserve">
+		<value>&lt;b&gt;Incorrect response from the remote server. &lt;/b&gt;
+Check, please:
+1. The server address and port are specified correctly (in the XRMS "Servers" settings)
+2. Availability of a Varwin Server Edition license on the server
+3. Availability of Internet connection</value>
+	</data>
+	<data name="ERROR_SERVER_DISCONNECT" xml:space="preserve">
+		<value>Error. Server is offline</value>
+	</data>
+	<data name="ERROR_TITLE" xml:space="preserve">
+		<value>Error</value>
+	</data>
+	<data name="ERROR_VR_POPUP_MESSAGE" xml:space="preserve">
+		<value>Remove the headset and look at the error in the editor on the PC</value>
+	</data>
+	<data name="ERROR_WRAPPER_WITH_ID_NOT_FOUND" xml:space="preserve">
+		<value>Object with ID {{id}} not found in scene. Please check scene logic</value>
+	</data>
+	<data name="ERRORS_ERROR_IN_METHOD" xml:space="preserve">
+		<value>Error: &lt;color=lightblue&gt;{0}&lt;/color&gt;. The argument &lt;color=lightblue&gt;{1}&lt;/color&gt; expects &lt;color=lightblue&gt;{2}&lt;/color&gt;, but is passed &lt;color=red&gt;{3}&lt;/color&gt; with the value &lt;color=red&gt;{4 }&lt;/color&gt;</value>
+	</data>
+	<data name="ERRORS_ERROR_IN_SETTER" xml:space="preserve">
+		<value>Error: &lt;color=lightblue&gt;{0}&lt;/color&gt; Required type: &lt;Color=lightblue&gt;{1}&lt;/Color&gt;. Provided type: &lt;Color=red&gt;{2}&lt;/Color&gt;. To resolve the error, change the assigned property value in blocks.</value>
+	</data>
+	<data name="EXCEPTION_IN_OBJECT" xml:space="preserve">
+		<value>Error in an object</value>
+	</data>
+	<data name="EXECUTE_LOGIC_ERROR" xml:space="preserve">
+		<value>Logic execution failure</value>
+	</data>
+	<data name="EXIT" xml:space="preserve">
+		<value>Exit</value>
+	</data>
+	<data name="EXIT_DESKTOP_PLAYER_MESSAGE" xml:space="preserve">
+		<value>Are you sure you want to exit the desktop viewer?</value>
+	</data>
+	<data name="EXIT_DESKTOP_PLAYER_TITLE" xml:space="preserve">
+		<value>Exit desktop view mode</value>
+	</data>
+	<data name="EXIT_NETTLEDESK_PLAYER_MESSAGE" xml:space="preserve">
+		<value>Are you sure you want to exit Illumetry IO mode?</value>
+	</data>
+	<data name="EXIT_NETTLEDESK_PLAYER_TITLE" xml:space="preserve">
+		<value>Exit Illumetry IO mode</value>
+	</data>
+	<data name="EXIT_TO_AR" xml:space="preserve">
+		<value>Switch to AR</value>
+	</data>
+	<data name="EXIT_TO_DESKTOP" xml:space="preserve">
+		<value>Disable VR</value>
+	</data>
+	<data name="EXIT_TO_DESKTOP_FROM_AR" xml:space="preserve">
+		<value>Disable AR</value>
+	</data>
+	<data name="EXIT_TO_DESKTOP_FROM_NETTLEDESK" xml:space="preserve">
+		<value>Disable Illumetry IO</value>
+	</data>
+	<data name="EXIT_TO_EDIT" xml:space="preserve">
+		<value>Edit Mode</value>
+	</data>
+	<data name="EXIT_TO_MAIN_MENU" xml:space="preserve">
+		<value>Exit to main menu?</value>
+	</data>
+	<data name="EXIT_TO_NETTLEDESK" xml:space="preserve">
+		<value>Switch to Illumetry IO</value>
+	</data>
+	<data name="EXIT_TO_VR" xml:space="preserve">
+		<value>Switch to VR</value>
+	</data>
+	<data name="EXIT_VR_PLAYER_MESSAGE" xml:space="preserve">
+		<value>Are you sure you want to exit VR mode?</value>
+	</data>
+	<data name="EXIT_VR_PLAYER_TITLE" xml:space="preserve">
+		<value>Exit VR mode</value>
+	</data>
+	<data name="FIELD_OF_VIEW" xml:space="preserve">
+		<value>Field of view</value>
+	</data>
+	<data name="GET_SCENE_TEMPLATE_DATA" xml:space="preserve">
+		<value>Getting scene template data...</value>
+	</data>
+	<data name="GROUP_NOT_SAVED" xml:space="preserve">
+		<value>Unsaved changes will be lost. Save the changes?</value>
+	</data>
+	<data name="HEADSET_NOT_FOUND_HINT" xml:space="preserve">
+		<value>1. Make sure your VR-headset is connected to your PC.
+2. Make sure that &lt;link="start_openxr"&gt;&lt;b&gt;&lt;u&gt;OpenXR&lt;/u&gt;&lt;/b&gt;&lt;/link&gt; runtime is running.
+3. Restart the application.</value>
+	</data>
+	<data name="HEADSET_NOT_FOUND_WITH_SETTINGS" xml:space="preserve">
+		<value>1. Make sure the VR headset is connected to your computer.
+2. Verify that you have the &lt;link="start_openxr"&gt;&lt;b&gt;&lt;u&gt;OpenXR&lt;/u&gt;&lt;/b&gt;&lt;/link&gt; runtime running.
+3. Check that the current &lt;link="start_openxr"&gt;&lt;b&gt;&lt;u&gt;OpenXR&lt;/u&gt;&lt;/b&gt;&lt;/link&gt; runtime environment is installed in the &lt;link="open_settings"&gt;&lt;b&gt;&lt;u&gt;settings&lt;/u&gt;&lt;/b&gt;&lt;/link&gt;.
+4. Restart the program.</value>
+	</data>
+	<data name="HEADSET_TRACKING_LOST" xml:space="preserve">
+		<value>No Headsets Tracking</value>
+	</data>
+	<data name="HIERARCHY" xml:space="preserve">
+		<value>Objects</value>
+	</data>
+	<data name="HIERARCHY_SCENE" xml:space="preserve">
+		<value>Scene</value>
+	</data>
+	<data name="HIERARCHY_SCENE_TEMPLATE" xml:space="preserve">
+		<value>Scene template</value>
+	</data>
+	<data name="HUE" xml:space="preserve">
+		<value>Hue</value>
+	</data>
+	<data name="IN_OBJECT_HAS_ERROR" xml:space="preserve">
+		<value>An error occurred in the object</value>
+	</data>
+	<data name="INIT_LOGIC_ERROR" xml:space="preserve">
+		<value>Logic initialization error</value>
+	</data>
+	<data name="INSPECTOR" xml:space="preserve">
+		<value>Inspector</value>
+	</data>
+	<data name="INSPECTOR_MISSING_RESOURCE" xml:space="preserve">
+		<value>Missing</value>
+	</data>
+	<data name="INSPECTOR_PROPERTY_ACTION" xml:space="preserve">
+		<value>Action</value>
+	</data>
+	<data name="INSPECTOR_PROPERTY_OBJECT_NAME" xml:space="preserve">
+		<value>Object Name</value>
+	</data>
+	<data name="INSPECTOR_PROPERTY_PROPERTY_NAME" xml:space="preserve">
+		<value>Property name</value>
+	</data>
+	<data name="INSPECTOR_PROPERTY_RESOURCE_NAME" xml:space="preserve">
+		<value>Resource name</value>
+	</data>
+	<data name="JOIN_TO_ROOM" xml:space="preserve">
+		<value>Joining room...</value>
+	</data>
+	<data name="LAMP" xml:space="preserve">
+		<value>Simple Lightbulb</value>
+	</data>
+	<data name="LETS_GO" xml:space="preserve">
+		<value>Let's go!</value>
+	</data>
+	<data name="LIBRARY" xml:space="preserve">
+		<value>Library</value>
+	</data>
+	<data name="LIBRARY_OBJECTS" xml:space="preserve">
+		<value>Objects in library</value>
+	</data>
+	<data name="LIBRARY_WAS_CHANGED" xml:space="preserve">
+		<value>Library was changed</value>
+	</data>
+	<data name="LICENSE_KEY_ERROR" xml:space="preserve">
+		<value>Can not get license information</value>
+	</data>
+	<data name="LIST_ERROR_GET_FIRST_ITEM" xml:space="preserve">
+		<value>Error while getting the first element of the list.</value>
+	</data>
+	<data name="LIST_ERROR_GET_INDEX_OF_ITEM" xml:space="preserve">
+		<value>Error of getting index of an element.</value>
+	</data>
+	<data name="LIST_ERROR_GET_ITEM" xml:space="preserve">
+		<value>Get list item error.</value>
+	</data>
+	<data name="LIST_ERROR_GET_LAST_INDEX_OF" xml:space="preserve">
+		<value>Error of getting the last index of an element of the list.</value>
+	</data>
+	<data name="LIST_ERROR_GET_LAST_ITEM" xml:space="preserve">
+		<value>Get last list item error.</value>
+	</data>
+	<data name="LIST_ERROR_GET_RANDOM_ITEM" xml:space="preserve">
+		<value>Get list random item error.</value>
+	</data>
+	<data name="LIST_ERROR_GET_SUBLIST" xml:space="preserve">
+		<value>Error when trying to get sub list.</value>
+	</data>
+	<data name="LIST_ERROR_SET_ITEM" xml:space="preserve">
+		<value>Error when trying to set an item to the list.</value>
+	</data>
+	<data name="LIST_OF_NOT_LINUX_READY_OBJECTS" xml:space="preserve">
+		<value>Objects or scene templates that don't have Linux support</value>
+	</data>
+	<data name="LOAD_CONFIGURATION" xml:space="preserve">
+		<value>Start</value>
+	</data>
+	<data name="LOAD_INVALID_RESOURCE_ERROR" xml:space="preserve">
+		<value>Error loading resource. The file may be corrupted or in an invalid format.</value>
+	</data>
+	<data name="LOAD_OBJECT_ERROR" xml:space="preserve">
+		<value>Can't load the object</value>
+	</data>
+	<data name="LOAD_PROJECTS_ERROR" xml:space="preserve">
+		<value>Can't load projects list</value>
+	</data>
+	<data name="LOAD_RESOURCE_ERROR" xml:space="preserve">
+		<value>Can't load resource</value>
+	</data>
+	<data name="LOAD_SCENE_ERROR" xml:space="preserve">
+		<value>Can't load scene template</value>
+	</data>
+	<data name="LOAD_WORKSPACES_ERROR" xml:space="preserve">
+		<value>Can't load workspaces list</value>
+	</data>
+	<data name="LOADING" xml:space="preserve">
+		<value>Loading</value>
+	</data>
+	<data name="LOADING_AUTHORIZATION" xml:space="preserve">
+		<value>Authorization</value>
+	</data>
+	<data name="LOADING_FILE" xml:space="preserve">
+		<value>Downloading {{file_name}}... {{downloaded_size}} from {{file_size}} Mb</value>
+	</data>
+	<data name="LOADING_PROJECTS" xml:space="preserve">
+		<value>Loading the library</value>
+	</data>
+	<data name="LOADING_SCENE_TEMPLATE" xml:space="preserve">
+		<value>Loading scene template "{{name}}"...</value>
+	</data>
+	<data name="LOADING_SERVER_INFO" xml:space="preserve">
+		<value>Loading server information</value>
+	</data>
+	<data name="LOADING_WORKSPACES" xml:space="preserve">
+		<value>Loading workspaces</value>
+	</data>
+	<data name="LOCK_CHILDREN" xml:space="preserve">
+		<value>Lock hierarchy in play mode</value>
+	</data>
+	<data name="LOCK_HIERARCHY_COMPONENT_TOOLTIP" xml:space="preserve">
+		<value>Set the current object as the parent object for objects in the hierarchy. All descendants of the parent object are considered as one. </value>
+	</data>
+	<data name="LOCK_SELECTABILITY" xml:space="preserve">
+		<value>Enable selection from scene</value>
+	</data>
+	<data name="MAINMENU_ACTIVE_OPENXR_RUNTIME" xml:space="preserve">
+		<value>Active OpenXR runtime</value>
+	</data>
+	<data name="MAINMENU_AUTHORIZATION_TEXT" xml:space="preserve">
+		<value>Enter your username and password to access workspaces</value>
+	</data>
+	<data name="MAINMENU_AUTHORIZATION_TITLE" xml:space="preserve">
+		<value>Authorization</value>
+	</data>
+	<data name="MAINMENU_CANCEL" xml:space="preserve">
+		<value>Cancel</value>
+	</data>
+	<data name="MAINMENU_CHANGEWORKSPACE" xml:space="preserve">
+		<value>Change</value>
+	</data>
+	<data name="MAINMENU_CONNECT" xml:space="preserve">
+		<value>Connect</value>
+	</data>
+	<data name="MAINMENU_CONNECTING_TO_SERVER_TEXT" xml:space="preserve">
+		<value>To access Varwin projects, enter the server IP address </value>
+	</data>
+	<data name="MAINMENU_CONNECTING_TO_SERVER_TITLE" xml:space="preserve">
+		<value>Connecting to the server</value>
+	</data>
+	<data name="MAINMENU_CONNECTING_XRMS_NO_PROJECT" xml:space="preserve">
+		<value>There are no suitable projects in Varwin XRMS</value>
+	</data>
+	<data name="MAINMENU_DELETE_PROJECT" xml:space="preserve">
+		<value>Delete</value>
+	</data>
+	<data name="MAINMENU_ENTER" xml:space="preserve">
+		<value>Log In</value>
+	</data>
+	<data name="MAINMENU_IPINPUT" xml:space="preserve">
+		<value>Enter the IP-address...</value>
+	</data>
+	<data name="MAINMENU_LOCAL" xml:space="preserve">
+		<value>Downloaded</value>
+	</data>
+	<data name="MAINMENU_LOGIN" xml:space="preserve">
+		<value>Login</value>
+	</data>
+	<data name="MAINMENU_LOGOUT" xml:space="preserve">
+		<value>Logout</value>
+	</data>
+	<data name="MAINMENU_MOBILE_VR_IS_NOT_AVAILABLE" xml:space="preserve">
+		<value>Your Varwin license does not support VR mode. Contact your license provider.</value>
+	</data>
+	<data name="MAINMENU_MULTIPLAYER" xml:space="preserve">
+		<value>Multiplayer</value>
+	</data>
+	<data name="MAINMENU_MULTIPLAYER_TEXT" xml:space="preserve">
+		<value>The multiplayer mode is intended for joint testing of the project. To connect to the server, enter its IP address</value>
+	</data>
+	<data name="MAINMENU_NO_PROJECTS" xml:space="preserve">
+		<value>No projects available</value>
+	</data>
+	<data name="MAINMENU_NO_SAVED_PROJECTS" xml:space="preserve">
+		<value>The list of loaded projects is empty. To work without Internet access, download projects from the “Server” tab</value>
+	</data>
+	<data name="MAINMENU_NO_SCENES" xml:space="preserve">
+		<value>No scenes avaliable</value>
+	</data>
+	<data name="MAINMENU_NOTIFICATION_RESTART_VR_MODE" xml:space="preserve">
+		<value>Restart the client or change the display mode to apply the changes</value>
+	</data>
+	<data name="MAINMENU_OPENXR_SINGLEPASS" xml:space="preserve">
+		<value>Single pass rendering</value>
+	</data>
+	<data name="MAINMENU_OPENXR_SINGLEPASS_WARNING" xml:space="preserve">
+		<value>Warning! Some objects or scenes that are not adapted to 
+this mode of operation may have rendering problems</value>
+	</data>
+	<data name="MAINMENU_PASSWORD" xml:space="preserve">
+		<value>Password</value>
+	</data>
+	<data name="MAINMENU_PLAYER_MOVE_TYPE" xml:space="preserve">
+		<value>Move type</value>
+	</data>
+	<data name="MAINMENU_POINTER_DIRECTION" xml:space="preserve">
+		<value>Pointer direction</value>
+	</data>
+	<data name="MAINMENU_POINTER_DIRECTION_NATIVE" xml:space="preserve">
+		<value>Default</value>
+	</data>
+	<data name="MAINMENU_POINTER_DIRECTION_VARWIN" xml:space="preserve">
+		<value>Varwin</value>
+	</data>
+	<data name="MAINMENU_PROJECTS" xml:space="preserve">
+		<value>Projects</value>
+	</data>
+	<data name="MAINMENU_REMEMBERME" xml:space="preserve">
+		<value>Remember</value>
+	</data>
+	<data name="MAINMENU_SAVE_PROJECT" xml:space="preserve">
+		<value>Download</value>
+	</data>
+	<data name="MAINMENU_SAVED_PROJECTS" xml:space="preserve">
+		<value>Downloaded projects</value>
+	</data>
+	<data name="MAINMENU_SERVER" xml:space="preserve">
+		<value>Server</value>
+	</data>
+	<data name="MAINMENU_UPDATED AT" xml:space="preserve">
+		<value>Updated at </value>
+	</data>
+	<data name="MAINMENU_VIGNETTE" xml:space="preserve">
+		<value>Vignette</value>
+	</data>
+	<data name="MAINMENU_VIGNETTE_MEDIUM" xml:space="preserve">
+		<value>Medium</value>
+	</data>
+	<data name="MAINMENU_VIGNETTE_OFF" xml:space="preserve">
+		<value>Off</value>
+	</data>
+	<data name="MAINMENU_VIGNETTE_STRONG" xml:space="preserve">
+		<value>Strong</value>
+	</data>
+	<data name="MAINMENU_VIGNETTE_WEAK" xml:space="preserve">
+		<value>Weak</value>
+	</data>
+	<data name="MAINMENU_WORKSPACES" xml:space="preserve">
+		<value>Workspaces</value>
+	</data>
+	<data name="MENU" xml:space="preserve">
+		<value>Menu</value>
+	</data>
+	<data name="MOBILE_READY_CHANGED" xml:space="preserve">
+		<value>Mobile-VR support status is changed. Project will be reloaded.</value>
+	</data>
+	<data name="MODE" xml:space="preserve">
+		<value>Mode</value>
+	</data>
+	<data name="MULTIPLAYER_AR" xml:space="preserve">
+		<value>AR</value>
+	</data>
+	<data name="MULTIPLAYER_BACK" xml:space="preserve">
+		<value>Back</value>
+	</data>
+	<data name="MULTIPLAYER_CONNECT" xml:space="preserve">
+		<value>Connect</value>
+	</data>
+	<data name="MULTIPLAYER_CONNECTINGTOHOST" xml:space="preserve">
+		<value>Connecting to host</value>
+	</data>
+	<data name="MULTIPLAYER_CONNECTINGTOSESSION" xml:space="preserve">
+		<value>Connecting to a session</value>
+	</data>
+	<data name="MULTIPLAYER_CONNECTION_ERROR_DESCRIPTION" xml:space="preserve">
+		<value>Please check that the information you entered is correct and try again.</value>
+	</data>
+	<data name="MULTIPLAYER_CONNECTIONERROR" xml:space="preserve">
+		<value>Connection error</value>
+	</data>
+	<data name="MULTIPLAYER_DESKTOP" xml:space="preserve">
+		<value>Desktop</value>
+	</data>
+	<data name="MULTIPLAYER_ENTERIPADDRESS" xml:space="preserve">
+		<value>Enter server ip address</value>
+	</data>
+	<data name="MULTIPLAYER_HOST_DISCONNECTED_BUTTON" xml:space="preserve">
+		<value>Exit</value>
+	</data>
+	<data name="MULTIPLAYER_HOST_DISCONNECTED_MESSAGE" xml:space="preserve">
+		<value>Host has been disconnected</value>
+	</data>
+	<data name="MULTIPLAYER_HOST_IP" xml:space="preserve">
+		<value>Server IP</value>
+	</data>
+	<data name="MULTIPLAYER_HOST_NAME" xml:space="preserve">
+		<value>Server</value>
+	</data>
+	<data name="MULTIPLAYER_LISTOFPLAYERS" xml:space="preserve">
+		<value>List of players</value>
+	</data>
+	<data name="MULTIPLAYER_NETTLEDESK" xml:space="preserve">
+		<value>Illumetry IO</value>
+	</data>
+	<data name="MULTIPLAYER_PLAYERS_NAME" xml:space="preserve">
+		<value>Name</value>
+	</data>
+	<data name="MULTIPLAYER_PLAYERS_STATUS" xml:space="preserve">
+		<value>Status</value>
+	</data>
+	<data name="MULTIPLAYER_PLAYERS_STATUS_CONNECTING" xml:space="preserve">
+		<value>Connecting</value>
+	</data>
+	<data name="MULTIPLAYER_PLAYERS_STATUS_HOST" xml:space="preserve">
+		<value>Host</value>
+	</data>
+	<data name="MULTIPLAYER_PLAYERS_STATUS_READY" xml:space="preserve">
+		<value>Ready</value>
+	</data>
+	<data name="MULTIPLAYER_PROJECTLOADING" xml:space="preserve">
+		<value>Project loading</value>
+	</data>
+	<data name="MULTIPLAYER_SELECT_GAMEMODE" xml:space="preserve">
+		<value>Mode selection</value>
+	</data>
+	<data name="MULTIPLAYER_SESSION_CREATIION" xml:space="preserve">
+		<value>Session creation</value>
+	</data>
+	<data name="MULTIPLAYER_SPECTATOR" xml:space="preserve">
+		<value>Spectator</value>
+	</data>
+	<data name="MULTIPLAYER_STARTGAMEMODE" xml:space="preserve">
+		<value>Start in mode</value>
+	</data>
+	<data name="MULTIPLAYER_STARTSESSION" xml:space="preserve">
+		<value>Start</value>
+	</data>
+	<data name="MULTIPLAYER_VR" xml:space="preserve">
+		<value>VR</value>
+	</data>
+	<data name="NETTLEDESK_STYLUS_SUPPORT" xml:space="preserve">
+		<value>Stylus support</value>
+	</data>
+	<data name="NO" xml:space="preserve">
+		<value>No</value>
+	</data>
+	<data name="NOT_FOR_COMMERCIAL_USE" xml:space="preserve">
+		<value>Varwin demo-version.
+Please upgrade to Professional or Business edition to remove demo restriction.</value>
+	</data>
+	<data name="OBJECT_NAME" xml:space="preserve">
+		<value>Object Type</value>
+	</data>
+	<data name="OBJECT_USE_IN_LOGIC" xml:space="preserve">
+		<value>Object is included in logic. Do you want to delete it?</value>
+	</data>
+	<data name="OBJECT_VERSION_CHANGED" xml:space="preserve">
+		<value>Object version was changed. Project restart is required.</value>
+	</data>
+	<data name="OBJECT_VERSION_WINDOW" xml:space="preserve">
+		<value>Object version control</value>
+	</data>
+	<data name="OBJECT_WAS_COPIED" xml:space="preserve">
+		<value>Object was copied</value>
+	</data>
+	<data name="OBJECT_WAS_DUPLICATED" xml:space="preserve">
+		<value>Object was duplicated</value>
+	</data>
+	<data name="OBJECT_WAS_PASTED" xml:space="preserve">
+		<value>Object was pasted</value>
+	</data>
+	<data name="OK" xml:space="preserve">
+		<value>OK</value>
+	</data>
+	<data name="OPEN_CONSOLE" xml:space="preserve">
+		<value>Open console</value>
+	</data>
+	<data name="OPEN_CONSOLE_FOR_MORE_INFO" xml:space="preserve">
+		<value>For more detailed information, open the console</value>
+	</data>
+	<data name="OPEN_DOCUMENTATION" xml:space="preserve">
+		<value>Open documentation</value>
+	</data>
+	<data name="OPENXR_INITIALIZATION" xml:space="preserve">
+		<value>OpenXR Initialization</value>
+	</data>
+	<data name="PHOTON_DISCONECT" xml:space="preserve">
+		<value>Multiplayer server disconnected</value>
+	</data>
+	<data name="PIVOT_MODE_CENTER" xml:space="preserve">
+		<value>Center</value>
+	</data>
+	<data name="PIVOT_MODE_PIVOT" xml:space="preserve">
+		<value>Pivot</value>
+	</data>
+	<data name="PLATFORM_MODE" xml:space="preserve">
+		<value>Display mode</value>
+	</data>
+	<data name="PLATFORM_MODE_IS_NOT_AVAILABLE_TITLE" xml:space="preserve">
+		<value>Mode {{platform_mode}} is not available</value>
+	</data>
+	<data name="PLATFORM_MODE_IS_NOT_AVAILABLE_UNDER_LICENSE" xml:space="preserve">
+		<value>Mode {{platform_mode}} is not available for this license. You need to change the mode in the project configuration</value>
+	</data>
+	<data name="PLAYER_MOVE_TYPE_LOCOMOTION" xml:space="preserve">
+		<value>Locomotion</value>
+	</data>
+	<data name="PLAYER_MOVE_TYPE_TELEPORT" xml:space="preserve">
+		<value>Teleport</value>
+	</data>
+	<data name="POSITION" xml:space="preserve">
+		<value>Position</value>
+	</data>
+	<data name="PROJECT_CONFIG_ERROR" xml:space="preserve">
+		<value>Error. Project configuration is not loaded</value>
+	</data>
+	<data name="PROJECT_CONFIG_NULL" xml:space="preserve">
+		<value>Project configuration does not exist</value>
+	</data>
+	<data name="PROJECT_CONFIGURATION" xml:space="preserve">
+		<value>Launch configuration</value>
+	</data>
+	<data name="PROJECT_DOWNLOAD_ERROR" xml:space="preserve">
+		<value>An error occurred while downloading project '{{project_name}}'</value>
+	</data>
+	<data name="PROJECT_WAS_REMOVED" xml:space="preserve">
+		<value>Current project was removed. The editor going to close now</value>
+	</data>
+	<data name="PROPERTY_INSPECTOR" xml:space="preserve">
+		<value>Properties</value>
+	</data>
+	<data name="READ_LAUNCH_ARGS_RABBIT_ERROR" xml:space="preserve">
+		<value>Error. Server is unavailable</value>
+	</data>
+	<data name="REFRESH" xml:space="preserve">
+		<value>Refresh</value>
+	</data>
+	<data name="RELOAD" xml:space="preserve">
+		<value>Reload</value>
+	</data>
+	<data name="REMOVED_OBJECTS_WARNING" xml:space="preserve">
+		<value>One or more objects have been removed from the Varwin XRMS library. In order to save the scene data, please remove the missing objects from the scene</value>
+	</data>
+	<data name="REMOVED_OBJECTS_WARNING_SUCCESS" xml:space="preserve">
+		<value>All objects missing from the library have been removed. You can save the scene !</value>
+	</data>
+	<data name="REMOVED_RESOURCES_WARNING" xml:space="preserve">
+		<value>The resources used in the scene have been removed from the Varwin XRMS library. Please change the values of the properties that use the missing resources.</value>
+	</data>
+	<data name="REMOVED_RESOURCES_WARNING_SUCCESS" xml:space="preserve">
+		<value>Missing resources are no longer used in the scene. You can save the project !</value>
+	</data>
+	<data name="RESET_CHANGES" xml:space="preserve">
+		<value>Reset changes</value>
+	</data>
+	<data name="RESOURCE_MISSING_AUDIO" xml:space="preserve">
+		<value>Audio</value>
+	</data>
+	<data name="RESOURCE_MISSING_BASE" xml:space="preserve">
+		<value>Resources are not displayed because no standard objects found for resource reproduction: </value>
+	</data>
+	<data name="RESOURCE_MISSING_IMAGE" xml:space="preserve">
+		<value>Image</value>
+	</data>
+	<data name="RESOURCE_MISSING_MODEL" xml:space="preserve">
+		<value>3D Model</value>
+	</data>
+	<data name="RESOURCE_MISSING_VIDEO" xml:space="preserve">
+		<value>Video</value>
+	</data>
+	<data name="RESOURCE_SELECT_WINDOW" xml:space="preserve">
+		<value>Select Resource</value>
+	</data>
+	<data name="RESOURCES" xml:space="preserve">
+		<value>Resources</value>
+	</data>
+	<data name="RESOURCES_NOT_FOUND" xml:space="preserve">
+		<value>Resources not found.</value>
+	</data>
+	<data name="RESOURCES_OBJECTS" xml:space="preserve">
+		<value>Resources in library</value>
+	</data>
+	<data name="RETURN" xml:space="preserve">
+		<value>Return</value>
+	</data>
+	<data name="ROOM_CREATING" xml:space="preserve">
+		<value>Creating room...</value>
+	</data>
+	<data name="ROTATION" xml:space="preserve">
+		<value>Rotation</value>
+	</data>
+	<data name="RUNTIME_CODE_ERROR" xml:space="preserve">
+		<value>Runtime code error</value>
+	</data>
+	<data name="SATURATION" xml:space="preserve">
+		<value>Saturation</value>
+	</data>
+	<data name="SAVE" xml:space="preserve">
+		<value>Save</value>
+	</data>
+	<data name="SAVE_ERROR" xml:space="preserve">
+		<value>Can't save</value>
+	</data>
+	<data name="SAVED" xml:space="preserve">
+		<value>Saved</value>
+	</data>
+	<data name="SCALE" xml:space="preserve">
+		<value>Scale</value>
+	</data>
+	<data name="SCENE_LOADING" xml:space="preserve">
+		<value>Scene template loading...</value>
+	</data>
+	<data name="SCENE_OBJECTS" xml:space="preserve">
+		<value>Objects on scene</value>
+	</data>
+	<data name="SCENE_OBJECTS_CHANGED" xml:space="preserve">
+		<value>Scene was changed by another user. Do you want to save yours or reload to new version?</value>
+	</data>
+	<data name="SCENE_OBJECTS_HAVE_NOT_SAVED_BEHAVIOURS_CONSOLE" xml:space="preserve">
+		<value>Some objects have different standard behaviors on the server and client side. Open the project in edit mode and try to save scene. Wrong objects: 
+{0}</value>
+	</data>
+	<data name="SCENE_OBJECTS_HAVE_NOT_SAVED_BEHAVIOURS_POPUP" xml:space="preserve">
+		<value>There are invalid objects in the scene. Open the console (press ~) to see a detailed description.</value>
+	</data>
+	<data name="SCENE_OBJECTS_SAVED_AFTER_UPDATE" xml:space="preserve">
+		<value>After updating the objects, the scene will be automatically saved</value>
+	</data>
+	<data name="SCENE_PREPARATION" xml:space="preserve">
+		<value>Scene preparation...</value>
+	</data>
+	<data name="SCENE_SAVED" xml:space="preserve">
+		<value>Scene saved successfully</value>
+	</data>
+	<data name="SCENE_TEMPLATE_CHANGED" xml:space="preserve">
+		<value>Scene template was changed. Do you want to save and reload scene?</value>
+	</data>
+	<data name="SCENE_WAS_REMOVED" xml:space="preserve">
+		<value>Current scene was removed. The editor going to close now</value>
+	</data>
+	<data name="SEND_REPORT" xml:space="preserve">
+		<value>Send report</value>
+	</data>
+	<data name="SET_MODE_SAVE_POPUP_MESSAGE" xml:space="preserve">
+		<value>Do you want to save the changes made to the scene?</value>
+	</data>
+	<data name="SETTINGS" xml:space="preserve">
+		<value>Settings</value>
+	</data>
+	<data name="SIZE" xml:space="preserve">
+		<value>Size</value>
+	</data>
+	<data name="SOME_OBJECTS_IS_NOT_LINUX_READY_MESSAGE" xml:space="preserve">
+		<value>Some objects or scene templates you are using do not have Linux support, please try updating to a supported version</value>
+	</data>
+	<data name="SOME_OBJECTS_IS_NOT_LINUX_READY_TITLE" xml:space="preserve">
+		<value>There is a problem</value>
+	</data>
+	<data name="SPACE_MODE_LOCAL" xml:space="preserve">
+		<value>Local</value>
+	</data>
+	<data name="SPACE_MODE_WORLD" xml:space="preserve">
+		<value>World</value>
+	</data>
+	<data name="SPAWN_PAID_WINDOW_BUY_LICENSE" xml:space="preserve">
+		<value>Buy a license</value>
+	</data>
+	<data name="SPAWN_PAID_WINDOW_CLOSE" xml:space="preserve">
+		<value>Close</value>
+	</data>
+	<data name="SPAWN_PAID_WINDOW_TITLE" xml:space="preserve">
+		<value>This object can only be used with paid Varwin licenses</value>
+	</data>
+	<data name="SPAWN_POINT_ERROR" xml:space="preserve">
+		<value>Player spawn point not found</value>
+	</data>
+	<data name="SPAWN_WITH_PARENT" xml:space="preserve">
+		<value>Create new objects, assigning this object as parent</value>
+	</data>
+	<data name="SPAWNING_SCENE_OBJECTS" xml:space="preserve">
+		<value>Spawning scene objects</value>
+	</data>
+	<data name="STEAM_VR_INITIALIZATION" xml:space="preserve">
+		<value>Steam VR Initialization</value>
+	</data>
+	<data name="TOOLTIP_AR_MODE" xml:space="preserve">
+		<value>Preview in AR</value>
+	</data>
+	<data name="TOOLTIP_COLLIDER_VISUALIZATION_EDGES" xml:space="preserve">
+		<value>Change collider visualization mode [Ctrl-Alt-C]
+		
+Edges only</value>
+	</data>
+	<data name="TOOLTIP_COLLIDER_VISUALIZATION_NONE" xml:space="preserve">
+		<value>Change collider visualization mode [Ctrl-Alt-C]
+		
+No collider visualization</value>
+	</data>
+	<data name="TOOLTIP_COLLIDER_VISUALIZATION_SOLID" xml:space="preserve">
+		<value>Change collider visualization mode [Ctrl-Alt-C]
+		
+Edges and faces</value>
+	</data>
+	<data name="TOOLTIP_COPY" xml:space="preserve">
+		<value>Copy [Ctrl-C]</value>
+	</data>
+	<data name="TOOLTIP_DESKTOP_PLAYER_MODE" xml:space="preserve">
+		<value>Preview on desktop</value>
+	</data>
+	<data name="TOOLTIP_DOCUMENTATION_LINK" xml:space="preserve">
+		<value>Open documentation link</value>
+	</data>
+	<data name="TOOLTIP_HAND_TOOL" xml:space="preserve">
+		<value>Hand Tool [Q]</value>
+	</data>
+	<data name="TOOLTIP_MOVE_TOOL" xml:space="preserve">
+		<value>Move Tool [W]</value>
+	</data>
+	<data name="TOOLTIP_NETTLEDESK_MODE" xml:space="preserve">
+		<value>Preview on Illumetry IO mode</value>
+	</data>
+	<data name="TOOLTIP_PASTE" xml:space="preserve">
+		<value>Paste [Ctrl-V]</value>
+	</data>
+	<data name="TOOLTIP_PIVOT_MODE_CENTER" xml:space="preserve">
+		<value>Toggle Tool Handle Position [Z]
+
+The tool handle is placed at the center of the selection.</value>
+	</data>
+	<data name="TOOLTIP_PIVOT_MODE_PIVOT" xml:space="preserve">
+		<value>Toggle Tool Handle Position [Z]
+
+The tool handle is placed at the active object's pivot point.</value>
+	</data>
+	<data name="TOOLTIP_REDO" xml:space="preserve">
+		<value>Redo [Ctrl-Y]</value>
+	</data>
+	<data name="TOOLTIP_ROTATE_TOOL" xml:space="preserve">
+		<value>Rotate Tool [E]</value>
+	</data>
+	<data name="TOOLTIP_SAVE" xml:space="preserve">
+		<value>Save [Ctrl-S]</value>
+	</data>
+	<data name="TOOLTIP_SCALE_TOOL" xml:space="preserve">
+		<value>Scale Tool [R]</value>
+	</data>
+	<data name="TOOLTIP_UNDO" xml:space="preserve">
+		<value>Undo [Ctrl-Z]</value>
+	</data>
+	<data name="TOOLTIP_VERSION_CONTROL" xml:space="preserve">
+		<value>Object version control window</value>
+	</data>
+	<data name="TOOLTIP_VR_MODE" xml:space="preserve">
+		<value>Preview in VR</value>
+	</data>
+	<data name="TOOLTIP_WORLD_MODE_GLOBAL" xml:space="preserve">
+		<value>Toggle Tool Handle Rotation [X]
+
+Tool handles are in global rotation.</value>
+	</data>
+	<data name="TOOLTIP_WORLD_MODE_LOCAL" xml:space="preserve">
+		<value>Toggle Tool Handle Rotation [X]
+
+Tool handles are in the active object's rotation.</value>
+	</data>
+	<data name="TRANSFORM" xml:space="preserve">
+		<value>Transform</value>
+	</data>
+	<data name="TRY_AGAIN" xml:space="preserve">
+		<value>Try again</value>
+	</data>
+	<data name="TRY_TO_CONNECT_TO_RANDOM_ROOM" xml:space="preserve">
+		<value>Trying to connect to random room...</value>
+	</data>
+	<data name="TYPE_ARRAY" xml:space="preserve">
+		<value>Array of elements of type {0}</value>
+	</data>
+	<data name="TYPE_BOOLEAN" xml:space="preserve">
+		<value>Logical type</value>
+	</data>
+	<data name="TYPE_COLOR" xml:space="preserve">
+		<value>Color</value>
+	</data>
+	<data name="TYPE_DOUBLE" xml:space="preserve">
+		<value>Fractional number</value>
+	</data>
+	<data name="TYPE_INTEGER" xml:space="preserve">
+		<value>Whole number</value>
+	</data>
+	<data name="TYPE_LIST" xml:space="preserve">
+		<value>List of elements of type {0}</value>
+	</data>
+	<data name="TYPE_LIST_NO_PARAMETER" xml:space="preserve">
+		<value>List of elements</value>
+	</data>
+	<data name="TYPE_NULL" xml:space="preserve">
+		<value>null</value>
+	</data>
+	<data name="TYPE_STRING" xml:space="preserve">
+		<value>string</value>
+	</data>
+	<data name="TYPE_VECTOR" xml:space="preserve">
+		<value>Vector</value>
+	</data>
+	<data name="TYPE_WRAPPER" xml:space="preserve">
+		<value>Object</value>
+	</data>
+	<data name="UNKNOWN_ERROR" xml:space="preserve">
+		<value>Unknown error</value>
+	</data>
+	<data name="UNLINK_PARENT" xml:space="preserve">
+		<value>Unparent object</value>
+	</data>
+	<data name="VALIDATE_METHOD_EXCEPTION" xml:space="preserve">
+		<value>The argument &lt;Color=lightblue&gt;{0}&lt;/Color&gt; expects type: &lt;Color=lightblue&gt;{1}&lt;/Color&gt;, and &lt;Color=red&gt;{2} ({3}) is passed.&lt;/Color&gt; To fix the error, change the argument value. </value>
+	</data>
+	<data name="VERSION_CHANGE_UNSAVED" xml:space="preserve">
+		<value>When you change version of an object or a scene template, all unsaved changes will be lost</value>
+	</data>
+	<data name="WARNING" xml:space="preserve">
+		<value>Warning</value>
+	</data>
+	<data name="WRONG_LOGIN_OR_PASSWORD" xml:space="preserve">
+		<value>Wrong login or password
+</value>
+	</data>
+	<data name="YES" xml:space="preserve">
+		<value>Yes</value>
+	</data>
+	<data name="YOU_CAN_GO_TO_PREVIEW_MODE" xml:space="preserve">
+		<value>You can also switch to &lt;link="set_dp_mode"&gt;&lt;b&gt;&lt;u&gt;PC preview mode&lt;/u&gt;&lt;/b&gt;&lt;/link&gt;.</value>
+	</data>
+</root>

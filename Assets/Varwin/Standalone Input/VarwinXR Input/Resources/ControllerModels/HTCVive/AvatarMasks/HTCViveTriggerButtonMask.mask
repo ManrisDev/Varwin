@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HTCViveTriggerButtonMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: HandLeft_Group
+    m_Weight: 0
+  - m_Path: HandLeft_Group/HandLeft
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandIndex1
+    m_Weight: 1
+  - m_Path: HandLeft_Group/LeftHand/LeftHandIndex1/LeftHandIndex2
+    m_Weight: 1
+  - m_Path: HandLeft_Group/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3
+    m_Weight: 1
+  - m_Path: HandLeft_Group/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3/LeftHandIndex4
+    m_Weight: 1
+  - m_Path: HandLeft_Group/LeftHand/LeftHandMiddle1
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandMiddle1/LeftHandMiddle2
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3/LeftHandMiddle4
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandPinky1
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandPinky1/LeftHandPinky2
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3/LeftHandPinky4
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandRing1
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandRing1/LeftHandRing2
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3/LeftHandRing4
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandThumb1
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandThumb1/LeftHandThumb2
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3/LeftHandThumb4
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/LED_group1
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/base
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/base/attach_point_10
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/body
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/body/attach_point_9
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/body/mesh_9
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/body/mesh_9/body_group1
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/button
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/button/attach_point_6
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/button/mesh_6
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/button/mesh_6/menu_but_group1
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/gdc2015
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/gdc2015/attach_point_11
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/grip
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/grip/attach_point_15
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/handgrip
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/handgrip/attach_point_14
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/led
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/led/attach_point_8
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/led/mesh_8
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/lgrip
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/lgrip/attach_point_3
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/lgrip/mesh_3
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/lgrip/mesh_3/l_gripper_group1
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/openxr_handmodel
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/openxr_handmodel/attach_point_16
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/openxr_handmodel_r
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/openxr_handmodel_r/attach_point_17
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/rgrip
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/rgrip/attach_point_4
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/rgrip/mesh_4
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/rgrip/mesh_4/r_gripper_group1
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/scroll_wheel
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/scroll_wheel/attach_point_18
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/scroll_wheel/mesh_10
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/sys_button
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/sys_button/attach_point_5
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/sys_button/mesh_5
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/sys_button/mesh_5/sys_but_group1
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/tip
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/tip/attach_point_12
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/trackpad
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/trackpad/attach_point_1
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/trackpad/mesh_1
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/trackpad/mesh_1/trackpad_group1
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/trackpad_scroll_cut
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/trackpad_scroll_cut/mesh_11
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/trackpad_touch
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/trackpad_touch/attach_point_2
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/trackpad_touch/mesh_2
+    m_Weight: 0
+  - m_Path: vr_controller_vive_1_5/root/trigger
+    m_Weight: 1
+  - m_Path: vr_controller_vive_1_5/root/trigger/attach_point
+    m_Weight: 1
+  - m_Path: vr_controller_vive_1_5/root/trigger/mesh
+    m_Weight: 1
+  - m_Path: vr_controller_vive_1_5/root/trigger/mesh/trigger_group1
+    m_Weight: 1

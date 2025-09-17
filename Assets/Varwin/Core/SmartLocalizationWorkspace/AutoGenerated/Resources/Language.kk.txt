@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="ACTIONS" xml:space="preserve">
+		<value>Әрекеттер</value>
+	</data>
+	<data name="ARRAY_ELEMENT" xml:space="preserve">
+		<value>Элемент</value>
+	</data>
+	<data name="BACKUP_LOCALIZATION_STRING" xml:space="preserve">
+		<value>Сахна өзгерістер тарихынан қалпына келтірілді. Клиент қайта жүктеледі</value>
+	</data>
+	<data name="BLOCK_ACTION_PREFIX" xml:space="preserve">
+		<value>орындау</value>
+	</data>
+	<data name="BLOCK_CHECKER_PREFIX" xml:space="preserve">
+		<value>BLOCK_CHECKER_PREFIX</value>
+	</data>
+	<data name="BLOCK_EVENT_PREFIX" xml:space="preserve">
+		<value>оқиғаға орындау:</value>
+	</data>
+	<data name="BLOCK_FUNCTION_PREFIX" xml:space="preserve">
+		<value>орындау</value>
+	</data>
+	<data name="BLOCK_GETTER_PREFIX" xml:space="preserve">
+		<value>объектіден алу</value>
+	</data>
+	<data name="BLOCK_SETTER_PREFIX" xml:space="preserve">
+		<value>орнату</value>
+	</data>
+	<data name="BRIGHTNESS" xml:space="preserve">
+		<value>Жарықтық</value>
+	</data>
+	<data name="BUTTON" xml:space="preserve">
+		<value>Қарапайым батырма</value>
+	</data>
+	<data name="CAMERA_SETTINGS_LABEL" xml:space="preserve">
+		<value>Камераны тегістеу</value>
+	</data>
+	<data name="CANCEL" xml:space="preserve">
+		<value>Бас тарту</value>
+	</data>
+	<data name="CANNOT_NOT_PREVIEW" xml:space="preserve">
+		<value>Алдын ала қарау режимінде бұл мүмкін емес</value>
+	</data>
+	<data name="CHOOSE_PARENT" xml:space="preserve">
+		<value>Түпкі объектіні тағайындау</value>
+	</data>
+	<data name="CHOOSE_PROJECT_CONFIG" xml:space="preserve">
+		<value>Әлем конфигурациясын таңдаңыз</value>
+	</data>
+	<data name="CLIENT_TERMINATE" xml:space="preserve">
+		<value>Редактор жабылады. Өзгерістерді сақтағыңыз келе ме?</value>
+	</data>
+	<data name="CLOSE_APP" xml:space="preserve">
+		<value>Қолданбаны жабу керек пе?</value>
+	</data>
+	<data name="CLOSE_BUTTON" xml:space="preserve">
+		<value>Жабу</value>
+	</data>
+	<data name="COLLIDER_VISUALIZATION_EDGES" xml:space="preserve">
+		<value>Қырлар</value>
+	</data>
+	<data name="COLLIDER_VISUALIZATION_NONE" xml:space="preserve">
+		<value>Жоқ</value>
+	</data>
+	<data name="COLLIDER_VISUALIZATION_SOLID" xml:space="preserve">
+		<value>Жазықтықтар</value>
+	</data>
+	<data name="COLOR_PICKER_WINDOW" xml:space="preserve">
+		<value>Түр-түсті таңдау</value>
+	</data>
+	<data name="COMPILE_CODE_ERROR" xml:space="preserve">
+		<value>Компиляция қатесі</value>
+	</data>
+	<data name="CONNECTING" xml:space="preserve">
+		<value>Қосу...</value>
+	</data>
+	<data name="CONNECTION_ERROR" xml:space="preserve">
+		<value>Қосылыс жоғалды, қайтадан қосылып көріңіз</value>
+	</data>
+	<data name="CONTROLLER_EMULATION" xml:space="preserve">
+		<value>Контроллерді эмуляциялау</value>
+	</data>
+	<data name="CURRENT_SCENE_TEMPLATE_DELETED" xml:space="preserve">
+		<value>Сахнаның ағымдағы шаблоны жойылды</value>
+	</data>
+	<data name="DELETE_OBJECT" xml:space="preserve">
+		<value>Жою</value>
+	</data>
+	<data name="DISABLED" xml:space="preserve">
+		<value>Ағытылған</value>
+	</data>
+	<data name="DISPLAY" xml:space="preserve">
+		<value>Қарапайым дисплей</value>
+	</data>
+	<data name="ENABLE_IN_BLOCKLY_EDITOR" xml:space="preserve">
+		<value>Blockly-де пайдалану</value>
+	</data>
+	<data name="ENTER_ROOM" xml:space="preserve">
+		<value>Бөлмеге кіру...</value>
+	</data>
+	<data name="ENVIRONMENT_ERROR" xml:space="preserve">
+		<value>Қоршаған ортаны теңшеу қатесі</value>
+	</data>
+	<data name="ENVIRONMENT_NOT_FOUND" xml:space="preserve">
+		<value>Қате. Сахна шаблоны жүктелген жоқ</value>
+	</data>
+	<data name="ERROR_API_CLIENT_VERSION_MISMATCH" xml:space="preserve">
+		<value>Қате. RMS және клиент нұсқалары сәйкес емес. RMS нұсқасы '{{rms_version}}', клиент нұсқасы '{{client_version}}'</value>
+	</data>
+	<data name="ERROR_CANT_CLONE_A_CLONED_OBJECT" xml:space="preserve">
+		<value>'{{object_name}}' объектісін клондау мүмкін емес, өйткені оның өзі клон.</value>
+	</data>
+	<data name="ERROR_CANT_CLONE_AT_POSITION_TYPE_MISMATCH" xml:space="preserve">
+		<value>'{{object_name}}' объектісін берілген позицияға клондау мүмкін емес, өйткені позиция мәнінде '{{type}}' қате типті объект берілген, ал күтілетіні -'{{need_type}}'.</value>
+	</data>
+	<data name="ERROR_CANT_CLONE_EMBEDDED_OBJECT" xml:space="preserve">
+		<value>'{{object_name}}' объектісін клондау мүмкін емес, өйткені ол сахнаға кіріктірілген.</value>
+	</data>
+	<data name="ERROR_CANT_CLONE_TYPE_MISMATCH" xml:space="preserve">
+		<value>Клондау мүмкін емес, өйткені '{{type}}' қате типі жіберілген, ал күтілетіні 'object'.</value>
+	</data>
+	<data name="ERROR_CANT_CLONE_UNCLONABLE_OBJECT" xml:space="preserve">
+		<value>'{{object_name}}' объектісін клондау мүмкін емес, өйткені ол клондалмайтын объект болып табылады.</value>
+	</data>
+	<data name="ERROR_DESKTOP_POPUP_MESSAGE" xml:space="preserve">
+		<value>Логикада/объектіде қате болды. Жобаның тұрақсыз жұмыс істеуі мүмкін</value>
+	</data>
+	<data name="ERROR_DESTROY_CLONE_IS_NOT_CLONE" xml:space="preserve">
+		<value>"{{object_name}}" объектісін жою мүмкін емес, өйткені ол клон емес.</value>
+	</data>
+	<data name="ERROR_DESTROY_CLONE_OBJECT_NOT_EXISTS" xml:space="preserve">
+		<value>Сіз жоймақ болған нысан жоқ.</value>
+	</data>
+	<data name="ERROR_DESTROY_CLONE_TYPE_MISMATCH" xml:space="preserve">
+		<value>Клонды жою мүмкін емес, өйткені '{{type}}' қате типі жіберілген, ал күтілгені 'object'.</value>
+	</data>
+	<data name="ERROR_DESTROY_CLONES_IS_NOT_ORIGINAL" xml:space="preserve">
+		<value>"{{object_name}}" объектісін жою мүмкін емес, себебі ол клондау түпнұсқасы емес.</value>
+	</data>
+	<data name="ERROR_DESTROY_CLONES_TYPE_MISMATCH" xml:space="preserve">
+		<value>Объектінің клондарын жою мүмкін емес, өйткені '{{type}}' қате типі жіберілген, ал күтілетіні - 'object'.</value>
+	</data>
+	<data name="ERROR_GET_CLONES_IS_NOT_ORIGINAL" xml:space="preserve">
+		<value>'{{object_name}}' объектісінің клондарының тізімін алу мүмкін емес, өйткені ол түпнұсқа объект емес.</value>
+	</data>
+	<data name="ERROR_GET_CLONES_TYPE_MISMATCH" xml:space="preserve">
+		<value>Объект клондарының тізімін алу мүмкін емес, өйткені '{{type}}' қате типі жіберілген, күтілетіні - 'object'.</value>
+	</data>
+	<data name="ERROR_GET_SERVER_CONFIG" xml:space="preserve">
+		<value>Серверден конфигурацияны алу қатесі.</value>
+	</data>
+	<data name="ERROR_IS_CLONE_TYPE_MISMATCH" xml:space="preserve">
+		<value>Объектінің клон екенін-еместігін анықтау мүмкін емес, өйткені '{{type}}' қате типі берілген, ал күтілетіні - 'object'.</value>
+	</data>
+	<data name="ERROR_IS_DESTROYED_TYPE_MISMATCH" xml:space="preserve">
+		<value>Объектінің жойылған-жойылмағанын анықтау мүмкін емес, өйткені '{{type}}' қате типі берілген, ал күтілетіні - 'object'.</value>
+	</data>
+	<data name="ERROR_LIST_IS_EMPTY" xml:space="preserve">
+		<value>Тізім бос.</value>
+	</data>
+	<data name="ERROR_LIST_OUT_OF_RANGE" xml:space="preserve">
+		<value>[{{current_index}}] индексі [{{array_length}}] тізімінің ұзындығынан үлкен.</value>
+	</data>
+	<data name="ERROR_LIST_WRONG_INDEX_TYPE" xml:space="preserve">
+		<value>Қате индекс типі. Берілген индекс типі: {{index_type}}. Қажетті индекс типі: бүтін сан.</value>
+	</data>
+	<data name="ERROR_LIST_WRONG_TYPE" xml:space="preserve">
+		<value>Айнымалының қате типі. Берілген тип - {{provided_type}}. Қажетті тип - {{required_type}}.</value>
+	</data>
+	<data name="ERROR_LOCAL_SERVER_CONNECTION" xml:space="preserve">
+		<value>&lt;b&gt;Локалдық серверге қосылу қатесі.&lt;/b&gt;
+Сіздің ДК-дағы прокси теңшеулерін тексеруді өтінеміз. Егер прокси сервер пайдаланылса, localhost және 127.0.0.1 мекенжайларын еленбейтін тізімдерге қосыңыз.</value>
+	</data>
+	<data name="ERROR_LOCAL_SERVER_PARSE_CONFIG" xml:space="preserve">
+		<value>&lt;b&gt;Локалдық серверден қате жауап. &lt;/b&gt;
+Сіздің ДК-дағы прокси теңшеулерін тексеруді өтінеміз. Егер прокси сервер пайдаланылса, localhost және 127.0.0.1 мекенжайларын еленбейтін тізімдерге қосыңыз.</value>
+	</data>
+	<data name="ERROR_POPUP_MESSAGE" xml:space="preserve">
+		<value>Логикада/объектіде қате болды. Жобаның тұрақсыз жұмыс істеуі мүмкін</value>
+	</data>
+	<data name="ERROR_POPUP_TITLE" xml:space="preserve">
+		<value>Бірдеңе дұрыс болмады</value>
+	</data>
+	<data name="ERROR_PROJECT_LAUNCH" xml:space="preserve">
+		<value>Жобаны іске қосу кезінде қате болды. Жоба файлдары бүлінген немесе қате жүктелген болуы мүмкін</value>
+	</data>
+	<data name="ERROR_READ_STARTUP_ARGS" xml:space="preserve">
+		<value>Қате. Старттық параметрлерді оқу мүмкін емес</value>
+	</data>
+	<data name="ERROR_REMOTE_SERVER_CONNECTION" xml:space="preserve">
+		<value>&lt;b&gt;Қашықтағы серверге қосылу қатесі.&lt;/b&gt;
+Тексеруді өтінеміз:
+1. Сервердің мекенжайы мен порты дұрыс көрсетілгенін (XRMS "Серверлер" теңшеулерінде)
+2. Серверде Varwin Server Edition лицензиясының болуын
+3. Интернет қосылымының болуын
+4. Пайдаланылатын порт сыртқы қосылыстар үшін ашық екенін</value>
+	</data>
+	<data name="ERROR_REMOTE_SERVER_PARSE_CONFIG" xml:space="preserve">
+		<value>&lt;b&gt;Қашықтағы серверден қате жауап. &lt;/b&gt;
+Тексеруді өтінеміз:
+1. Сервердің мекенжайы мен порты дұрыс көрсетілгенін (XRMS "Серверлер" теңшеулерінде)
+2. Серверде Varwin Server Edition лицензиясының болуын
+3. Интернет қосылымының болуын</value>
+	</data>
+	<data name="ERROR_SERVER_DISCONNECT" xml:space="preserve">
+		<value>Қате. Сервер жауап бермейді</value>
+	</data>
+	<data name="ERROR_TITLE" xml:space="preserve">
+		<value>Қате</value>
+	</data>
+	<data name="ERROR_VR_POPUP_MESSAGE" xml:space="preserve">
+		<value>Шлемді шешіп, ДК редакторында қатені қараңыз</value>
+	</data>
+	<data name="ERRORS_ERROR_IN_METHOD" xml:space="preserve">
+		<value>Қате: &lt;color=lightblue&gt;{0}&lt;/color&gt;. &lt;color=lightblue&gt;{1}&lt;/color&gt; аргументінің күтетіні &lt;color=lightblue&gt;{2}&lt;/color&gt;, ал &lt;color=red&gt;{4}&lt;/color&gt; мәнімен &lt;color=red&gt;{3}&lt;/color&gt; берілген</value>
+	</data>
+	<data name="ERRORS_ERROR_IN_SETTER" xml:space="preserve">
+		<value>Қате: &lt;color=lightblue&gt;{0}&lt;/color&gt; Талап етілетін тип: &lt;Color=lightblue&gt;{1}&lt;/Color&gt;. Берілген тип: &lt;Color=red&gt;{2}&lt;/Color&gt;. Қатені жою үшін, қасиеттің берілген мәнін блоклиде өзгертіңіз.</value>
+	</data>
+	<data name="EXCEPTION_IN_OBJECT" xml:space="preserve">
+		<value>Объектідегі қате</value>
+	</data>
+	<data name="EXECUTE_LOGIC_ERROR" xml:space="preserve">
+		<value>Логиканы орындау қатесі</value>
+	</data>
+	<data name="EXIT" xml:space="preserve">
+		<value>Шығу</value>
+	</data>
+	<data name="EXIT_DESKTOP_PLAYER_MESSAGE" xml:space="preserve">
+		<value>ДК-да қарау режимінен шыққыңыз келетініне сенімдісіз бе?</value>
+	</data>
+	<data name="EXIT_DESKTOP_PLAYER_TITLE" xml:space="preserve">
+		<value>ДК-да қарау режимінен шығу</value>
+	</data>
+	<data name="EXIT_NETTLEDESK_PLAYER_MESSAGE" xml:space="preserve">
+		<value>NettleDesk режимінен шыққыңыз келетініне сенімдісіз бе?</value>
+	</data>
+	<data name="EXIT_NETTLEDESK_PLAYER_TITLE" xml:space="preserve">
+		<value>NettleDesk режимінен шығу</value>
+	</data>
+	<data name="EXIT_TO_AR" xml:space="preserve">
+		<value>AR-ға ауысып қосылу</value>
+	</data>
+	<data name="EXIT_TO_DESKTOP" xml:space="preserve">
+		<value>VR өшіру</value>
+	</data>
+	<data name="EXIT_TO_DESKTOP_FROM_AR" xml:space="preserve">
+		<value>АR өшіру</value>
+	</data>
+	<data name="EXIT_TO_DESKTOP_FROM_NETTLEDESK" xml:space="preserve">
+		<value>NettleDesk өшіру</value>
+	</data>
+	<data name="EXIT_TO_EDIT" xml:space="preserve">
+		<value>Редакторлау режимі</value>
+	</data>
+	<data name="EXIT_TO_MAIN_MENU" xml:space="preserve">
+		<value>Негізгі мәзірге шығу керек пе?</value>
+	</data>
+	<data name="EXIT_TO_NETTLEDESK" xml:space="preserve">
+		<value>NettleDesk-ке ауысып қосылу</value>
+	</data>
+	<data name="EXIT_TO_VR" xml:space="preserve">
+		<value>VR-ға ауысып қосылу</value>
+	</data>
+	<data name="EXIT_VR_PLAYER_MESSAGE" xml:space="preserve">
+		<value>Сіз VR қарау режимінен шыққыңыз келетініне сенімдісіз бе?</value>
+	</data>
+	<data name="EXIT_VR_PLAYER_TITLE" xml:space="preserve">
+		<value>VR қарау режимінен шығу</value>
+	</data>
+	<data name="FIELD_OF_VIEW" xml:space="preserve">
+		<value>Шолу бұрышы</value>
+	</data>
+	<data name="GET_SCENE_TEMPLATE_DATA" xml:space="preserve">
+		<value>Сахна шаблоны туралы деректерді алу...</value>
+	</data>
+	<data name="GROUP_NOT_SAVED" xml:space="preserve">
+		<value>Сақталмаған өзгерістер жоғалады. Сақтау керек пе?</value>
+	</data>
+	<data name="HEADSET_NOT_FOUND_HINT" xml:space="preserve">
+		<value>1. VR-шлем компьютерге қосулы тұрғанына көз жеткізіңіз.
+2. Сізде &lt;link="start_openxr"&gt;&lt;b&gt;&lt;u&gt;OpenXR&lt;/u&gt;&lt;/b&gt;&lt;/link&gt; орындау ортасы іске қосылғанын тексеріңіз.
+3. Бағдарламаны қайтадан іске қосыңыз.</value>
+	</data>
+	<data name="HEADSET_NOT_FOUND_WITH_SETTINGS" xml:space="preserve">
+		<value>1. VR-шлем компьютерге қосулы тұрғанына көз жеткізіңіз.
+2. Сізде &lt;link="start_openxr"&gt;&lt;b&gt;&lt;u&gt;OpenXR&lt;/u&gt;&lt;/b&gt;&lt;/link&gt; орындау ортасы іске қосылғанын тексеріңіз.
+3. &lt;link="open_settings"&gt;&lt;b&gt;&lt;u&gt; мына теңшеулерде:&lt;/u&gt;&lt;/b&gt;&lt;/link&gt; өзекті орындау ортасы: &lt;link="start_openxr"&gt;&lt;b&gt;&lt;u&gt;OpenXR&lt;/u&gt;&lt;/b&gt;&lt;/link&gt; орнатылғанын тексеріңіз.
+4. Бағдарламаны қайтадан іске қосыңыз.</value>
+	</data>
+	<data name="HEADSET_TRACKING_LOST" xml:space="preserve">
+		<value>Шлем табылған жоқ</value>
+	</data>
+	<data name="HIERARCHY" xml:space="preserve">
+		<value>Объектілер</value>
+	</data>
+	<data name="HIERARCHY_SCENE" xml:space="preserve">
+		<value>Сахна</value>
+	</data>
+	<data name="HIERARCHY_SCENE_TEMPLATE" xml:space="preserve">
+		<value>Сахна шаблоны</value>
+	</data>
+	<data name="HUE" xml:space="preserve">
+		<value>Тон</value>
+	</data>
+	<data name="IN_OBJECT_HAS_ERROR" xml:space="preserve">
+		<value>Объектіде қате орын алды</value>
+	</data>
+	<data name="INIT_LOGIC_ERROR" xml:space="preserve">
+		<value>Логиканы инициализациялау қатесі</value>
+	</data>
+	<data name="INSPECTOR" xml:space="preserve">
+		<value>Инспектор</value>
+	</data>
+	<data name="INSPECTOR_MISSING_RESOURCE" xml:space="preserve">
+		<value>Жоқ</value>
+	</data>
+	<data name="INSPECTOR_PROPERTY_ACTION" xml:space="preserve">
+		<value>Әрекет</value>
+	</data>
+	<data name="INSPECTOR_PROPERTY_OBJECT_NAME" xml:space="preserve">
+		<value>Объектінің аты</value>
+	</data>
+	<data name="INSPECTOR_PROPERTY_PROPERTY_NAME" xml:space="preserve">
+		<value>Қасиеттің аты</value>
+	</data>
+	<data name="INSPECTOR_PROPERTY_RESOURCE_NAME" xml:space="preserve">
+		<value>Ресурстың аты</value>
+	</data>
+	<data name="JOIN_TO_ROOM" xml:space="preserve">
+		<value>Бөлмеге қосу...</value>
+	</data>
+	<data name="LAMP" xml:space="preserve">
+		<value>Қарапайым шам</value>
+	</data>
+	<data name="LETS_GO" xml:space="preserve">
+		<value>Кеттік!</value>
+	</data>
+	<data name="LIBRARY" xml:space="preserve">
+		<value>Кітапхана</value>
+	</data>
+	<data name="LIBRARY_OBJECTS" xml:space="preserve">
+		<value>Кітапханадағы объектілер</value>
+	</data>
+	<data name="LIBRARY_WAS_CHANGED" xml:space="preserve">
+		<value>Кітапхана өзгертілді</value>
+	</data>
+	<data name="LICENSE_KEY_ERROR" xml:space="preserve">
+		<value>Лицензия туралы ақпарат ала алмай жатырмын</value>
+	</data>
+	<data name="LIST_ERROR_GET_FIRST_ITEM" xml:space="preserve">
+		<value>Тізімнің бірінші элементін алу кезіндегі қате.</value>
+	</data>
+	<data name="LIST_ERROR_GET_INDEX_OF_ITEM" xml:space="preserve">
+		<value>Тізім элементінің индексін алу қатесі.</value>
+	</data>
+	<data name="LIST_ERROR_GET_ITEM" xml:space="preserve">
+		<value>Тізім элементін алу қатесі.</value>
+	</data>
+	<data name="LIST_ERROR_GET_LAST_INDEX_OF" xml:space="preserve">
+		<value>Тізім элементінің соңғы кіру индексін табу кезіндегі қате.</value>
+	</data>
+	<data name="LIST_ERROR_GET_LAST_ITEM" xml:space="preserve">
+		<value>Тізімнің соңғы элементін алу кезіндегі қате.</value>
+	</data>
+	<data name="LIST_ERROR_GET_RANDOM_ITEM" xml:space="preserve">
+		<value>Тізімнен кездейсоқ элементті алу қатесі.</value>
+	</data>
+	<data name="LIST_ERROR_GET_SUBLIST" xml:space="preserve">
+		<value>Ішкі тізімді алу кезіндегі қате.</value>
+	</data>
+	<data name="LIST_ERROR_SET_ITEM" xml:space="preserve">
+		<value>Тізімнің мәнін индекс бойынша анықтау кезіндегі қате.</value>
+	</data>
+	<data name="LIST_OF_NOT_LINUX_READY_OBJECTS" xml:space="preserve">
+		<value>Linux қолдауы жоқ объектілер немесе сахна шаблондары</value>
+	</data>
+	<data name="LOAD_CONFIGURATION" xml:space="preserve">
+		<value>іске қосу</value>
+	</data>
+	<data name="LOAD_INVALID_RESOURCE_ERROR" xml:space="preserve">
+		<value>Ресурсты жүктеу қатесі. Файл бүлінген немесе жарамсыз форматта болуы мүмкін.</value>
+	</data>
+	<data name="LOAD_OBJECT_ERROR" xml:space="preserve">
+		<value>Объектіні жүктеу қатесі</value>
+	</data>
+	<data name="LOAD_PROJECTS_ERROR" xml:space="preserve">
+		<value>Жобалардың тізімін жүктеу қатесі</value>
+	</data>
+	<data name="LOAD_RESOURCE_ERROR" xml:space="preserve">
+		<value>Ресурсты жүктеу қатесі</value>
+	</data>
+	<data name="LOAD_SCENE_ERROR" xml:space="preserve">
+		<value>Сахна шаблонын жүктеу қатесі</value>
+	</data>
+	<data name="LOAD_WORKSPACES_ERROR" xml:space="preserve">
+		<value>Жұмыс кеңістіктерінің тізімін жүктеу қатесі</value>
+	</data>
+	<data name="LOADING" xml:space="preserve">
+		<value>Жүктеу</value>
+	</data>
+	<data name="LOADING_AUTHORIZATION" xml:space="preserve">
+		<value>Авторландыру</value>
+	</data>
+	<data name="LOADING_FILE" xml:space="preserve">
+		<value>{{file_size}} Мб-тан {{file_name}}... {{downloaded_size}} жүктеу</value>
+	</data>
+	<data name="LOADING_PROJECTS" xml:space="preserve">
+		<value>Кітапхананы жүктеу</value>
+	</data>
+	<data name="LOADING_SCENE_TEMPLATE" xml:space="preserve">
+		<value>"{{name}}"... сахна шаблонын жүктеудемін</value>
+	</data>
+	<data name="LOADING_SERVER_INFO" xml:space="preserve">
+		<value>Сервер туралы ақпаратты жүктеу</value>
+	</data>
+	<data name="LOADING_WORKSPACES" xml:space="preserve">
+		<value>Жұмыс кеңістіктерін жүктеу</value>
+	</data>
+	<data name="LOCK_CHILDREN" xml:space="preserve">
+		<value>Қарау режимінде иерархияны бекіту</value>
+	</data>
+	<data name="LOCK_HIERARCHY_COMPONENT_TOOLTIP" xml:space="preserve">
+		<value>Ағымдағы объектіні иерархиядағы объектілер үшін түпкі ретінде орнату. Түпкі объектінің барлық ұрпақтары біртұтас болып саналады. </value>
+	</data>
+	<data name="LOCK_SELECTABILITY" xml:space="preserve">
+		<value>Сахнадан ерекшелеуге рұқсат беру</value>
+	</data>
+	<data name="MAINMENU_ACTIVE_OPENXR_RUNTIME" xml:space="preserve">
+		<value>OpenXR орындау ортасы</value>
+	</data>
+	<data name="MAINMENU_AUTHORIZATION_TEXT" xml:space="preserve">
+		<value>Жұмыс кеңістіктеріне кіру үшін пайдаланушының логині мен құпиясөзін енгізіңіз</value>
+	</data>
+	<data name="MAINMENU_AUTHORIZATION_TITLE" xml:space="preserve">
+		<value>Авторландыру</value>
+	</data>
+	<data name="MAINMENU_CANCEL" xml:space="preserve">
+		<value>Бас тарту</value>
+	</data>
+	<data name="MAINMENU_CHANGEWORKSPACE" xml:space="preserve">
+		<value>Ауыстыру</value>
+	</data>
+	<data name="MAINMENU_CONNECT" xml:space="preserve">
+		<value>Қосылу</value>
+	</data>
+	<data name="MAINMENU_CONNECTING_TO_SERVER_TEXT" xml:space="preserve">
+		<value>Varwin жобаларына қол жеткізу үшін сервердің IP-мекенжайын енгізіңіз </value>
+	</data>
+	<data name="MAINMENU_CONNECTING_TO_SERVER_TITLE" xml:space="preserve">
+		<value>Серверге қосылу</value>
+	</data>
+	<data name="MAINMENU_CONNECTING_XRMS_NO_PROJECT" xml:space="preserve">
+		<value>Varwin XRMS-те қолайлы жобалар жоқ</value>
+	</data>
+	<data name="MAINMENU_DELETE_PROJECT" xml:space="preserve">
+		<value>Жою</value>
+	</data>
+	<data name="MAINMENU_ENTER" xml:space="preserve">
+		<value>Кіру</value>
+	</data>
+	<data name="MAINMENU_IPINPUT" xml:space="preserve">
+		<value>IP-мекенжай енгізіңіз...</value>
+	</data>
+	<data name="MAINMENU_LOCAL" xml:space="preserve">
+		<value>Жүктелгендер</value>
+	</data>
+	<data name="MAINMENU_LOGIN" xml:space="preserve">
+		<value>Логин</value>
+	</data>
+	<data name="MAINMENU_LOGOUT" xml:space="preserve">
+		<value>Шығу</value>
+	</data>
+	<data name="MAINMENU_MOBILE_VR_IS_NOT_AVAILABLE" xml:space="preserve">
+		<value>Сіздің Varwin лицензияңыз VR режимін қолдамайды. Лицензия жеткізушісіне хабарласыңыз.</value>
+	</data>
+	<data name="MAINMENU_MULTIPLAYER" xml:space="preserve">
+		<value>Мультиплеер</value>
+	</data>
+	<data name="MAINMENU_MULTIPLAYER_TEXT" xml:space="preserve">
+		<value>Мультиплеер режимі жобаны бірлесіп тестілеуге арналған. Серверге қосылу үшін оның IP-мекенжайын енгізіңіз</value>
+	</data>
+	<data name="MAINMENU_NO_PROJECTS" xml:space="preserve">
+		<value>Жобалар жоқ</value>
+	</data>
+	<data name="MAINMENU_NO_SAVED_PROJECTS" xml:space="preserve">
+		<value>Жүктелген жобалардың тізімі бос. Интернетке кірусіз жұмыс істеу үшін "Сервер" қойындысынан жобаларды жүктеп алыңыз</value>
+	</data>
+	<data name="MAINMENU_NO_SCENES" xml:space="preserve">
+		<value>Қолжетімді сахналар жоқ</value>
+	</data>
+	<data name="MAINMENU_NOTIFICATION_RESTART_VR_MODE" xml:space="preserve">
+		<value>Өзгерістерді қолдану үшін клиентті қайта іске қосыңыз немесе көрсету режимін өзгертіңіз</value>
+	</data>
+	<data name="MAINMENU_OPENXR_SINGLEPASS" xml:space="preserve">
+		<value>Бір жүріспен визуалдау</value>
+	</data>
+	<data name="MAINMENU_OPENXR_SINGLEPASS_WARNING" xml:space="preserve">
+		<value>Назар аударыңыз! Осы жұмыс режиміне бейімделмеген кейбір объектілерді немесе сахналарды визуалдау қиын болуы мүмкін</value>
+	</data>
+	<data name="MAINMENU_PASSWORD" xml:space="preserve">
+		<value>Құпиясөз</value>
+	</data>
+	<data name="MAINMENU_PLAYER_MOVE_TYPE" xml:space="preserve">
+		<value>Орын ауыстыру типі</value>
+	</data>
+	<data name="MAINMENU_POINTER_DIRECTION" xml:space="preserve">
+		<value>Көрсеткіш бағыты</value>
+	</data>
+	<data name="MAINMENU_POINTER_DIRECTION_NATIVE" xml:space="preserve">
+		<value>Әдепкі</value>
+	</data>
+	<data name="MAINMENU_POINTER_DIRECTION_VARWIN" xml:space="preserve">
+		<value>Varwin</value>
+	</data>
+	<data name="MAINMENU_PROJECTS" xml:space="preserve">
+		<value>Жобалар</value>
+	</data>
+	<data name="MAINMENU_REMEMBERME" xml:space="preserve">
+		<value>Есте сақтау</value>
+	</data>
+	<data name="MAINMENU_SAVE_PROJECT" xml:space="preserve">
+		<value>Жүктеу</value>
+	</data>
+	<data name="MAINMENU_SAVED_PROJECTS" xml:space="preserve">
+		<value>Жүктелген жобалар</value>
+	</data>
+	<data name="MAINMENU_SERVER" xml:space="preserve">
+		<value>Сервер</value>
+	</data>
+	<data name="MAINMENU_UPDATED AT" xml:space="preserve">
+		<value>Жаңартылды </value>
+	</data>
+	<data name="MAINMENU_VIGNETTE" xml:space="preserve">
+		<value>Виньетка</value>
+	</data>
+	<data name="MAINMENU_VIGNETTE_MEDIUM" xml:space="preserve">
+		<value>Орташа</value>
+	</data>
+	<data name="MAINMENU_VIGNETTE_OFF" xml:space="preserve">
+		<value>Өшірілді</value>
+	</data>
+	<data name="MAINMENU_VIGNETTE_STRONG" xml:space="preserve">
+		<value>Күшті</value>
+	</data>
+	<data name="MAINMENU_VIGNETTE_WEAK" xml:space="preserve">
+		<value>Әлсіз</value>
+	</data>
+	<data name="MAINMENU_WORKSPACES" xml:space="preserve">
+		<value>Жұмыс кеңістігі</value>
+	</data>
+	<data name="MENU" xml:space="preserve">
+		<value>Мәзір</value>
+	</data>
+	<data name="MOBILE_READY_CHANGED" xml:space="preserve">
+		<value>Mobile-VR қолдау статусы өзгертілді, жоба қайта іске қосылады.</value>
+	</data>
+	<data name="MODE" xml:space="preserve">
+		<value>Режим</value>
+	</data>
+	<data name="MULTIPLAYER_AR" xml:space="preserve">
+		<value>AR</value>
+	</data>
+	<data name="MULTIPLAYER_BACK" xml:space="preserve">
+		<value>Артқа</value>
+	</data>
+	<data name="MULTIPLAYER_CONNECT" xml:space="preserve">
+		<value>Қосу</value>
+	</data>
+	<data name="MULTIPLAYER_CONNECTINGTOHOST" xml:space="preserve">
+		<value>Хостқа қосу</value>
+	</data>
+	<data name="MULTIPLAYER_CONNECTINGTOSESSION" xml:space="preserve">
+		<value>Сессияға қосу</value>
+	</data>
+	<data name="MULTIPLAYER_CONNECTION_ERROR_DESCRIPTION" xml:space="preserve">
+		<value>Сіз енгізген деректердің дұрыстығын тексеріп, әрекетті қайталаңыз.</value>
+	</data>
+	<data name="MULTIPLAYER_CONNECTIONERROR" xml:space="preserve">
+		<value>Қосу қатесі</value>
+	</data>
+	<data name="MULTIPLAYER_DESKTOP" xml:space="preserve">
+		<value>ДК</value>
+	</data>
+	<data name="MULTIPLAYER_ENTERIPADDRESS" xml:space="preserve">
+		<value>IP-мекенжай енгізіңіз</value>
+	</data>
+	<data name="MULTIPLAYER_HOST_DISCONNECTED_BUTTON" xml:space="preserve">
+		<value>Шығу</value>
+	</data>
+	<data name="MULTIPLAYER_HOST_DISCONNECTED_MESSAGE" xml:space="preserve">
+		<value>Хост өшірілген</value>
+	</data>
+	<data name="MULTIPLAYER_HOST_IP" xml:space="preserve">
+		<value>Сервердің IP-мекенжайы</value>
+	</data>
+	<data name="MULTIPLAYER_HOST_NAME" xml:space="preserve">
+		<value>Сервер</value>
+	</data>
+	<data name="MULTIPLAYER_LISTOFPLAYERS" xml:space="preserve">
+		<value>Ойыншылар тізімі</value>
+	</data>
+	<data name="MULTIPLAYER_NETTLEDESK" xml:space="preserve">
+		<value>NettleDesk</value>
+	</data>
+	<data name="MULTIPLAYER_PLAYERS_NAME" xml:space="preserve">
+		<value>Аты</value>
+	</data>
+	<data name="MULTIPLAYER_PLAYERS_STATUS" xml:space="preserve">
+		<value>Статус</value>
+	</data>
+	<data name="MULTIPLAYER_PLAYERS_STATUS_CONNECTING" xml:space="preserve">
+		<value>Қосу</value>
+	</data>
+	<data name="MULTIPLAYER_PLAYERS_STATUS_HOST" xml:space="preserve">
+		<value>Хост</value>
+	</data>
+	<data name="MULTIPLAYER_PLAYERS_STATUS_READY" xml:space="preserve">
+		<value>Дайын</value>
+	</data>
+	<data name="MULTIPLAYER_PROJECTLOADING" xml:space="preserve">
+		<value>Жобаны жүктеу</value>
+	</data>
+	<data name="MULTIPLAYER_SELECT_GAMEMODE" xml:space="preserve">
+		<value>Режим таңдау</value>
+	</data>
+	<data name="MULTIPLAYER_SESSION_CREATIION" xml:space="preserve">
+		<value>Сессия құру</value>
+	</data>
+	<data name="MULTIPLAYER_SPECTATOR" xml:space="preserve">
+		<value>Қадағалаушы</value>
+	</data>
+	<data name="MULTIPLAYER_STARTGAMEMODE" xml:space="preserve">
+		<value>Режимде іске қосу</value>
+	</data>
+	<data name="MULTIPLAYER_STARTSESSION" xml:space="preserve">
+		<value>Іске қосу</value>
+	</data>
+	<data name="MULTIPLAYER_VR" xml:space="preserve">
+		<value>VR</value>
+	</data>
+	<data name="NETTLEDESK_STYLUS_SUPPORT" xml:space="preserve">
+		<value>Стилусты қолдау</value>
+	</data>
+	<data name="NO" xml:space="preserve">
+		<value>Жоқ</value>
+	</data>
+	<data name="NOT_FOR_COMMERCIAL_USE" xml:space="preserve">
+		<value>Varwin демо-нұсқасы.
+Демонстрациялық шектеулерді алып тастау үшін Professional немесе Business нұсқасын сатып алудыөтінеміз.</value>
+	</data>
+	<data name="OBJECT_NAME" xml:space="preserve">
+		<value>Объектінің типі</value>
+	</data>
+	<data name="OBJECT_USE_IN_LOGIC" xml:space="preserve">
+		<value>Объект логикада пайдаланылады. Оны жойғыңыз келе ме?</value>
+	</data>
+	<data name="OBJECT_VERSION_CHANGED" xml:space="preserve">
+		<value>Объектілердің немесе сахна шаблондарының нұсқалары өзгертілді, жобаны қайта іске қосу қажет.</value>
+	</data>
+	<data name="OBJECT_VERSION_WINDOW" xml:space="preserve">
+		<value>Объектілердің нұсқаларын басқару</value>
+	</data>
+	<data name="OBJECT_WAS_COPIED" xml:space="preserve">
+		<value>Объектінің көшірмесі жасалды</value>
+	</data>
+	<data name="OBJECT_WAS_DUPLICATED" xml:space="preserve">
+		<value>Объектінің дублі жасалды</value>
+	</data>
+	<data name="OBJECT_WAS_PASTED" xml:space="preserve">
+		<value>Объект салынды</value>
+	</data>
+	<data name="OK" xml:space="preserve">
+		<value>ОК</value>
+	</data>
+	<data name="OPEN_CONSOLE" xml:space="preserve">
+		<value>Консольді ашу</value>
+	</data>
+	<data name="OPEN_CONSOLE_FOR_MORE_INFO" xml:space="preserve">
+		<value>Толығырақ ақпарат алу үшін консольді ашыңыз</value>
+	</data>
+	<data name="OPEN_DOCUMENTATION" xml:space="preserve">
+		<value>Құжаттаманы ашу</value>
+	</data>
+	<data name="OPENXR_INITIALIZATION" xml:space="preserve">
+		<value>OpenXR-ды іске қосу</value>
+	</data>
+	<data name="PHOTON_DISCONECT" xml:space="preserve">
+		<value>Мультиплеерді серверден ажырату</value>
+	</data>
+	<data name="PIVOT_MODE_CENTER" xml:space="preserve">
+		<value>Центр</value>
+	</data>
+	<data name="PIVOT_MODE_PIVOT" xml:space="preserve">
+		<value>Тірек нүктесі</value>
+	</data>
+	<data name="PLATFORM_MODE" xml:space="preserve">
+		<value>Көрсету режимі</value>
+	</data>
+	<data name="PLATFORM_MODE_IS_NOT_AVAILABLE_TITLE" xml:space="preserve">
+		<value>{{рlatform_mode}} режимі қол жетімді емес</value>
+	</data>
+	<data name="PLATFORM_MODE_IS_NOT_AVAILABLE_UNDER_LICENSE" xml:space="preserve">
+		<value>{{рlatform_mode}} режимі берілген лицензия үшін қол жетімді емес. Жоба конфигурациясында режимді өзгерту керек</value>
+	</data>
+	<data name="PLAYER_MOVE_TYPE_LOCOMOTION" xml:space="preserve">
+		<value>Жылжу</value>
+	</data>
+	<data name="PLAYER_MOVE_TYPE_TELEPORT" xml:space="preserve">
+		<value>Телепортация</value>
+	</data>
+	<data name="POSITION" xml:space="preserve">
+		<value>Позиция</value>
+	</data>
+	<data name="PROJECT_CONFIG_ERROR" xml:space="preserve">
+		<value>Қате. Жоба конфигурациясы жүктелген жоқ</value>
+	</data>
+	<data name="PROJECT_CONFIG_NULL" xml:space="preserve">
+		<value>Әлем конфигурациясы жоқ</value>
+	</data>
+	<data name="PROJECT_CONFIGURATION" xml:space="preserve">
+		<value>Іске қосу конфигурациясы</value>
+	</data>
+	<data name="PROJECT_DOWNLOAD_ERROR" xml:space="preserve">
+		<value>'{{project_name}}' жобасын жүктеу кезінде қате болды</value>
+	</data>
+	<data name="PROJECT_WAS_REMOVED" xml:space="preserve">
+		<value>Ағымдағы жоба жойылды. Редактор жабылады</value>
+	</data>
+	<data name="PROPERTY_INSPECTOR" xml:space="preserve">
+		<value>Қасиеттер</value>
+	</data>
+	<data name="READ_LAUNCH_ARGS_RABBIT_ERROR" xml:space="preserve">
+		<value>Қате. Сервер қолжетімді емес</value>
+	</data>
+	<data name="REFRESH" xml:space="preserve">
+		<value>Жаңарту</value>
+	</data>
+	<data name="RELOAD" xml:space="preserve">
+		<value>Қайта жүктеу</value>
+	</data>
+	<data name="REMOVED_OBJECTS_WARNING" xml:space="preserve">
+		<value>Varwin XRMS кітапханасынан бір немесе бірнеше объект жойылды. Сахна деректерін сақтау үшін, жоқ объектілерді сахнадан алып тастауды өтінеміз</value>
+	</data>
+	<data name="REMOVED_OBJECTS_WARNING_SUCCESS" xml:space="preserve">
+		<value>Кітапханада жоқ объектілердің барлығы жойылды. Сахнаны сақтауыңызға болады!</value>
+	</data>
+	<data name="REMOVED_RESOURCES_WARNING" xml:space="preserve">
+		<value>Сахнада пайдаланылатын ресурстар Varwin XRMS кітапханасынан жойылды. Жоқ ресурстарды пайдаланатын қасиеттердің мәндерін өзгертуді өтінеміз.</value>
+	</data>
+	<data name="REMOVED_RESOURCES_WARNING_SUCCESS" xml:space="preserve">
+		<value>Жоқ ресурстар енді сахнада пайдаланылмайды. Жобаны сақтауыңызға болады!</value>
+	</data>
+	<data name="RESET_CHANGES" xml:space="preserve">
+		<value>Өзгерістерді арылту</value>
+	</data>
+	<data name="RESOURCE_MISSING_AUDIO" xml:space="preserve">
+		<value>Аудио</value>
+	</data>
+	<data name="RESOURCE_MISSING_BASE" xml:space="preserve">
+		<value>Ресурстар көрсетілмейді, өйткені ресурстарды шығаратын стандартты объектілер табылған жоқ: </value>
+	</data>
+	<data name="RESOURCE_MISSING_IMAGE" xml:space="preserve">
+		<value>Кескін</value>
+	</data>
+	<data name="RESOURCE_MISSING_MODEL" xml:space="preserve">
+		<value>3D Модель</value>
+	</data>
+	<data name="RESOURCE_MISSING_VIDEO" xml:space="preserve">
+		<value>Видео</value>
+	</data>
+	<data name="RESOURCE_SELECT_WINDOW" xml:space="preserve">
+		<value>Ресурс таңдау</value>
+	</data>
+	<data name="RESOURCES" xml:space="preserve">
+		<value>Ресурстар</value>
+	</data>
+	<data name="RESOURCES_NOT_FOUND" xml:space="preserve">
+		<value>Ресурстар табылған жоқ.</value>
+	</data>
+	<data name="RESOURCES_OBJECTS" xml:space="preserve">
+		<value>Кітапханадағы ресурстар</value>
+	</data>
+	<data name="RETURN" xml:space="preserve">
+		<value>Қайту</value>
+	</data>
+	<data name="ROOM_CREATING" xml:space="preserve">
+		<value>Бөлме жасау...</value>
+	</data>
+	<data name="ROTATION" xml:space="preserve">
+		<value>Бұрылыс</value>
+	</data>
+	<data name="RUNTIME_CODE_ERROR" xml:space="preserve">
+		<value>Логиканы орындау қатесі</value>
+	</data>
+	<data name="SATURATION" xml:space="preserve">
+		<value>Қанықтық</value>
+	</data>
+	<data name="SAVE" xml:space="preserve">
+		<value>Сақтау</value>
+	</data>
+	<data name="SAVE_ERROR" xml:space="preserve">
+		<value>Сақтау қатесі</value>
+	</data>
+	<data name="SAVED" xml:space="preserve">
+		<value>Сақталды</value>
+	</data>
+	<data name="SCALE" xml:space="preserve">
+		<value>Масштаб</value>
+	</data>
+	<data name="SCENE_LOADING" xml:space="preserve">
+		<value>Сахна шаблонын жүктеу...</value>
+	</data>
+	<data name="SCENE_OBJECTS" xml:space="preserve">
+		<value>Сахнадағы объектілер</value>
+	</data>
+	<data name="SCENE_OBJECTS_CHANGED" xml:space="preserve">
+		<value>Басқа пайдаланушы сахнаны өзгертті. Ағымдағы нұсқаны сақтау керек пе, әлде жаңасын пайдалану керек пе?</value>
+	</data>
+	<data name="SCENE_OBJECTS_HAVE_NOT_SAVED_BEHAVIOURS_CONSOLE" xml:space="preserve">
+		<value>Кейбір объектілердің сервер мен клиент жағындағы стандартты әрекеттері әртүрлі. Жобаны редакторлау режимінде ашыңыз да, сахнаны сақтап көріңіз. Дұрыс емес объектілер: 
+{0}</value>
+	</data>
+	<data name="SCENE_OBJECTS_HAVE_NOT_SAVED_BEHAVIOURS_POPUP" xml:space="preserve">
+		<value>Сахнада дұрыс емес объектілер бар. Толық сипаттаманы көру үшін консольді ашыңыз (~ батырмасын басыңыз).</value>
+	</data>
+	<data name="SCENE_OBJECTS_SAVED_AFTER_UPDATE" xml:space="preserve">
+		<value>Объектілер жаңартылғаннан кейін сахна автоматты түрде сақталады</value>
+	</data>
+	<data name="SCENE_PREPARATION" xml:space="preserve">
+		<value>Сахнаны дайындау...</value>
+	</data>
+	<data name="SCENE_SAVED" xml:space="preserve">
+		<value>Сахна сәтті сақталды</value>
+	</data>
+	<data name="SCENE_TEMPLATE_CHANGED" xml:space="preserve">
+		<value>Сахна шаблоны өзгертілді. Өзгерістерді сақтап, сахнаны қайта жүктегіңіз келе ме?</value>
+	</data>
+	<data name="SCENE_WAS_REMOVED" xml:space="preserve">
+		<value>Ағымдағы сахна жойылды. Редактор жабылады</value>
+	</data>
+	<data name="SEND_REPORT" xml:space="preserve">
+		<value>Есеп жіберу</value>
+	</data>
+	<data name="SET_MODE_SAVE_POPUP_MESSAGE" xml:space="preserve">
+		<value>Сахнаға енгізілген өзгерістерді сақтағыңыз келе ме?</value>
+	</data>
+	<data name="SETTINGS" xml:space="preserve">
+		<value>Теңшеулер</value>
+	</data>
+	<data name="SIZE" xml:space="preserve">
+		<value>Өлшем</value>
+	</data>
+	<data name="SOME_OBJECTS_IS_NOT_LINUX_READY_MESSAGE" xml:space="preserve">
+		<value>Кейбір пайдаланылатын объектілерде немесе сахна шаблондарында Linux қолдауы жоқ, оларды қолдау көрсетілетін нұсқаға дейін жаңартып көріңіз</value>
+	</data>
+	<data name="SOME_OBJECTS_IS_NOT_LINUX_READY_TITLE" xml:space="preserve">
+		<value>Проблемалар бар</value>
+	</data>
+	<data name="SPACE_MODE_LOCAL" xml:space="preserve">
+		<value>Локалды</value>
+	</data>
+	<data name="SPACE_MODE_WORLD" xml:space="preserve">
+		<value>Әлемдік</value>
+	</data>
+	<data name="SPAWN_PAID_WINDOW_BUY_LICENSE" xml:space="preserve">
+		<value>Лицензия сатып алыңыз</value>
+	</data>
+	<data name="SPAWN_PAID_WINDOW_CLOSE" xml:space="preserve">
+		<value>Жабу</value>
+	</data>
+	<data name="SPAWN_PAID_WINDOW_TITLE" xml:space="preserve">
+		<value>Бұл объектіні ақылы Varwin лицензияларында ғана пайдалануға болады</value>
+	</data>
+	<data name="SPAWN_POINT_ERROR" xml:space="preserve">
+		<value>Ойыншының старттық позициясы табылған жоқ</value>
+	</data>
+	<data name="SPAWN_WITH_PARENT" xml:space="preserve">
+		<value>Бұл объектіні түпкі етіп тағайындау, құрылып жатқан жаңа объектілер үшін</value>
+	</data>
+	<data name="SPAWNING_SCENE_OBJECTS" xml:space="preserve">
+		<value>Сахна объектілерін құру</value>
+	</data>
+	<data name="STEAM_VR_INITIALIZATION" xml:space="preserve">
+		<value>Steam VR іске қосу</value>
+	</data>
+	<data name="TOOLTIP_AR_MODE" xml:space="preserve">
+		<value>AR-да алдын ала қарау</value>
+	</data>
+	<data name="TOOLTIP_COLLIDER_VISUALIZATION_EDGES" xml:space="preserve">
+		<value>Коллайдерлердің көрсету режимін өзгерту [Ctrl-Alt-C]
+		
+Тек қырлар</value>
+	</data>
+	<data name="TOOLTIP_COLLIDER_VISUALIZATION_NONE" xml:space="preserve">
+		<value>Коллайдерлердің көрсету режимін өзгерту [Ctrl-Alt-C]
+		
+Коллайдерлерді визуалдаусыз</value>
+	</data>
+	<data name="TOOLTIP_COLLIDER_VISUALIZATION_SOLID" xml:space="preserve">
+		<value>Коллайдерлердің көрсету режимін өзгерту [Ctrl-Alt-C]
+		
+Жазықтықтар</value>
+	</data>
+	<data name="TOOLTIP_COPY" xml:space="preserve">
+		<value>Көшірме жасау [Ctrl-C]</value>
+	</data>
+	<data name="TOOLTIP_DESKTOP_PLAYER_MODE" xml:space="preserve">
+		<value>ДК-да алдын ала қарау</value>
+	</data>
+	<data name="TOOLTIP_DOCUMENTATION_LINK" xml:space="preserve">
+		<value>Құжаттамаға сілтемені ашу</value>
+	</data>
+	<data name="TOOLTIP_HAND_TOOL" xml:space="preserve">
+		<value>Камераның орнын ауыстыру [Q]</value>
+	</data>
+	<data name="TOOLTIP_MOVE_TOOL" xml:space="preserve">
+		<value>Камераның орнын ауыстыру [W]</value>
+	</data>
+	<data name="TOOLTIP_NETTLEDESK_MODE" xml:space="preserve">
+		<value>NettleDesk-те алдын ала қарау</value>
+	</data>
+	<data name="TOOLTIP_PASTE" xml:space="preserve">
+		<value>Қою [Ctrl-V]</value>
+	</data>
+	<data name="TOOLTIP_PIVOT_MODE_CENTER" xml:space="preserve">
+		<value>Айналу нүктесін өзгерту [Z]
+
+Объект өз центрін айналады.</value>
+	</data>
+	<data name="TOOLTIP_PIVOT_MODE_PIVOT" xml:space="preserve">
+		<value>Айналу нүктесін өзгерту [Z]
+
+Объект өз тірек нүктесін айналады.</value>
+	</data>
+	<data name="TOOLTIP_REDO" xml:space="preserve">
+		<value>Қайталау [Ctrl-Y]</value>
+	</data>
+	<data name="TOOLTIP_ROTATE_TOOL" xml:space="preserve">
+		<value>Объектінің айналуы [E]</value>
+	</data>
+	<data name="TOOLTIP_SAVE" xml:space="preserve">
+		<value>Сақтау [Ctrl-S]</value>
+	</data>
+	<data name="TOOLTIP_SCALE_TOOL" xml:space="preserve">
+		<value>Объектіні масштабтау [R]</value>
+	</data>
+	<data name="TOOLTIP_UNDO" xml:space="preserve">
+		<value>Бас тарту [Ctrl-Z]</value>
+	</data>
+	<data name="TOOLTIP_VERSION_CONTROL" xml:space="preserve">
+		<value>Объект нұсқаларын басқару терезесі</value>
+	</data>
+	<data name="TOOLTIP_VR_MODE" xml:space="preserve">
+		<value>VR-да алдын ала қарау</value>
+	</data>
+	<data name="TOOLTIP_WORLD_MODE_GLOBAL" xml:space="preserve">
+		<value>Санау жүйесін ауыстырып қосу [X]
+
+Объектінің сахна осьтеріне қатысты қозғалысы.</value>
+	</data>
+	<data name="TOOLTIP_WORLD_MODE_LOCAL" xml:space="preserve">
+		<value>Санау жүйесін ауыстырып қосу [X]
+
+Объектінің оның осьтеріне қатысты қозғалысы.</value>
+	</data>
+	<data name="TRANSFORM" xml:space="preserve">
+		<value>Параметрлер</value>
+	</data>
+	<data name="TRY_AGAIN" xml:space="preserve">
+		<value>Қайталау</value>
+	</data>
+	<data name="TRY_TO_CONNECT_TO_RANDOM_ROOM" xml:space="preserve">
+		<value>Кездейсоқ бөлмеге қосылып көру...</value>
+	</data>
+	<data name="TYPE_ARRAY" xml:space="preserve">
+		<value>{0} типті элементтер массиві</value>
+	</data>
+	<data name="TYPE_BOOLEAN" xml:space="preserve">
+		<value>Логикалық тип</value>
+	</data>
+	<data name="TYPE_COLOR" xml:space="preserve">
+		<value>Түр-түс</value>
+	</data>
+	<data name="TYPE_DOUBLE" xml:space="preserve">
+		<value>Бөлшек сан</value>
+	</data>
+	<data name="TYPE_INTEGER" xml:space="preserve">
+		<value>Бүтінсанды тип</value>
+	</data>
+	<data name="TYPE_LIST" xml:space="preserve">
+		<value>{0} типті элементтер тізімі</value>
+	</data>
+	<data name="TYPE_LIST_NO_PARAMETER" xml:space="preserve">
+		<value>TYPE_LIST_NO_PARAMETER</value>
+	</data>
+	<data name="TYPE_NULL" xml:space="preserve">
+		<value>null бос типі</value>
+	</data>
+	<data name="TYPE_STRING" xml:space="preserve">
+		<value>жол типі</value>
+	</data>
+	<data name="TYPE_VECTOR" xml:space="preserve">
+		<value>Вектор</value>
+	</data>
+	<data name="TYPE_WRAPPER" xml:space="preserve">
+		<value>Объект</value>
+	</data>
+	<data name="UNKNOWN_ERROR" xml:space="preserve">
+		<value>Белгісіз қате</value>
+	</data>
+	<data name="UNLINK_PARENT" xml:space="preserve">
+		<value>Түпкі объектіні шешу</value>
+	</data>
+	<data name="VALIDATE_METHOD_EXCEPTION" xml:space="preserve">
+		<value>&lt;Color=lightblue&gt;{0}&lt;/Color&gt; аргументі мына: &lt;Color=lightblue&gt;{1}&lt;/Color&gt; типті күтеді, ал берілгені &lt;Color=red&gt;{2} ({3}).&lt;/Color&gt; Қатені түзету үшін аргументтің мәнін өзгертіңіз. </value>
+	</data>
+	<data name="VERSION_CHANGE_UNSAVED" xml:space="preserve">
+		<value>Объект нұсқаларын немесе сахна шаблондарын өзгерткен жағдайда барлық сақталмаған өзгерістер жоғалады</value>
+	</data>
+	<data name="WARNING" xml:space="preserve">
+		<value>Ескерту</value>
+	</data>
+	<data name="WRONG_LOGIN_OR_PASSWORD" xml:space="preserve">
+		<value>Қате логин немесе құпиясөз
+</value>
+	</data>
+	<data name="YES" xml:space="preserve">
+		<value>Иә</value>
+	</data>
+	<data name="YOU_CAN_GO_TO_PREVIEW_MODE" xml:space="preserve">
+		<value>Сіз сондай-ақ &lt;link="set_dp_mode"&gt;&lt;b&gt;&lt;u&gt;-да ДК-да алдын ала қарау &lt;/u&gt;&lt;/b&gt;&lt;/link&gt; режиміне ауыса аласыз.</value>
+	</data>
+	<data name="ERROR_WRAPPER_WITH_ID_NOT_FOUND" xml:space="preserve">
+		<value />
+	</data>
+</root>

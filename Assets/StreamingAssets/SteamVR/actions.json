@@ -1,0 +1,95 @@
+{
+  "actions": [
+    {
+      "name": "/actions/default/in/GrabHold",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/GrabToggle",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/TriggerUse",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/TouchpadPress",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/TurnLeft",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/TurnRight",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/Menu",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/CurlActionThxSteamVR",
+      "type": "vector1"
+    },
+    {
+      "name": "/actions/default/in/SkeletonLeftHand",
+      "type": "skeleton",
+      "skeleton": "/skeleton/hand/left"
+    },
+    {
+      "name": "/actions/default/in/SkeletonRightHand",
+      "type": "skeleton",
+      "skeleton": "/skeleton/hand/right"
+    },
+    {
+      "name": "/actions/default/in/Pose",
+      "type": "pose"
+    },
+    {
+      "name": "/actions/default/out/Haptic",
+      "type": "vibration"
+    }
+  ],
+  "action_sets": [
+    {
+      "name": "/actions/default",
+      "usage": "single"
+    }
+  ],
+  "default_bindings": [
+    {
+      "controller_type": "vive_controller",
+      "binding_url": "application_generated_unity_varwinclient_exe_binding_vive_controller.json"
+    },
+    {
+      "controller_type": "oculus_touch",
+      "binding_url": "application_generated_unity_varwinclient_exe_binding_oculus_touch.json"
+    },
+    {
+      "controller_type": "holographic_controller",
+      "binding_url": "application_generated_unity_varwinclient_exe_binding_holographic_controller.json"
+    },
+    {
+      "controller_type": "knuckles",
+      "binding_url": "application_generated_unity_varwinclient_exe_binding_knuckles.json"
+    }
+  ],
+  "localization": [
+    {
+      "language_tag": "en_US",
+      "/actions/default/in/CurlActionThxSteamVR": "Curl",
+      "/actions/default/in/GrabHold": "Grab Hold",
+      "/actions/default/in/GrabToggle": "Grab Toggle",
+      "/actions/default/in/Menu": "Menu",
+      "/actions/default/in/Pose": "Pose",
+      "/actions/default/in/SkeletonLeftHand": "Left Hand Skeleton",
+      "/actions/default/in/SkeletonRightHand": "Right Hand Skeleton",
+      "/actions/default/in/TouchpadPress": "Touchpad Press",
+      "/actions/default/in/TriggerUse": "Trigger Use",
+      "/actions/default/in/TurnLeft": "Turn Left",
+      "/actions/default/in/TurnRight": "Turn Right",
+      "/actions/default/out/Haptic": "Haptic"
+    }
+  ]
+}

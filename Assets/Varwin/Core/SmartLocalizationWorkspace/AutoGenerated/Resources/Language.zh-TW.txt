@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="ACTIONS" xml:space="preserve">
+		<value>行動</value>
+	</data>
+	<data name="ARRAY_ELEMENT" xml:space="preserve">
+		<value>元素</value>
+	</data>
+	<data name="BRIGHTNESS" xml:space="preserve">
+		<value>亮度</value>
+	</data>
+	<data name="BUTTON" xml:space="preserve">
+		<value>簡單的按鈕</value>
+	</data>
+	<data name="CAMERA_SETTINGS_LABEL" xml:space="preserve">
+		<value>相機平滑</value>
+	</data>
+	<data name="CANCEL" xml:space="preserve">
+		<value>取消</value>
+	</data>
+	<data name="CANNOT_NOT_PREVIEW" xml:space="preserve">
+		<value>這在預覽模式下是不可能的。</value>
+	</data>
+	<data name="CHOOSE_PARENT" xml:space="preserve">
+		<value>分配父對象 </value>
+	</data>
+	<data name="CHOOSE_PROJECT_CONFIG" xml:space="preserve">
+		<value>選擇世界配置</value>
+	</data>
+	<data name="CLIENT_TERMINATE" xml:space="preserve">
+		<value>編輯器將被關閉。是否要保存更改？</value>
+	</data>
+	<data name="CLOSE_APP" xml:space="preserve">
+		<value />
+	</data>
+	<data name="CLOSE_BUTTON" xml:space="preserve">
+		<value>關</value>
+	</data>
+	<data name="COLLIDER_VISUALIZATION_EDGES" xml:space="preserve">
+		<value>邊</value>
+	</data>
+	<data name="COLLIDER_VISUALIZATION_NONE" xml:space="preserve">
+		<value>無</value>
+	</data>
+	<data name="COLLIDER_VISUALIZATION_SOLID" xml:space="preserve">
+		<value>立體</value>
+	</data>
+	<data name="COLOR_PICKER_WINDOW" xml:space="preserve">
+		<value>顏色選擇</value>
+	</data>
+	<data name="COMPILE_CODE_ERROR" xml:space="preserve">
+		<value>編譯錯誤</value>
+	</data>
+	<data name="CONNECTING" xml:space="preserve">
+		<value>化合物...</value>
+	</data>
+	<data name="CONNECTION_ERROR" xml:space="preserve">
+		<value />
+	</data>
+	<data name="CONTROLLER_EMULATION" xml:space="preserve">
+		<value>控制器仿真</value>
+	</data>
+	<data name="CURRENT_SCENE_TEMPLATE_DELETED" xml:space="preserve">
+		<value>當前場景模板已被刪除</value>
+	</data>
+	<data name="DELETE_OBJECT" xml:space="preserve">
+		<value>刪除</value>
+	</data>
+	<data name="DISABLED" xml:space="preserve">
+		<value />
+	</data>
+	<data name="DISPLAY" xml:space="preserve">
+		<value>簡單的展示</value>
+	</data>
+	<data name="ENABLE_IN_BLOCKLY_EDITOR" xml:space="preserve">
+		<value>在 Blockly 中使用</value>
+	</data>
+	<data name="ENTER_ROOM" xml:space="preserve">
+		<value>進入房間...</value>
+	</data>
+	<data name="ENVIRONMENT_ERROR" xml:space="preserve">
+		<value>環境設置錯誤</value>
+	</data>
+	<data name="ENVIRONMENT_NOT_FOUND" xml:space="preserve">
+		<value>錯誤。未加載場景模板</value>
+	</data>
+	<data name="ERROR_API_CLIENT_VERSION_MISMATCH" xml:space="preserve">
+		<value>錯誤。 API 和客戶端版本不匹配</value>
+	</data>
+	<data name="ERROR_DESKTOP_POPUP_MESSAGE" xml:space="preserve">
+		<value>發生邏輯/對象錯誤。 項目可能不穩定</value>
+	</data>
+	<data name="ERROR_POPUP_MESSAGE" xml:space="preserve">
+		<value>取下耳機並將耳機連接到 PC</value>
+	</data>
+	<data name="ERROR_POPUP_TITLE" xml:space="preserve">
+		<value>出问题了</value>
+	</data>
+	<data name="ERROR_PROJECT_LAUNCH" xml:space="preserve">
+		<value />
+	</data>
+	<data name="ERROR_READ_STARTUP_ARGS" xml:space="preserve">
+		<value>無法讀取啟動參數</value>
+	</data>
+	<data name="ERROR_SERVER_DISCONNECT" xml:space="preserve">
+		<value>錯誤。服務器沒有響應</value>
+	</data>
+	<data name="ERROR_VR_POPUP_MESSAGE" xml:space="preserve">
+		<value>摘下耳機，在PC端看編輯器報錯</value>
+	</data>
+	<data name="EXCEPTION_IN_OBJECT" xml:space="preserve">
+		<value>對象錯誤</value>
+	</data>
+	<data name="EXECUTE_LOGIC_ERROR" xml:space="preserve">
+		<value>邏輯執行錯誤</value>
+	</data>
+	<data name="EXIT" xml:space="preserve">
+		<value>出口</value>
+	</data>
+	<data name="EXIT_DESKTOP_PLAYER_MESSAGE" xml:space="preserve">
+		<value>您確定要退出 PC 視圖模式嗎？</value>
+	</data>
+	<data name="EXIT_DESKTOP_PLAYER_TITLE" xml:space="preserve">
+		<value>退出 PC 視圖</value>
+	</data>
+	<data name="EXIT_NETTLEDESK_PLAYER_MESSAGE" xml:space="preserve">
+		<value>您确定要退出 Illumetry IO 模式吗？</value>
+	</data>
+	<data name="EXIT_NETTLEDESK_PLAYER_TITLE" xml:space="preserve">
+		<value>退出 Illumetry IO 模式</value>
+	</data>
+	<data name="EXIT_TO_DESKTOP" xml:space="preserve">
+		<value>關閉虛擬現實</value>
+	</data>
+	<data name="EXIT_TO_DESKTOP_FROM_NETTLEDESK" xml:space="preserve">
+		<value>关闭 Illumetry IO</value>
+	</data>
+	<data name="EXIT_TO_EDIT" xml:space="preserve">
+		<value>編輯模式</value>
+	</data>
+	<data name="EXIT_TO_NETTLEDESK" xml:space="preserve">
+		<value>切換到 Illumetry IO</value>
+	</data>
+	<data name="EXIT_TO_VR" xml:space="preserve">
+		<value>切換到虛擬現實</value>
+	</data>
+	<data name="EXIT_VR_PLAYER_MESSAGE" xml:space="preserve">
+		<value>您確定要退出 VR 視圖模式嗎？</value>
+	</data>
+	<data name="EXIT_VR_PLAYER_TITLE" xml:space="preserve">
+		<value>退出 VR 視圖</value>
+	</data>
+	<data name="FIELD_OF_VIEW" xml:space="preserve">
+		<value />
+	</data>
+	<data name="GET_SCENE_TEMPLATE_DATA" xml:space="preserve">
+		<value>正在獲取有關場景模板的數據...</value>
+	</data>
+	<data name="GROUP_NOT_SAVED" xml:space="preserve">
+		<value>未保存的更改將丟失。節省？</value>
+	</data>
+	<data name="HEADSET_NOT_FOUND_HINT" xml:space="preserve">
+		<value>1. 確保您的 VR 耳機已連接到您的計算機。
+2. 檢查您是否正在運行  &lt;link="start_steamvr"&gt;&lt;b&gt;&lt;u&gt;SteamVR&lt;/u&gt;&lt;/b&gt;&lt;/link&gt;.
+3. 重新啟動程序。.</value>
+	</data>
+	<data name="HEADSET_TRACKING_LOST" xml:space="preserve">
+		<value>找不到頭盔</value>
+	</data>
+	<data name="HIERARCHY" xml:space="preserve">
+		<value>場景中的物件</value>
+	</data>
+	<data name="HIERARCHY_SCENE" xml:space="preserve">
+		<value>場景</value>
+	</data>
+	<data name="HIERARCHY_SCENE_TEMPLATE" xml:space="preserve">
+		<value>场景模板</value>
+	</data>
+	<data name="HUE" xml:space="preserve">
+		<value>語氣</value>
+	</data>
+	<data name="IN_OBJECT_HAS_ERROR" xml:space="preserve">
+		<value />
+	</data>
+	<data name="INIT_LOGIC_ERROR" xml:space="preserve">
+		<value>邏輯初始化錯誤</value>
+	</data>
+	<data name="INSPECTOR" xml:space="preserve">
+		<value>屬性</value>
+	</data>
+	<data name="INSPECTOR_MISSING_RESOURCE" xml:space="preserve">
+		<value>遺失的</value>
+	</data>
+	<data name="INSPECTOR_PROPERTY_ACTION" xml:space="preserve">
+		<value>物業名稱</value>
+	</data>
+	<data name="INSPECTOR_PROPERTY_OBJECT_NAME" xml:space="preserve">
+		<value>物件名稱</value>
+	</data>
+	<data name="INSPECTOR_PROPERTY_PROPERTY_NAME" xml:space="preserve">
+		<value>物業名稱</value>
+	</data>
+	<data name="JOIN_TO_ROOM" xml:space="preserve">
+		<value>與房間的連接...</value>
+	</data>
+	<data name="LAMP" xml:space="preserve">
+		<value>簡單的燈泡</value>
+	</data>
+	<data name="LETS_GO" xml:space="preserve">
+		<value>去！</value>
+	</data>
+	<data name="LIBRARY" xml:space="preserve">
+		<value>圖書館</value>
+	</data>
+	<data name="LIBRARY_OBJECTS" xml:space="preserve">
+		<value>庫中的對象</value>
+	</data>
+	<data name="LIBRARY_WAS_CHANGED" xml:space="preserve">
+		<value>庫已更改</value>
+	</data>
+	<data name="LICENSE_KEY_ERROR" xml:space="preserve">
+		<value>無法獲取許可證信息</value>
+	</data>
+	<data name="LIST_OF_NOT_LINUX_READY_OBJECTS" xml:space="preserve">
+		<value>不支持 Linux 的對像或場景模板</value>
+	</data>
+	<data name="LOAD_OBJECT_ERROR" xml:space="preserve">
+		<value>對象加載錯誤</value>
+	</data>
+	<data name="LOAD_PROJECTS_ERROR" xml:space="preserve">
+		<value>加載項目列表時出錯</value>
+	</data>
+	<data name="LOAD_RESOURCE_ERROR" xml:space="preserve">
+		<value>資源加載錯誤</value>
+	</data>
+	<data name="LOAD_SCENE_ERROR" xml:space="preserve">
+		<value>場景模板加載錯誤</value>
+	</data>
+	<data name="LOAD_WORKSPACES_ERROR" xml:space="preserve">
+		<value>加載工作區列表時出錯</value>
+	</data>
+	<data name="LOADING" xml:space="preserve">
+		<value>正在加載</value>
+	</data>
+	<data name="LOADING_AUTHORIZATION" xml:space="preserve">
+		<value />
+	</data>
+	<data name="LOADING_FILE" xml:space="preserve">
+		<value>正在加載 {0}...{1}，共 {2} Mb</value>
+	</data>
+	<data name="LOADING_PROJECTS" xml:space="preserve">
+		<value />
+	</data>
+	<data name="LOADING_SCENE_TEMPLATE" xml:space="preserve">
+		<value>正在加載場景模板 «{0}»...</value>
+	</data>
+	<data name="LOADING_SERVER_INFO" xml:space="preserve">
+		<value />
+	</data>
+	<data name="LOADING_WORKSPACES" xml:space="preserve">
+		<value />
+	</data>
+	<data name="LOCK_CHILDREN" xml:space="preserve">
+		<value>在遊玩模式下鎖定層次結構</value>
+	</data>
+	<data name="LOCK_HIERARCHY_COMPONENT_TOOLTIP" xml:space="preserve">
+		<value>将当前对象设置为层次结构中对象的父对象。父对象的所有子对象被视为一个对象。</value>
+	</data>
+	<data name="LOCK_SELECTABILITY" xml:space="preserve">
+		<value>允許從場景中選擇</value>
+	</data>
+	<data name="MAINMENU_AUTHORIZATION_TEXT" xml:space="preserve">
+		<value />
+	</data>
+	<data name="MAINMENU_AUTHORIZATION_TITLE" xml:space="preserve">
+		<value />
+	</data>
+	<data name="MAINMENU_CANCEL" xml:space="preserve">
+		<value>取消</value>
+	</data>
+	<data name="MAINMENU_CHANGEWORKSPACE" xml:space="preserve">
+		<value>改變</value>
+	</data>
+	<data name="MAINMENU_CONNECT" xml:space="preserve">
+		<value>連接</value>
+	</data>
+	<data name="MAINMENU_CONNECTING_TO_SERVER_TEXT" xml:space="preserve">
+		<value />
+	</data>
+	<data name="MAINMENU_CONNECTING_TO_SERVER_TITLE" xml:space="preserve">
+		<value />
+	</data>
+	<data name="MAINMENU_CONNECTING_XRMS_NO_PROJECT" xml:space="preserve">
+		<value>There are no suitable projects in Varwin XRMS</value>
+	</data>
+	<data name="MAINMENU_DELETE_PROJECT" xml:space="preserve">
+		<value>刪除</value>
+	</data>
+	<data name="MAINMENU_ENTER" xml:space="preserve">
+		<value>入口</value>
+	</data>
+	<data name="MAINMENU_IPINPUT" xml:space="preserve">
+		<value>輸入ip地址...</value>
+	</data>
+	<data name="MAINMENU_LOCAL" xml:space="preserve">
+		<value>已保存</value>
+	</data>
+	<data name="MAINMENU_LOGIN" xml:space="preserve">
+		<value>登錄</value>
+	</data>
+	<data name="MAINMENU_LOGOUT" xml:space="preserve">
+		<value>出去</value>
+	</data>
+	<data name="MAINMENU_MOBILE_VR_IS_NOT_AVAILABLE" xml:space="preserve">
+		<value>您的 Varwin 許可證不支持 VR 模式。 請聯繫您的許可證提供商。</value>
+	</data>
+	<data name="MAINMENU_MULTIPLAYER" xml:space="preserve">
+		<value>多人遊戲</value>
+	</data>
+	<data name="MAINMENU_MULTIPLAYER_TEXT" xml:space="preserve">
+		<value />
+	</data>
+	<data name="MAINMENU_NO_PROJECTS" xml:space="preserve">
+		<value>沒有項目</value>
+	</data>
+	<data name="MAINMENU_NO_SAVED_PROJECTS" xml:space="preserve">
+		<value />
+	</data>
+	<data name="MAINMENU_NO_SCENES" xml:space="preserve">
+		<value>場景不可用</value>
+	</data>
+	<data name="MAINMENU_PASSWORD" xml:space="preserve">
+		<value>密碼</value>
+	</data>
+	<data name="MAINMENU_PROJECTS" xml:space="preserve">
+		<value>項目</value>
+	</data>
+	<data name="MAINMENU_REMEMBERME" xml:space="preserve">
+		<value>記住</value>
+	</data>
+	<data name="MAINMENU_SAVE_PROJECT" xml:space="preserve">
+		<value>下載</value>
+	</data>
+	<data name="MAINMENU_SAVED_PROJECTS" xml:space="preserve">
+		<value />
+	</data>
+	<data name="MAINMENU_SERVER" xml:space="preserve">
+		<value>服務器</value>
+	</data>
+	<data name="MAINMENU_UPDATED AT" xml:space="preserve">
+		<value>更新 </value>
+	</data>
+	<data name="MAINMENU_WORKSPACES" xml:space="preserve">
+		<value>工作區</value>
+	</data>
+	<data name="MENU" xml:space="preserve">
+		<value />
+	</data>
+	<data name="MOBILE_READY_CHANGED" xml:space="preserve">
+		<value>Mobile-VR 支持狀態已更改，項目將重新啟動。</value>
+	</data>
+	<data name="MODE" xml:space="preserve">
+		<value>模式</value>
+	</data>
+	<data name="MULTIPLAYER_BACK" xml:space="preserve">
+		<value>后退</value>
+	</data>
+	<data name="MULTIPLAYER_CONNECT" xml:space="preserve">
+		<value>连接</value>
+	</data>
+	<data name="MULTIPLAYER_CONNECTINGTOHOST" xml:space="preserve">
+		<value>主机连接</value>
+	</data>
+	<data name="MULTIPLAYER_CONNECTINGTOSESSION" xml:space="preserve">
+		<value>连接到会话</value>
+	</data>
+	<data name="MULTIPLAYER_CONNECTION_ERROR_DESCRIPTION" xml:space="preserve">
+		<value>请检查您输入的信息是否正确，然后重试。</value>
+	</data>
+	<data name="MULTIPLAYER_CONNECTIONERROR" xml:space="preserve">
+		<value>连接错误</value>
+	</data>
+	<data name="MULTIPLAYER_DESKTOP" xml:space="preserve">
+		<value>桌面</value>
+	</data>
+	<data name="MULTIPLAYER_ENTERIPADDRESS" xml:space="preserve">
+		<value>输入服务器地址</value>
+	</data>
+	<data name="MULTIPLAYER_HOST_DISCONNECTED_BUTTON" xml:space="preserve">
+		<value>出口</value>
+	</data>
+	<data name="MULTIPLAYER_HOST_DISCONNECTED_MESSAGE" xml:space="preserve">
+		<value>主机已断开连接</value>
+	</data>
+	<data name="MULTIPLAYER_HOST_IP" xml:space="preserve">
+		<value>服务器 IP</value>
+	</data>
+	<data name="MULTIPLAYER_HOST_NAME" xml:space="preserve">
+		<value>服务器</value>
+	</data>
+	<data name="MULTIPLAYER_LISTOFPLAYERS" xml:space="preserve">
+		<value>球员名单</value>
+	</data>
+	<data name="MULTIPLAYER_NETTLEDESK" xml:space="preserve">
+		<value>Illumetry IO</value>
+	</data>
+	<data name="MULTIPLAYER_PLAYERS_NAME" xml:space="preserve">
+		<value>姓名</value>
+	</data>
+	<data name="MULTIPLAYER_PLAYERS_STATUS" xml:space="preserve">
+		<value>地位</value>
+	</data>
+	<data name="MULTIPLAYER_PLAYERS_STATUS_CONNECTING" xml:space="preserve">
+		<value>连接</value>
+	</data>
+	<data name="MULTIPLAYER_PLAYERS_STATUS_HOST" xml:space="preserve">
+		<value>主持人</value>
+	</data>
+	<data name="MULTIPLAYER_PLAYERS_STATUS_READY" xml:space="preserve">
+		<value>准备好</value>
+	</data>
+	<data name="MULTIPLAYER_PROJECTLOADING" xml:space="preserve">
+		<value>加载项目</value>
+	</data>
+	<data name="MULTIPLAYER_SELECT_GAMEMODE" xml:space="preserve">
+		<value>模式选择</value>
+	</data>
+	<data name="MULTIPLAYER_SESSION_CREATIION" xml:space="preserve">
+		<value>会话创建</value>
+	</data>
+	<data name="MULTIPLAYER_SPECTATOR" xml:space="preserve">
+		<value>观察者</value>
+	</data>
+	<data name="MULTIPLAYER_STARTGAMEMODE" xml:space="preserve">
+		<value>启动模式</value>
+	</data>
+	<data name="MULTIPLAYER_STARTSESSION" xml:space="preserve">
+		<value>开始</value>
+	</data>
+	<data name="MULTIPLAYER_VR" xml:space="preserve">
+		<value>虚拟现实</value>
+	</data>
+	<data name="NETTLEDESK_STYLUS_SUPPORT" xml:space="preserve">
+		<value>手寫筆支持</value>
+	</data>
+	<data name="NO" xml:space="preserve">
+		<value>不是</value>
+	</data>
+	<data name="NOT_FOR_COMMERCIAL_USE" xml:space="preserve">
+		<value>Varwin 的演示版。
+ 請購買專業版或商業版以消除演示限制</value>
+	</data>
+	<data name="OBJECT_NAME" xml:space="preserve">
+		<value>物件類別</value>
+	</data>
+	<data name="OBJECT_USE_IN_LOGIC" xml:space="preserve">
+		<value>該對像用於邏輯。你想刪除它嗎？</value>
+	</data>
+	<data name="OBJECT_VERSION_CHANGED" xml:space="preserve">
+		<value>對象的版本已更改，需要重新啟動項目。</value>
+	</data>
+	<data name="OBJECT_VERSION_WINDOW" xml:space="preserve">
+		<value>對象版本控制</value>
+	</data>
+	<data name="OBJECT_WAS_COPIED" xml:space="preserve">
+		<value>複製的對象</value>
+	</data>
+	<data name="OBJECT_WAS_DUPLICATED" xml:space="preserve">
+		<value>對象重複</value>
+	</data>
+	<data name="OBJECT_WAS_PASTED" xml:space="preserve">
+		<value>插入的對象</value>
+	</data>
+	<data name="OK" xml:space="preserve">
+		<value>好的</value>
+	</data>
+	<data name="OPENXR_INITIALIZATION" xml:space="preserve">
+		<value>啟動 OpenXR</value>
+	</data>
+	<data name="PHOTON_DISCONECT" xml:space="preserve">
+		<value>與多人服務器斷開連接</value>
+	</data>
+	<data name="PIVOT_MODE_CENTER" xml:space="preserve">
+		<value>中心</value>
+	</data>
+	<data name="PIVOT_MODE_PIVOT" xml:space="preserve">
+		<value>錨點</value>
+	</data>
+	<data name="PLATFORM_MODE" xml:space="preserve">
+		<value />
+	</data>
+	<data name="PLATFORM_MODE_IS_NOT_AVAILABLE_TITLE" xml:space="preserve">
+		<value>模式 {0} 不可用</value>
+	</data>
+	<data name="PLATFORM_MODE_IS_NOT_AVAILABLE_UNDER_LICENSE" xml:space="preserve">
+		<value>模式 {0} 不適用於此許可證。 您需要在項目配置中更改模式</value>
+	</data>
+	<data name="POSITION" xml:space="preserve">
+		<value>位置</value>
+	</data>
+	<data name="PROJECT_CONFIG_ERROR" xml:space="preserve">
+		<value>錯誤。未加載項目配置</value>
+	</data>
+	<data name="PROJECT_CONFIG_NULL" xml:space="preserve">
+		<value>世界配置不存在</value>
+	</data>
+	<data name="PROJECT_CONFIGURATION" xml:space="preserve">
+		<value>启动配置</value>
+	</data>
+	<data name="PROJECT_DOWNLOAD_ERROR" xml:space="preserve">
+		<value>加载项目"{0}"时发生错误</value>
+	</data>
+	<data name="PROJECT_WAS_REMOVED" xml:space="preserve">
+		<value>當前項目已被刪除。編輯器將被關閉</value>
+	</data>
+	<data name="PROPERTY_INSPECTOR" xml:space="preserve">
+		<value>特性</value>
+	</data>
+	<data name="READ_LAUNCH_ARGS_RABBIT_ERROR" xml:space="preserve">
+		<value>錯誤。服務器不可用</value>
+	</data>
+	<data name="REFRESH" xml:space="preserve">
+		<value>刷新</value>
+	</data>
+	<data name="RELOAD" xml:space="preserve">
+		<value>重新加載</value>
+	</data>
+	<data name="REMOVED_OBJECTS_WARNING" xml:space="preserve">
+		<value>一個或多個物件已從 Varwin XRMS 庫中刪除。 為了保存場景數據，請從場景中刪除遺失的對象</value>
+	</data>
+	<data name="REMOVED_OBJECTS_WARNING_SUCCESS" xml:space="preserve">
+		<value>庫中遺失的所有物件均已刪除。 您可以儲存場景！</value>
+	</data>
+	<data name="REMOVED_RESOURCES_WARNING" xml:space="preserve">
+		<value>場景中使用的資源已從 Varwin XRMS 庫中刪除。 請變更使用缺失資源的屬性值。</value>
+	</data>
+	<data name="REMOVED_RESOURCES_WARNING_SUCCESS" xml:space="preserve">
+		<value>場景中不再使用缺失的資源。 您可以保存項目！</value>
+	</data>
+	<data name="RESET_CHANGES" xml:space="preserve">
+		<value>重置更改</value>
+	</data>
+	<data name="RESOURCE_MISSING_AUDIO" xml:space="preserve">
+		<value>聲音的</value>
+	</data>
+	<data name="RESOURCE_MISSING_BASE" xml:space="preserve">
+		<value>資源不顯示，因為找不到用於復制資源的標準對象： </value>
+	</data>
+	<data name="RESOURCE_MISSING_IMAGE" xml:space="preserve">
+		<value>圖片</value>
+	</data>
+	<data name="RESOURCE_MISSING_MODEL" xml:space="preserve">
+		<value>3D模型</value>
+	</data>
+	<data name="RESOURCE_MISSING_VIDEO" xml:space="preserve">
+		<value>視頻</value>
+	</data>
+	<data name="RESOURCE_SELECT_WINDOW" xml:space="preserve">
+		<value>資源選擇</value>
+	</data>
+	<data name="RESOURCES" xml:space="preserve">
+		<value>資源</value>
+	</data>
+	<data name="RESOURCES_NOT_FOUND" xml:space="preserve">
+		<value>未找到資源。</value>
+	</data>
+	<data name="RESOURCES_OBJECTS" xml:space="preserve">
+		<value>圖書館資源</value>
+	</data>
+	<data name="RETURN" xml:space="preserve">
+		<value />
+	</data>
+	<data name="ROOM_CREATING" xml:space="preserve">
+		<value>創建房間...</value>
+	</data>
+	<data name="ROTATION" xml:space="preserve">
+		<value>角度</value>
+	</data>
+	<data name="RUNTIME_CODE_ERROR" xml:space="preserve">
+		<value>邏輯執行錯誤</value>
+	</data>
+	<data name="SATURATION" xml:space="preserve">
+		<value>飽和</value>
+	</data>
+	<data name="SAVE" xml:space="preserve">
+		<value>節省</value>
+	</data>
+	<data name="SAVE_ERROR" xml:space="preserve">
+		<value>保存錯誤</value>
+	</data>
+	<data name="SAVED" xml:space="preserve">
+		<value>已保存</value>
+	</data>
+	<data name="SCALE" xml:space="preserve">
+		<value>大小</value>
+	</data>
+	<data name="SCENE_LOADING" xml:space="preserve">
+		<value>正在加載場景模板...</value>
+	</data>
+	<data name="SCENE_OBJECTS" xml:space="preserve">
+		<value>舞台上的物品</value>
+	</data>
+	<data name="SCENE_OBJECTS_CHANGED" xml:space="preserve">
+		<value>另一個用戶改變了場景。保留當前版本，還是使用新版本？</value>
+	</data>
+	<data name="SCENE_PREPARATION" xml:space="preserve">
+		<value>舞台準備...</value>
+	</data>
+	<data name="SCENE_SAVED" xml:space="preserve">
+		<value>場景保存成功</value>
+	</data>
+	<data name="SCENE_TEMPLATE_CHANGED" xml:space="preserve">
+		<value>場景模板已更改。想要保存更改並重新加載場景？</value>
+	</data>
+	<data name="SCENE_WAS_REMOVED" xml:space="preserve">
+		<value>當前場景已被刪除。編輯器將被關閉</value>
+	</data>
+	<data name="SEND_REPORT" xml:space="preserve">
+		<value>發送報告</value>
+	</data>
+	<data name="SET_MODE_SAVE_POPUP_MESSAGE" xml:space="preserve">
+		<value>是否要保存對場景所做的更改？</value>
+	</data>
+	<data name="SETTINGS" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SIZE" xml:space="preserve">
+		<value>規模</value>
+	</data>
+	<data name="SOME_OBJECTS_IS_NOT_LINUX_READY_MESSAGE" xml:space="preserve">
+		<value>您正在使用的某些對像或場景模板不支持 Linux，請嘗試更新到受支持的版本</value>
+	</data>
+	<data name="SOME_OBJECTS_IS_NOT_LINUX_READY_TITLE" xml:space="preserve">
+		<value>有一個問題</value>
+	</data>
+	<data name="SPACE_MODE_LOCAL" xml:space="preserve">
+		<value>Local</value>
+	</data>
+	<data name="SPACE_MODE_WORLD" xml:space="preserve">
+		<value>World</value>
+	</data>
+	<data name="SPAWN_PAID_WINDOW_CLOSE" xml:space="preserve">
+		<value>關</value>
+	</data>
+	<data name="SPAWN_PAID_WINDOW_OPEN_LICENSES" xml:space="preserve">
+		<value>有關許可證的更多信息</value>
+	</data>
+	<data name="SPAWN_PAID_WINDOW_TITLE" xml:space="preserve">
+		<value>此對像只能與付費的 Varwin 許可證一起使用</value>
+	</data>
+	<data name="SPAWN_POINT_ERROR" xml:space="preserve">
+		<value>未找到玩家起始位置</value>
+	</data>
+	<data name="SPAWN_WITH_PARENT" xml:space="preserve">
+		<value>將此對象分配為父對象，
+ 對於新創建的對象</value>
+	</data>
+	<data name="STEAM_VR_INITIALIZATION" xml:space="preserve">
+		<value>啟動 Steam VR</value>
+	</data>
+	<data name="TOOLTIP_COLLIDER_VISUALIZATION_EDGES" xml:space="preserve">
+		<value>更改碰撞器的顯示模式 [Ctrl-Alt-C]
+ 
+僅顯示邊</value>
+	</data>
+	<data name="TOOLTIP_COLLIDER_VISUALIZATION_NONE" xml:space="preserve">
+		<value>更改碰撞器的顯示模式 [Ctrl-Alt-C]
+ 
+不顯示碰撞器</value>
+	</data>
+	<data name="TOOLTIP_COLLIDER_VISUALIZATION_SOLID" xml:space="preserve">
+		<value>更改碰撞器的顯示模式 [Ctrl-Alt-C]
+ 
+顯示邊和面</value>
+	</data>
+	<data name="TOOLTIP_COPY" xml:space="preserve">
+		<value>複製 [Ctrl-C]</value>
+	</data>
+	<data name="TOOLTIP_DESKTOP_PLAYER_MODE" xml:space="preserve">
+		<value>電腦預覽</value>
+	</data>
+	<data name="TOOLTIP_DOCUMENTATION_LINK" xml:space="preserve">
+		<value>打开文档链接</value>
+	</data>
+	<data name="TOOLTIP_HAND_TOOL" xml:space="preserve">
+		<value>視角移動 [Q]</value>
+	</data>
+	<data name="TOOLTIP_MOVE_TOOL" xml:space="preserve">
+		<value>移動工具 [W]</value>
+	</data>
+	<data name="TOOLTIP_NETTLEDESK_MODE" xml:space="preserve">
+		<value>在 VR 中預覽</value>
+	</data>
+	<data name="TOOLTIP_PASTE" xml:space="preserve">
+		<value>粘貼 [Ctrl-V]</value>
+	</data>
+	<data name="TOOLTIP_PIVOT_MODE_CENTER" xml:space="preserve">
+		<value>更改工具的參考點位置 [Z]
+ 
+工具的參考點以物件的中心點為基準</value>
+	</data>
+	<data name="TOOLTIP_PIVOT_MODE_PIVOT" xml:space="preserve">
+		<value>更改工具的參考點位置 [Z]
+ 
+工具的參考點以物件從2D或3D繪圖軟體匯出時預設的參考點為基準</value>
+	</data>
+	<data name="TOOLTIP_REDO" xml:space="preserve">
+		<value>重複 [Ctrl-Y]</value>
+	</data>
+	<data name="TOOLTIP_ROTATE_TOOL" xml:space="preserve">
+		<value>旋轉工具 [E]</value>
+	</data>
+	<data name="TOOLTIP_SAVE" xml:space="preserve">
+		<value>儲存 [Ctrl-S]</value>
+	</data>
+	<data name="TOOLTIP_SCALE_TOOL" xml:space="preserve">
+		<value>縮放工具 [R]</value>
+	</data>
+	<data name="TOOLTIP_UNDO" xml:space="preserve">
+		<value>取消 [Ctrl-Z]</value>
+	</data>
+	<data name="TOOLTIP_VERSION_CONTROL" xml:space="preserve">
+		<value>對象版本控制窗口</value>
+	</data>
+	<data name="TOOLTIP_VR_MODE" xml:space="preserve">
+		<value>在 VR 中預覽</value>
+	</data>
+	<data name="TOOLTIP_WORLD_MODE_GLOBAL" xml:space="preserve">
+		<value>啟用移動工具坐標軸旋轉 [X]
+ 
+移動工具的坐標軸與場景坐標一致</value>
+	</data>
+	<data name="TOOLTIP_WORLD_MODE_LOCAL" xml:space="preserve">
+		<value>啟用移動工具坐標軸旋轉 [X]
+ 
+移動工具的坐標軸方向根據物件本身角度旋轉</value>
+	</data>
+	<data name="TRANSFORM" xml:space="preserve">
+		<value>Transform</value>
+	</data>
+	<data name="TRY_AGAIN" xml:space="preserve">
+		<value>重複</value>
+	</data>
+	<data name="TRY_TO_CONNECT_TO_RANDOM_ROOM" xml:space="preserve">
+		<value>正在嘗試連接到隨機房間...</value>
+	</data>
+	<data name="UNKNOWN_ERROR" xml:space="preserve">
+		<value>未知錯誤</value>
+	</data>
+	<data name="UNLINK_PARENT" xml:space="preserve">
+		<value>解除綁定父對象</value>
+	</data>
+	<data name="VERSION_CHANGE_UNSAVED" xml:space="preserve">
+		<value>當您更改場景模闆對象的版本時，所有未保存的更改都將丟失</value>
+	</data>
+	<data name="WARNING" xml:space="preserve">
+		<value>警告</value>
+	</data>
+	<data name="WRONG_LOGIN_OR_PASSWORD" xml:space="preserve">
+		<value />
+	</data>
+	<data name="YES" xml:space="preserve">
+		<value>是的</value>
+	</data>
+	<data name="YOU_CAN_GO_TO_PREVIEW_MODE" xml:space="preserve">
+		<value>您也可以切换到 &lt;link="set_dp_mode"&gt;&lt;b&gt;&lt;u&gt;PC 预览模式&lt;/u&gt;&lt;/b&gt;&lt;/link&gt;。</value>
+	</data>
+</root>

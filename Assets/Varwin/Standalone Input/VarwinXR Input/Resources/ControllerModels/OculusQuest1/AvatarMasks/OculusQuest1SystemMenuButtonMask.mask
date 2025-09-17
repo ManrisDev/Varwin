@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: OculusQuest1SystemMenuButtonMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: HandLeft_Group
+    m_Weight: 0
+  - m_Path: HandLeft_Group/HandLeft
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandIndex1
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandIndex1/LeftHandIndex2
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3/LeftHandIndex4
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandMiddle1
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandMiddle1/LeftHandMiddle2
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3/LeftHandMiddle4
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandPinky1
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandPinky1/LeftHandPinky2
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3/LeftHandPinky4
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandRing1
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandRing1/LeftHandRing2
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3/LeftHandRing4
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandThumb1
+    m_Weight: 1
+  - m_Path: HandLeft_Group/LeftHand/LeftHandThumb1/LeftHandThumb2
+    m_Weight: 1
+  - m_Path: HandLeft_Group/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3
+    m_Weight: 1
+  - m_Path: HandLeft_Group/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3/LeftHandThumb4
+    m_Weight: 1
+  - m_Path: oculus_quest_controller_left
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/base
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/base/attach_point_7
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/body
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/body/attach_point
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/body/mesh
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/body/mesh/l_body
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/button_enter
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/button_enter/attach_point_6
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/button_enter/mesh_6
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/button_enter/mesh_6/l_button_enter
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/button_grip
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/button_grip/attach_point_5
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/button_grip/mesh_5
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/button_grip/mesh_5/l_button_grip
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/button_x
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/button_x/attach_point_2
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/button_x/mesh_2
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/button_x/mesh_2/l_button_x
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/button_y
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/button_y/attach_point_3
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/button_y/mesh_3
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/button_y/mesh_3/l_button_y
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/grip
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/grip/attach_point_13
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/handgrip
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/handgrip/attach_point_12
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/openxr_aim
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/openxr_aim/attach_point_9
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/openxr_grip
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/openxr_grip/attach_point_10
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/openxr_handmodel
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/openxr_handmodel/attach_point_11
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/thumbstick
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/thumbstick/attach_point_4
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/thumbstick/mesh_4
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/thumbstick/mesh_4/l_thumbstick
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/tip
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/tip/attach_point_8
+    m_Weight: 0
+  - m_Path: oculus_quest_controller_left/root/trigger
+    m_Weight: 1
+  - m_Path: oculus_quest_controller_left/root/trigger/attach_point_1
+    m_Weight: 1
+  - m_Path: oculus_quest_controller_left/root/trigger/mesh_1
+    m_Weight: 1
+  - m_Path: oculus_quest_controller_left/root/trigger/mesh_1/l_trigger
+    m_Weight: 1

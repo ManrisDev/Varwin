@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="ACTIONS" xml:space="preserve">
+		<value>Действия</value>
+	</data>
+	<data name="ARRAY_ELEMENT" xml:space="preserve">
+		<value>Элемент</value>
+	</data>
+	<data name="BRIGHTNESS" xml:space="preserve">
+		<value>Яркость</value>
+	</data>
+	<data name="BUTTON" xml:space="preserve">
+		<value>Простая кнопка</value>
+	</data>
+	<data name="CAMERA_SETTINGS_LABEL" xml:space="preserve">
+		<value>Сглаживание камеры</value>
+	</data>
+	<data name="CANCEL" xml:space="preserve">
+		<value>Отмена</value>
+	</data>
+	<data name="CANNOT_NOT_PREVIEW" xml:space="preserve">
+		<value>Это невозможно в режиме предпросмотра</value>
+	</data>
+	<data name="CHOOSE_PARENT" xml:space="preserve">
+		<value>Назначить родительский объект </value>
+	</data>
+	<data name="CHOOSE_PROJECT_CONFIG" xml:space="preserve">
+		<value>Выберите конфигурацию мира</value>
+	</data>
+	<data name="CLIENT_TERMINATE" xml:space="preserve">
+		<value>Редактор будет закрыт. Хотите сохранить изменения?</value>
+	</data>
+	<data name="CLOSE_BUTTON" xml:space="preserve">
+		<value>Закрыть</value>
+	</data>
+	<data name="COLLIDER_VISUALIZATION_EDGES" xml:space="preserve">
+		<value>Грани</value>
+	</data>
+	<data name="COLLIDER_VISUALIZATION_NONE" xml:space="preserve">
+		<value>Нет</value>
+	</data>
+	<data name="COLLIDER_VISUALIZATION_SOLID" xml:space="preserve">
+		<value>Плоскости</value>
+	</data>
+	<data name="COLOR_PICKER_WINDOW" xml:space="preserve">
+		<value>Выбор цвета</value>
+	</data>
+	<data name="COMPILE_CODE_ERROR" xml:space="preserve">
+		<value>Ошибка компиляции</value>
+	</data>
+	<data name="CONNECTING" xml:space="preserve">
+		<value>Соединение...</value>
+	</data>
+	<data name="CURRENT_SCENE_TEMPLATE_DELETED" xml:space="preserve">
+		<value>Текущий шаблон сцены был удален</value>
+	</data>
+	<data name="DELETE_OBJECT" xml:space="preserve">
+		<value>Удалить</value>
+	</data>
+	<data name="DISPLAY" xml:space="preserve">
+		<value>Простой дисплей</value>
+	</data>
+	<data name="ENABLE_IN_BLOCKLY_EDITOR" xml:space="preserve">
+		<value>Использовать в Blockly</value>
+	</data>
+	<data name="ENTER_ROOM" xml:space="preserve">
+		<value>Вход в комнату...</value>
+	</data>
+	<data name="ENVIRONMENT_ERROR" xml:space="preserve">
+		<value>Ошибка настройки окружения</value>
+	</data>
+	<data name="ENVIRONMENT_NOT_FOUND" xml:space="preserve">
+		<value>Ошибка. Шаблон сцены не загружен</value>
+	</data>
+	<data name="ERROR_API_CLIENT_VERSION_MISMATCH" xml:space="preserve">
+		<value>Ошибка. Версии API и клиента не совпадают</value>
+	</data>
+	<data name="ERROR_READ_STARTUP_ARGS" xml:space="preserve">
+		<value>Невозможно прочесть стартовые параметры</value>
+	</data>
+	<data name="ERROR_SERVER_DISCONNECT" xml:space="preserve">
+		<value>Ошибка. Сервер не отвечает</value>
+	</data>
+	<data name="EXCEPTION_IN_OBJECT" xml:space="preserve">
+		<value>Ошибка в объекте</value>
+	</data>
+	<data name="EXECUTE_LOGIC_ERROR" xml:space="preserve">
+		<value>Ошибка выполнения логики</value>
+	</data>
+	<data name="EXIT" xml:space="preserve">
+		<value>Выход</value>
+	</data>
+	<data name="EXIT_DESKTOP_PLAYER_MESSAGE" xml:space="preserve">
+		<value>Вы уверены, что хотите выйти из режима просмотра на ПК?</value>
+	</data>
+	<data name="EXIT_DESKTOP_PLAYER_TITLE" xml:space="preserve">
+		<value>Выход из режима просмотра на ПК</value>
+	</data>
+	<data name="EXIT_TO_DESKTOP" xml:space="preserve">
+		<value>Выключить VR</value>
+	</data>
+	<data name="EXIT_TO_EDIT" xml:space="preserve">
+		<value>Режим редактирования</value>
+	</data>
+	<data name="EXIT_TO_VR" xml:space="preserve">
+		<value>Переключиться в VR</value>
+	</data>
+	<data name="EXIT_VR_PLAYER_MESSAGE" xml:space="preserve">
+		<value>Вы уверены, что хотите выйти из режима VR просмотра?</value>
+	</data>
+	<data name="EXIT_VR_PLAYER_TITLE" xml:space="preserve">
+		<value>Выход из режима VR просмотра</value>
+	</data>
+	<data name="GET_SCENE_TEMPLATE_DATA" xml:space="preserve">
+		<value>Получение данных о шаблоне сцены...</value>
+	</data>
+	<data name="GROUP_NOT_SAVED" xml:space="preserve">
+		<value>Несохраненные изменения будут потеряны. Сохранить?</value>
+	</data>
+	<data name="HEADSET_NOT_FOUND_HINT" xml:space="preserve">
+		<value>1. Убедитесь, что VR-шлем подключен к компьютеру.
+2. Проверьте, что у вас запущен &lt;link="start_steamvr"&gt;&lt;b&gt;&lt;u&gt;SteamVR&lt;/u&gt;&lt;/b&gt;&lt;/link&gt;.
+3. Перезапустите программу.</value>
+	</data>
+	<data name="HEADSET_TRACKING_LOST" xml:space="preserve">
+		<value>Шлем не найден</value>
+	</data>
+	<data name="HIERARCHY" xml:space="preserve">
+		<value>Объекты</value>
+	</data>
+	<data name="HUE" xml:space="preserve">
+		<value>Тон</value>
+	</data>
+	<data name="INIT_LOGIC_ERROR" xml:space="preserve">
+		<value>Ошибка инициализации логики</value>
+	</data>
+	<data name="INSPECTOR" xml:space="preserve">
+		<value>Инспектор</value>
+	</data>
+	<data name="JOIN_TO_ROOM" xml:space="preserve">
+		<value>Подключение к комнате...</value>
+	</data>
+	<data name="LAMP" xml:space="preserve">
+		<value>простая лампочка</value>
+	</data>
+	<data name="LETS_GO" xml:space="preserve">
+		<value>Поехали!</value>
+	</data>
+	<data name="LIBRARY" xml:space="preserve">
+		<value>Библиотека</value>
+	</data>
+	<data name="LIBRARY_OBJECTS" xml:space="preserve">
+		<value>Объектов в библиотеке</value>
+	</data>
+	<data name="LIBRARY_WAS_CHANGED" xml:space="preserve">
+		<value>Библиотека изменена</value>
+	</data>
+	<data name="LICENSE_KEY_ERROR" xml:space="preserve">
+		<value>Не могу получить информацию о лицензии</value>
+	</data>
+	<data name="LOAD_OBJECT_ERROR" xml:space="preserve">
+		<value>Ошибка загрузки объекта</value>
+	</data>
+	<data name="LOAD_PROJECTS_ERROR" xml:space="preserve">
+		<value>Ошибка загрузки списка проектов</value>
+	</data>
+	<data name="LOAD_RESOURCE_ERROR" xml:space="preserve">
+		<value>Ошибка загрузки ресурса</value>
+	</data>
+	<data name="LOAD_SCENE_ERROR" xml:space="preserve">
+		<value>Ошибка загрузки шаблона сцены</value>
+	</data>
+	<data name="LOAD_WORKSPACES_ERROR" xml:space="preserve">
+		<value>Ошибка загрузки списка рабочих пространств</value>
+	</data>
+	<data name="LOADING" xml:space="preserve">
+		<value>Загрузка</value>
+	</data>
+	<data name="LOADING_FILE" xml:space="preserve">
+		<value>Загрузка {0}... {1} из {2} Мб</value>
+	</data>
+	<data name="LOADING_SCENE_TEMPLATE" xml:space="preserve">
+		<value>Загружаю шаблон сцены «{0}»...</value>
+	</data>
+	<data name="LOCK_CHILDREN" xml:space="preserve">
+		<value>Зафиксировать иерархию в режиме просмотра</value>
+	</data>
+	<data name="LOCK_SELECTABILITY" xml:space="preserve">
+		<value>Разрешить выделение со сцены</value>
+	</data>
+	<data name="MAINMENU_CANCEL" xml:space="preserve">
+		<value>Отмена</value>
+	</data>
+	<data name="MAINMENU_CHANGEWORKSPACE" xml:space="preserve">
+		<value>Сменить</value>
+	</data>
+	<data name="MAINMENU_CONNECT" xml:space="preserve">
+		<value>Подключиться</value>
+	</data>
+	<data name="MAINMENU_DELETE_PROJECT" xml:space="preserve">
+		<value>Удалить</value>
+	</data>
+	<data name="MAINMENU_ENTER" xml:space="preserve">
+		<value>Вход</value>
+	</data>
+	<data name="MAINMENU_IPINPUT" xml:space="preserve">
+		<value>Введите ip-адрес...</value>
+	</data>
+	<data name="MAINMENU_LOCAL" xml:space="preserve">
+		<value>Сохраненные</value>
+	</data>
+	<data name="MAINMENU_LOGIN" xml:space="preserve">
+		<value>Логин</value>
+	</data>
+	<data name="MAINMENU_LOGOUT" xml:space="preserve">
+		<value>Выйти</value>
+	</data>
+	<data name="MAINMENU_MULTIPLAYER" xml:space="preserve">
+		<value>Мультиплеер</value>
+	</data>
+	<data name="MAINMENU_NO_PROJECTS" xml:space="preserve">
+		<value>Нет проектов</value>
+	</data>
+	<data name="MAINMENU_NO_SCENES" xml:space="preserve">
+		<value>Не доступных сцен</value>
+	</data>
+	<data name="MAINMENU_PASSWORD" xml:space="preserve">
+		<value>Пароль</value>
+	</data>
+	<data name="MAINMENU_PROJECTS" xml:space="preserve">
+		<value>Проекты</value>
+	</data>
+	<data name="MAINMENU_REMEMBERME" xml:space="preserve">
+		<value>Запомнить</value>
+	</data>
+	<data name="MAINMENU_SAVE_PROJECT" xml:space="preserve">
+		<value>Скачать</value>
+	</data>
+	<data name="MAINMENU_SERVER" xml:space="preserve">
+		<value>Сервер</value>
+	</data>
+	<data name="MAINMENU_UPDATED AT" xml:space="preserve">
+		<value>Обновлено </value>
+	</data>
+	<data name="MAINMENU_WORKSPACES" xml:space="preserve">
+		<value>Рабочее пространство</value>
+	</data>
+	<data name="MOBILE_READY_CHANGED" xml:space="preserve">
+		<value>Статус поддержки Mobile-VR изменен, проект будет перезапущен.</value>
+	</data>
+	<data name="MODE" xml:space="preserve">
+		<value>Режим</value>
+	</data>
+	<data name="NO" xml:space="preserve">
+		<value>Нет</value>
+	</data>
+	<data name="NOT_FOR_COMMERCIAL_USE" xml:space="preserve">
+		<value>Демо-версия Varwin.
+Пожалуйста, приобретите Professional или Business версию, чтобы снять демонстрационные ограничения.</value>
+	</data>
+	<data name="OBJECT_NAME" xml:space="preserve">
+		<value>Тип объекта</value>
+	</data>
+	<data name="OBJECT_USE_IN_LOGIC" xml:space="preserve">
+		<value>Объект используется в логике. Хотите его удалить?</value>
+	</data>
+	<data name="OBJECT_VERSION_CHANGED" xml:space="preserve">
+		<value>Версии объектов были изменены, требуется перезапуск проекта.</value>
+	</data>
+	<data name="OBJECT_VERSION_WINDOW" xml:space="preserve">
+		<value>Управление версиями объектов</value>
+	</data>
+	<data name="OBJECT_WAS_COPIED" xml:space="preserve">
+		<value>Объект скопирован</value>
+	</data>
+	<data name="OBJECT_WAS_DUPLICATED" xml:space="preserve">
+		<value>Объект дублирован</value>
+	</data>
+	<data name="OBJECT_WAS_PASTED" xml:space="preserve">
+		<value>Объект вставлен</value>
+	</data>
+	<data name="OK" xml:space="preserve">
+		<value>OK</value>
+	</data>
+	<data name="PHOTON_DISCONECT" xml:space="preserve">
+		<value>Отключение от сервера мультиплеера</value>
+	</data>
+	<data name="PIVOT_MODE_CENTER" xml:space="preserve">
+		<value>Центр</value>
+	</data>
+	<data name="PIVOT_MODE_PIVOT" xml:space="preserve">
+		<value>Точка опоры</value>
+	</data>
+	<data name="POSITION" xml:space="preserve">
+		<value>Позиция</value>
+	</data>
+	<data name="PROJECT_CONFIG_ERROR" xml:space="preserve">
+		<value>Ошибка. Конфигурация проекта не загружена</value>
+	</data>
+	<data name="PROJECT_CONFIG_NULL" xml:space="preserve">
+		<value>Конфигурации мира не существует</value>
+	</data>
+	<data name="PROJECT_WAS_REMOVED" xml:space="preserve">
+		<value>Текущий проект был удален. Редактор будет закрыт</value>
+	</data>
+	<data name="PROPERTY_INSPECTOR" xml:space="preserve">
+		<value>Свойства</value>
+	</data>
+	<data name="READ_LAUNCH_ARGS_RABBIT_ERROR" xml:space="preserve">
+		<value>Ошибка. Сервер недоступен</value>
+	</data>
+	<data name="REFRESH" xml:space="preserve">
+		<value>Обновить</value>
+	</data>
+	<data name="RELOAD" xml:space="preserve">
+		<value>Перезагрузить</value>
+	</data>
+	<data name="RESOURCE_MISSING_AUDIO" xml:space="preserve">
+		<value>Аудио</value>
+	</data>
+	<data name="RESOURCE_MISSING_BASE" xml:space="preserve">
+		<value>Ресурсы не отображаются, т.к. не найдены стандартные объекты для воспроизведения ресурсов: </value>
+	</data>
+	<data name="RESOURCE_MISSING_IMAGE" xml:space="preserve">
+		<value>Изображение</value>
+	</data>
+	<data name="RESOURCE_MISSING_MODEL" xml:space="preserve">
+		<value>3D Модель</value>
+	</data>
+	<data name="RESOURCE_MISSING_VIDEO" xml:space="preserve">
+		<value>Видео</value>
+	</data>
+	<data name="RESOURCE_SELECT_WINDOW" xml:space="preserve">
+		<value>Выбор ресурса</value>
+	</data>
+	<data name="RESOURCES" xml:space="preserve">
+		<value>Ресурсы</value>
+	</data>
+	<data name="RESOURCES_NOT_FOUND" xml:space="preserve">
+		<value>Ресурсы не найдены.</value>
+	</data>
+	<data name="RESOURCES_OBJECTS" xml:space="preserve">
+		<value>Ресурсов в библиотеке</value>
+	</data>
+	<data name="ROOM_CREATING" xml:space="preserve">
+		<value>Создание комнаты...</value>
+	</data>
+	<data name="ROTATION" xml:space="preserve">
+		<value>Вращение</value>
+	</data>
+	<data name="RUNTIME_CODE_ERROR" xml:space="preserve">
+		<value>Ошибка исполнения логики</value>
+	</data>
+	<data name="SATURATION" xml:space="preserve">
+		<value>Насыщенность</value>
+	</data>
+	<data name="SAVE" xml:space="preserve">
+		<value>Сохранить</value>
+	</data>
+	<data name="SAVE_ERROR" xml:space="preserve">
+		<value>Ошибка сохранения</value>
+	</data>
+	<data name="SAVED" xml:space="preserve">
+		<value>Сохранено</value>
+	</data>
+	<data name="SCALE" xml:space="preserve">
+		<value>Масштаб</value>
+	</data>
+	<data name="SCENE_LOADING" xml:space="preserve">
+		<value>Загрузка шаблона сцены...</value>
+	</data>
+	<data name="SCENE_OBJECTS" xml:space="preserve">
+		<value>Объектов на сцене</value>
+	</data>
+	<data name="SCENE_OBJECTS_CHANGED" xml:space="preserve">
+		<value>Другой пользователь изменил сцену. Сохранить текущую версию, или использовать новую?</value>
+	</data>
+	<data name="SCENE_PREPARATION" xml:space="preserve">
+		<value>Подготовка сцены...</value>
+	</data>
+	<data name="SCENE_SAVED" xml:space="preserve">
+		<value>Сцена успешно сохранена</value>
+	</data>
+	<data name="SCENE_TEMPLATE_CHANGED" xml:space="preserve">
+		<value>Шаблон сцены был изменен. Хотите сохранить изменения и перезагрузить сцену?</value>
+	</data>
+	<data name="SCENE_WAS_REMOVED" xml:space="preserve">
+		<value>Текущая сцена была удален. Редактор будет закрыт</value>
+	</data>
+	<data name="SEND_REPORT" xml:space="preserve">
+		<value>Отправить отчет</value>
+	</data>
+	<data name="SIZE" xml:space="preserve">
+		<value>Размер</value>
+	</data>
+	<data name="SPACE_MODE_LOCAL" xml:space="preserve">
+		<value>Локальная</value>
+	</data>
+	<data name="SPACE_MODE_WORLD" xml:space="preserve">
+		<value>Мировая</value>
+	</data>
+	<data name="SPAWN_POINT_ERROR" xml:space="preserve">
+		<value>Стартовая позиция игрока не найдена</value>
+	</data>
+	<data name="SPAWN_WITH_PARENT" xml:space="preserve">
+		<value>Назначать этот объект родительским,
+для новых создаваемых объектов</value>
+	</data>
+	<data name="STEAM_VR_INITIALIZATION" xml:space="preserve">
+		<value>Запуск Steam VR</value>
+	</data>
+	<data name="TOOLTIP_COLLIDER_VISUALIZATION_EDGES" xml:space="preserve">
+		<value>Изменить режим отображения коллайдеров [Ctrl-Alt-C]
+		
+Только грани</value>
+	</data>
+	<data name="TOOLTIP_COLLIDER_VISUALIZATION_NONE" xml:space="preserve">
+		<value>Изменить режим отображения коллайдеров [Ctrl-Alt-C]
+		
+Без визуализации коллайдеров</value>
+	</data>
+	<data name="TOOLTIP_COLLIDER_VISUALIZATION_SOLID" xml:space="preserve">
+		<value>Изменить режим отображения коллайдеров [Ctrl-Alt-C]
+		
+Плоскости</value>
+	</data>
+	<data name="TOOLTIP_COPY" xml:space="preserve">
+		<value>Копировать [Ctrl-C]</value>
+	</data>
+	<data name="TOOLTIP_DESKTOP_PLAYER_MODE" xml:space="preserve">
+		<value>Предпросмотр на ПК</value>
+	</data>
+	<data name="TOOLTIP_HAND_TOOL" xml:space="preserve">
+		<value>Перемещение камеры [Q]</value>
+	</data>
+	<data name="TOOLTIP_MOVE_TOOL" xml:space="preserve">
+		<value>Перемещение объекта [W]</value>
+	</data>
+	<data name="TOOLTIP_PASTE" xml:space="preserve">
+		<value>Вставить [Ctrl-V]</value>
+	</data>
+	<data name="TOOLTIP_PIVOT_MODE_CENTER" xml:space="preserve">
+		<value>Изменить точку вращения [Z]
+
+Объект вращается вокруг своего центра.</value>
+	</data>
+	<data name="TOOLTIP_PIVOT_MODE_PIVOT" xml:space="preserve">
+		<value>Изменить точку вращения [Z]
+
+Объект вращается вокруг точки опоры.</value>
+	</data>
+	<data name="TOOLTIP_REDO" xml:space="preserve">
+		<value>Повторить [Ctrl-Y]</value>
+	</data>
+	<data name="TOOLTIP_ROTATE_TOOL" xml:space="preserve">
+		<value>Вращение объекта [E]</value>
+	</data>
+	<data name="TOOLTIP_SAVE" xml:space="preserve">
+		<value>Сохранить [Ctrl-S]</value>
+	</data>
+	<data name="TOOLTIP_SCALE_TOOL" xml:space="preserve">
+		<value>Масштабирование объекта [R]</value>
+	</data>
+	<data name="TOOLTIP_UNDO" xml:space="preserve">
+		<value>Отменить [Ctrl-Z]</value>
+	</data>
+	<data name="TOOLTIP_VERSION_CONTROL" xml:space="preserve">
+		<value>Окно управления версиями объектов</value>
+	</data>
+	<data name="TOOLTIP_VR_MODE" xml:space="preserve">
+		<value>Предпросмотр в VR</value>
+	</data>
+	<data name="TOOLTIP_WORLD_MODE_GLOBAL" xml:space="preserve">
+		<value>Переключить систему отсчета [X]
+
+Движение объекта относительно осей сцены.</value>
+	</data>
+	<data name="TOOLTIP_WORLD_MODE_LOCAL" xml:space="preserve">
+		<value>Переключить систему отсчета [X]
+
+Движение объекта относительно его осей.</value>
+	</data>
+	<data name="TRANSFORM" xml:space="preserve">
+		<value>Параметры</value>
+	</data>
+	<data name="TRY_AGAIN" xml:space="preserve">
+		<value>Повторить</value>
+	</data>
+	<data name="TRY_TO_CONNECT_TO_RANDOM_ROOM" xml:space="preserve">
+		<value>Попытка соединения со случайной комнатой...</value>
+	</data>
+	<data name="TUTORIAL_MOVE_ME" xml:space="preserve">
+		<value>Перемести меня</value>
+	</data>
+	<data name="TUTORIAL_POPUP_BACK_TO_RMS" xml:space="preserve">
+		<value>Отлично! Теперь снимите шлем и перейдите в редактор логики</value>
+	</data>
+	<data name="TUTORIAL_POPUP_HAPPY_END" xml:space="preserve">
+		<value>Вы научились менять режимы. Отлично! Теперь вы можете создавать собственные проекты</value>
+	</data>
+	<data name="TUTORIAL_POPUP_HELLO" xml:space="preserve">
+		<value>Добро пожаловать в режим обучения платформы VARWIN</value>
+	</data>
+	<data name="TUTORIAL_POPUP_LOGIC_START" xml:space="preserve">
+		<value>Включен режим предпросмотра. Логика взаимодействия объектов работает. Нажмите на объект «Кнопка»</value>
+	</data>
+	<data name="TUTORIAL_POPUP_MOVING" xml:space="preserve">
+		<value>Для перемещения по сцене: нажмите на тачпад, наведите указку на нужную зону, отпустите тачпад</value>
+	</data>
+	<data name="TUTORIAL_POPUP_MOVING_OCULUS" xml:space="preserve">
+		<value>Для перемещения по сцене: нажмите на стик, наведите указку на нужную зону, отпустите стик</value>
+	</data>
+	<data name="TUTORIAL_POPUP_OBJECT_MOVE" xml:space="preserve">
+		<value>Отлично, объект «{0}» добавлен. Для перемещения объектов используйте кнопку захвата</value>
+	</data>
+	<data name="TUTORIAL_POPUP_OPEN_MENU" xml:space="preserve">
+		<value>Откройте меню {0}</value>
+	</data>
+	<data name="TUTORIAL_TOOL_TIP_BUTTON_USE" xml:space="preserve">
+		<value>Поднесите контроллер к кнопке и нажмите на триггер</value>
+	</data>
+	<data name="TUTORIAL_TOOL_TIP_PRESS_ME" xml:space="preserve">
+		<value>Нажми меня</value>
+	</data>
+	<data name="TUTORIAL_TOOLTIP_CANCEL_SPAWN" xml:space="preserve">
+		<value>Отменить выбор</value>
+	</data>
+	<data name="TUTORIAL_TOOLTIP_GRIP" xml:space="preserve">
+		<value>Нажмите и удерживайте для перемещения</value>
+	</data>
+	<data name="TUTORIAL_TOOLTIP_MOVING" xml:space="preserve">
+		<value>Нажмите на тачпад, наведите указку на место перемещения и отпустите тачпад</value>
+	</data>
+	<data name="TUTORIAL_TOOLTIP_MOVING_OCULUS" xml:space="preserve">
+		<value>Нажмите на стик, наведите указку на место перемещения и отпустите стик</value>
+	</data>
+	<data name="TUTORIAL_TOOLTIP_OBJECT_SELECT" xml:space="preserve">
+		<value>Наведите луч-указку на объект «{0}» и нажмите триггер</value>
+	</data>
+	<data name="TUTORIAL_TOOLTIP_OBJECT_SPAWN" xml:space="preserve">
+		<value>Нажмите триггер для размещения объекта «{0}»</value>
+	</data>
+	<data name="TUTORIAL_TOOLTIP_OPEN_MENU" xml:space="preserve">
+		<value>Нажмите кнопку для открытия меню</value>
+	</data>
+	<data name="TUTORIAL_TOOLTIP_POINTER_CLICK" xml:space="preserve">
+		<value>Наведите луч-указку на кнопку «{0}» и нажмите триггер</value>
+	</data>
+	<data name="UNKNOWN_ERROR" xml:space="preserve">
+		<value>Неизвестная ошибка</value>
+	</data>
+	<data name="UNLINK_PARENT" xml:space="preserve">
+		<value>Отвязать родительский объект</value>
+	</data>
+	<data name="VERSION_CHANGE_UNSAVED" xml:space="preserve">
+		<value>При изменении версий объектов шаблонов сцен все несохраненные изменения будут утеряны</value>
+	</data>
+	<data name="YES" xml:space="preserve">
+		<value>Да</value>
+	</data>
+</root>

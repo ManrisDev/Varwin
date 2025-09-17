@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PicoG24KSystemMenuButtonMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: HandLeft_Group
+    m_Weight: 0
+  - m_Path: HandLeft_Group/HandLeft
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandIndex1
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandIndex1/LeftHandIndex2
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3/LeftHandIndex4
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandMiddle1
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandMiddle1/LeftHandMiddle2
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3/LeftHandMiddle4
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandPinky1
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandPinky1/LeftHandPinky2
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3/LeftHandPinky4
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandRing1
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandRing1/LeftHandRing2
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3/LeftHandRing4
+    m_Weight: 0
+  - m_Path: HandLeft_Group/LeftHand/LeftHandThumb1
+    m_Weight: 1
+  - m_Path: HandLeft_Group/LeftHand/LeftHandThumb1/LeftHandThumb2
+    m_Weight: 1
+  - m_Path: HandLeft_Group/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3
+    m_Weight: 1
+  - m_Path: HandLeft_Group/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3/LeftHandThumb4
+    m_Weight: 1
+  - m_Path: PIco_G2
+    m_Weight: 0
+  - m_Path: PIco_G2/AppButton
+    m_Weight: 0
+  - m_Path: PIco_G2/Body
+    m_Weight: 0
+  - m_Path: PIco_G2/BumperKey
+    m_Weight: 0
+  - m_Path: PIco_G2/HomeButton_L
+    m_Weight: 1
+  - m_Path: PIco_G2/HomeButton_R
+    m_Weight: 1
+  - m_Path: PIco_G2/TouchPad
+    m_Weight: 0
+  - m_Path: PIco_G2/VolumeKey
+    m_Weight: 0

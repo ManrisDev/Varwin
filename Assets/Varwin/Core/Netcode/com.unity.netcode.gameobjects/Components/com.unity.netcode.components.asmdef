@@ -1,0 +1,12 @@
+{
+  "name": "Unity.Netcode.Components",
+  "references": [
+    "Unity.Burst",
+    "Unity.Networking.Transport",
+    "Unity.Netcode.Runtime",
+    "Unity.Collections"
+  ],
+  "overrideReferences": false,
+  "allowUnsafeCode": true,
+  "autoReferenced": false
+}

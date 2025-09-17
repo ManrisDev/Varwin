@@ -1,0 +1,29 @@
+{
+    "name": "Varwin.Core.Editor",
+    "rootNamespace": "",
+    "references": [
+        "VarwinCore",
+        "ZFBrowser",
+        "Varwin.Editor",
+        "PhotonUnityNetworking",
+        "Unity.XR.Management.Editor",
+        "Unity.XR.Management",
+        "Unity.XR.OpenXR.Editor",
+        "Unity.XR.OpenXR",
+        "Varwin.XR",
+        "Varwin.OpenXR",
+        "Varwin.Debug",
+        "Varwin.SDK"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
