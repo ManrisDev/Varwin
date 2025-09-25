@@ -1,0 +1,13 @@
+{
+  "name": "WoodenNumber_2fcd5a29ce1d4430afaebd1220bde758",
+  "references": [
+    "VarwinCore",
+    "Unity.Netcode.Runtime"
+  ],
+  "optionalUnityReferences": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "overrideReferences": false,
+  "allowUnsafeCode": false,
+  "autoReferenced": false
+}

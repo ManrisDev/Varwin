@@ -1,0 +1,39 @@
+{
+  "ObjectsToBuild": [
+    {
+      "ObjectName": "WoodenNumber",
+      "ObjectGuid": "2fcd5a29-ce1d-4430-afae-bd1220bde758",
+      "PrefabPath": "Assets/Objects/WoodenNumber/WoodenNumber.prefab",
+      "RootGuid": "2fcd5a29-ce1d-4430-afae-bd1220bde758",
+      "NewGuid": "86a7e030-4ffe-427f-ad5b-8ceeb9dc3c78",
+      "FolderPath": "Assets/Objects/WoodenNumber",
+      "ConfigBlockly": "{\"Name\":{\"en\":\"Wooden Number\"},\"Description\":{\"en\":\"Wooden Number\"},\"Guid\":\"86a7e030-4ffe-427f-ad5b-8ceeb9dc3c78\",\"RootGuid\":\"2fcd5a29-ce1d-4430-afae-bd1220bde758\",\"Locked\":false,\"Embedded\":false,\"MobileReady\":true,\"LinuxReady\":false,\"SourcesIncluded\":false,\"DisableSceneLogic\":false,\"Config\":{\"type\":\"WoodenNumber_2fcd5a29ce1d4430afaebd1220bde758.WoodenNumberWrapper\",\"blocks\":[{\"name\":\"ValueGetter\",\"type\":\"getter\",\"isCoroutine\":false,\"isObsolete\":false,\"items\":[{\"i18n\":{\"en\":\"Value\",\"ru\":\"Значение\"},\"property\":\"Value\"}],\"valueType\":\"System.Int32\"},{\"name\":\"ValueSetter\",\"type\":\"setter\",\"isCoroutine\":false,\"isObsolete\":false,\"items\":[{\"i18n\":{\"en\":\"Value\",\"ru\":\"Значение\"},\"property\":\"Value\"}],\"valueType\":\"System.Int32\"}]},\"Author\":{\"Name\":\"ManrisDev\",\"Email\":\"\",\"Url\":\"\"},\"License\":{\"Code\":\"cc-by\",\"Version\":\"4.0\"},\"BuiltAt\":\"2025-09-19T17:18:16Z\",\"SdkVersion\":\"17.11.238\",\"UnityVersion\":\"2021.3.0f1\",\"Changelog\":{\"en\":\"\",\"ru\":\"\"}}",
+      "ConfigAssetBundle": "{\"AssetName\":\"WoodenNumber\",\"Assembly\":[\"WoodenNumber_2fcd5a29ce1d4430afaebd1220bde758_db2fcabc.dll\"]}",
+      "StartTime": "2025-09-19T20:18:16.20656+03:00",
+      "HasError": false,
+      "Assemblies": [
+        "A:/Development/Varwin/Library/ScriptAssemblies/WoodenNumber_2fcd5a29ce1d4430afaebd1220bde758_db2fcabc.dll"
+      ],
+      "TagsPath": "Assets/Objects/WoodenNumber/tags.txt",
+      "IconPath": "Assets/Objects/WoodenNumber/icon.png"
+    }
+  ],
+  "CurrentBuildingSceneIndex": 0,
+  "CompletedStateCount": 11,
+  "IsStatesInitialized": true,
+  "BuildType": "Default",
+  "Data": {
+    "OldAssemblyNames": [
+      "WoodenNumber_2fcd5a29ce1d4430afaebd1220bde758"
+    ],
+    "NewAssemblyNames": [
+      "WoodenNumber_2fcd5a29ce1d4430afaebd1220bde758_db2fcabc"
+    ]
+  },
+  "Progress": 0.733333349,
+  "Label": "Building asset bundles...",
+  "DisplayProgress": 0.7260433,
+  "IsFinished": false,
+  "IsStopped": false,
+  "StateCount": 15
+}

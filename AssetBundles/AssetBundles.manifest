@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 1568635854
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: android_woodennumber_2fcd5a29ce1d4430afaebd1220bde758
+      Dependencies: {}
+    Info_1:
+      Name: excludedresources
+      Dependencies: {}
