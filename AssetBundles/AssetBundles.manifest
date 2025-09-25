@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 155090977
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: android_bunker
+      Dependencies: {}
+    Info_1:
+      Name: excludedresources
+      Dependencies: {}
