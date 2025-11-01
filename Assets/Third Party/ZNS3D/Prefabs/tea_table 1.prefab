@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6421161360496316711}
   - component: {fileID: 3651175678817086331}
   - component: {fileID: 2763979401451057835}
+  - component: {fileID: 6847685300889244669}
   m_Layer: 0
   m_Name: tea_table 1
   m_TagString: Untagged
@@ -31,7 +32,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3651175678817086331
 MeshFilter:
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6847685300889244669
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9164354468594182782}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0584822, y: 0.9317466, z: 1.0584822}
+  m_Center: {x: 0.00000017881393, y: 0.4663805, z: -0.000000029802322}

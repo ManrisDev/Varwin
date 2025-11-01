@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8711925846745713260}
   - component: {fileID: 2305183568734232438}
   - component: {fileID: 9060707179814406506}
+  - component: {fileID: 4447005503982367899}
   m_Layer: 0
   m_Name: ceiling_rectangle
   m_TagString: Untagged
@@ -31,7 +32,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2305183568734232438
 MeshFilter:
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4447005503982367899
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7917174004208409577}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6001461, y: 0.040446084, z: 2.4093115}
+  m_Center: {x: -0.00000023841858, y: 0.020223042, z: -0.0000009536743}

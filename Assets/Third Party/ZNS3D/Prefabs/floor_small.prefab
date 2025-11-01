@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7205852514466138065}
   - component: {fileID: 2202909604478279606}
   - component: {fileID: 900608412936924842}
+  - component: {fileID: 7396728441771240223}
   m_Layer: 0
   m_Name: floor_small
   m_TagString: Untagged
@@ -31,7 +32,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2202909604478279606
 MeshFilter:
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7396728441771240223
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7273087425032351647}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2553647, y: 0.040446084, z: 1.2538669}
+  m_Center: {x: 0.000007688999, y: 0.020223042, z: 0.0000072121616}

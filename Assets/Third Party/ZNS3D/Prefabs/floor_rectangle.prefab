@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5495478802348933110}
   - component: {fileID: 4791686013571822145}
   - component: {fileID: 3420818626161058288}
+  - component: {fileID: 986013878181672167}
   m_Layer: 0
   m_Name: floor_rectangle
   m_TagString: Untagged
@@ -31,7 +32,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4791686013571822145
 MeshFilter:
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &986013878181672167
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3492452526356931769}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.60014623, y: 0.040446084, z: 2.409312}
+  m_Center: {x: 0, y: 0.020223042, z: 0}
