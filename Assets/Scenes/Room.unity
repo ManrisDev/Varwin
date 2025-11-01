@@ -1790,7 +1790,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 232567127}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -2927,7 +2927,7 @@ MonoBehaviour:
     IsValidDictionary: 1
   Name: 
   Description: Scene template description
-  Guid: 86754452-8cbb-4dd6-94ed-835f8b502db4
+  Guid: b2664635-4475-4c84-87c9-e41f20363a82
   RootGuid: 56252f04-b99a-41f0-b5e9-7180c152fb28
   Image: bundle.png
   AssetBundleLabel: bundle
@@ -2938,7 +2938,7 @@ MonoBehaviour:
   AuthorUrl: 
   LicenseCode: cc-by
   LicenseVersion: 4.0
-  BuiltAt: 31.10.2025 20:41:49 +03:00
+  BuiltAt: 31.10.2025 21:38:42 +03:00
   SourcesIncluded: 1
   MobileReady: 1
   SceneGuid: a0dcfcd9317c8854da0d8ec9d19d98db
