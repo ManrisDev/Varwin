@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d29bae982092424c94e42fa076b454b, type: 3}
+  m_Name: Living Room
+  m_EditorClassIdentifier: 
+  Name:
+    LocalizationStrings:
+    - key: 10
+      value: Living Room
+    IsValidDictionary: 1
+  Description:
+    LocalizationStrings:
+    - key: 10
+      value: 
+    IsValidDictionary: 1
+  View: {fileID: 0}
+  Thumbnail: {fileID: 0}
+  ViewImage:
+    _dictionary:
+    - Locale: 10
+      Value: {fileID: 0}
+  ThumbnailImage:
+    _dictionary:
+    - Locale: 10
+      Value: {fileID: 0}
+  Guid: d671d0c9-8968-41ea-aaea-cc6850480a69
+  RootGuid: 17585a51-488f-41b4-86b7-963be96f6fce
+  AuthorName: ManrisDev
+  AuthorEmail: 
+  AuthorUrl: 
+  LicenseCode: cc-by
+  LicenseVersion: 4.0
+  BuiltAt: 
+  Locked: 0
+  Objects:
+  - {fileID: 363170959775877886, guid: 8db96fa7f1a3b084fb8fc23876120bc9, type: 3}
+  - {fileID: 3112173987262386537, guid: f14d54498d9049341bcaf2008e5daee4, type: 3}
+  - {fileID: 9024560354511810495, guid: 7c64ef9538c80e941b89ba4536e6dee0, type: 3}
+  SceneTemplates:
+  - Value: {fileID: 102900000, guid: a0dcfcd9317c8854da0d8ec9d19d98db, type: 3}
+  Resources: []
+  CurrentVersionWasBuilt: 1
