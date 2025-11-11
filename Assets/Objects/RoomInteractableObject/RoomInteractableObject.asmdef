@@ -1,0 +1,13 @@
+{
+  "name": "RoomInteractableObject_f2d59f2c999d426cb16b4245588fb336",
+  "references": [
+    "VarwinCore",
+    "Unity.Netcode.Runtime"
+  ],
+  "optionalUnityReferences": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "overrideReferences": false,
+  "allowUnsafeCode": false,
+  "autoReferenced": false
+}
