@@ -124,7 +124,7 @@ MonoBehaviour:
   AssetBundleParts: []
   Prefab: Assets/Objects/Book/Book.prefab
   PrefabGuid: 8db96fa7f1a3b084fb8fc23876120bc9
-  Guid: 1bd68993-cf71-489a-80a1-aa000dce3751
+  Guid: 5a773c00-1567-48bb-b26b-1023b575a3c4
   RootGuid: 73b0ff84-859e-4138-94fd-150214bd4c9f
   Locked: 0
   Embedded: 0
@@ -137,7 +137,7 @@ MonoBehaviour:
   AuthorUrl: 
   LicenseCode: cc-by
   LicenseVersion: 4.0
-  BuiltAt: 02.11.2025 1:36:28 +03:00
+  BuiltAt: 11.11.2025 23:24:24 +03:00
   AssemblySuffix: _f8b042b9
   CurrentVersionWasBuilt: 0
   CurrentVersionWasBuiltAsMobileReady: 0

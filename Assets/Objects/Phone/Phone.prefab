@@ -124,7 +124,7 @@ MonoBehaviour:
   AssetBundleParts: []
   Prefab: Assets/Objects/Phone/Phone.prefab
   PrefabGuid: 7c64ef9538c80e941b89ba4536e6dee0
-  Guid: 1b5ea2a3-9283-4e7e-bad5-3e035c64d1c5
+  Guid: a221fc72-b379-4d39-886c-3098ffabd8f0
   RootGuid: 99b291b2-2eea-4963-8269-8d7a4f337471
   Locked: 0
   Embedded: 0
@@ -137,7 +137,7 @@ MonoBehaviour:
   AuthorUrl: 
   LicenseCode: cc-by
   LicenseVersion: 4.0
-  BuiltAt: 02.11.2025 1:36:28 +03:00
+  BuiltAt: 11.11.2025 23:24:24 +03:00
   AssemblySuffix: _fc2c4c39
   CurrentVersionWasBuilt: 0
   CurrentVersionWasBuiltAsMobileReady: 0

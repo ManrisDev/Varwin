@@ -32,7 +32,7 @@ MonoBehaviour:
     _dictionary:
     - Locale: 10
       Value: {fileID: 0}
-  Guid: d671d0c9-8968-41ea-aaea-cc6850480a69
+  Guid: e026d650-bc53-4de2-9ef6-b1cbc25d7690
   RootGuid: 17585a51-488f-41b4-86b7-963be96f6fce
   AuthorName: ManrisDev
   AuthorEmail: 
@@ -45,6 +45,9 @@ MonoBehaviour:
   - {fileID: 363170959775877886, guid: 8db96fa7f1a3b084fb8fc23876120bc9, type: 3}
   - {fileID: 3112173987262386537, guid: f14d54498d9049341bcaf2008e5daee4, type: 3}
   - {fileID: 9024560354511810495, guid: 7c64ef9538c80e941b89ba4536e6dee0, type: 3}
+  - {fileID: 7796010117004118036, guid: 30046b507c66baa4292a42ceced11993, type: 3}
+  - {fileID: 7768280881181374938, guid: 703368f23a2f6454fae12d20e6b8c522, type: 3}
+  - {fileID: 3696776519102015364, guid: f4378387a608bb548bfd66a933468327, type: 3}
   SceneTemplates:
   - Value: {fileID: 102900000, guid: a0dcfcd9317c8854da0d8ec9d19d98db, type: 3}
   Resources: []

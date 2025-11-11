@@ -124,7 +124,7 @@ MonoBehaviour:
   AssetBundleParts: []
   Prefab: Assets/Objects/Photo/Photo.prefab
   PrefabGuid: f14d54498d9049341bcaf2008e5daee4
-  Guid: 51bd9ad3-25fe-44d6-a0f8-b9a71abe92b0
+  Guid: 4e3f943d-e901-40d8-bb5f-e06f5b874b80
   RootGuid: 42c70e41-ce29-473e-9fc1-db82e85cd7cf
   Locked: 0
   Embedded: 0
@@ -137,7 +137,7 @@ MonoBehaviour:
   AuthorUrl: 
   LicenseCode: cc-by
   LicenseVersion: 4.0
-  BuiltAt: 02.11.2025 1:36:28 +03:00
+  BuiltAt: 11.11.2025 23:24:24 +03:00
   AssemblySuffix: _70f0f2e5
   CurrentVersionWasBuilt: 0
   CurrentVersionWasBuiltAsMobileReady: 0
