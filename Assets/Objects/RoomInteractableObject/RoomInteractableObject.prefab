@@ -103,7 +103,7 @@ MonoBehaviour:
   AssetBundleParts: []
   Prefab: Assets/Objects/RoomInteractableObject/RoomInteractableObject.prefab
   PrefabGuid: 703368f23a2f6454fae12d20e6b8c522
-  Guid: 3bec1309-b1a2-4a96-bd81-54b4a61c70fb
+  Guid: 4fa3c88c-29b3-417f-acc1-588b2bd7e3c0
   RootGuid: f2d59f2c-999d-426c-b16b-4245588fb336
   Locked: 0
   Embedded: 0
@@ -116,7 +116,7 @@ MonoBehaviour:
   AuthorUrl: 
   LicenseCode: cc-by
   LicenseVersion: 4.0
-  BuiltAt: 11.11.2025 23:24:25 +03:00
+  BuiltAt: 13.11.2025 11:58:18 +03:00
   AssemblySuffix: 
   CurrentVersionWasBuilt: 0
   CurrentVersionWasBuiltAsMobileReady: 0
@@ -426,7 +426,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Book
 --- !u!1001 &116215005
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -547,7 +547,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Book
 --- !u!4 &9162966512155696230 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9162966512111866043, guid: b166b712d873b26459cbc94f94d473b6,
@@ -724,7 +724,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Vase
 --- !u!4 &8054520921407965238 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8054520921511641542, guid: 692a8bf78fb9b3948880c338a5fbcb5b,
@@ -881,7 +881,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Photo
 --- !u!4 &4881229693724249612 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4881229693674444770, guid: 3f29ba4dd45abe542b88e37da5ee26a9,
@@ -1014,7 +1014,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Book
 --- !u!1001 &431106547
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1135,7 +1135,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Book
 --- !u!4 &8748797831545481851 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8748797831416628104, guid: 6130c0222f26e7c4986fbe2ddac13dcc,
@@ -1262,7 +1262,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Book
 --- !u!4 &9162966512214906219 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9162966512111866043, guid: b166b712d873b26459cbc94f94d473b6,
@@ -1419,7 +1419,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Photo
 --- !u!4 &9211410721451177994 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9211410720877614021, guid: 4e5ee28445e96a9488f40c463978377d,
@@ -1576,7 +1576,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Vase
 --- !u!4 &7653352346324830643 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7653352345804678392, guid: 16781257d64bef643a5a15220e6cb72d,
@@ -1856,7 +1856,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Book
 --- !u!1001 &1138227010
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1977,7 +1977,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: book
 --- !u!4 &9162966510999545849 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9162966512111866043, guid: b166b712d873b26459cbc94f94d473b6,
@@ -2104,7 +2104,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Red Book
 --- !u!4 &4846567990518429234 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4846567991487446344, guid: 84f186186acadc941a2e59ce12ace979,
@@ -2231,7 +2231,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Book
 --- !u!4 &7585476488562430409 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7585476487642147347, guid: 6d0d85c7125dc534380e6015547d6bd9,
@@ -2358,7 +2358,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Book
 --- !u!4 &8748797830245250610 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8748797831416628104, guid: 6130c0222f26e7c4986fbe2ddac13dcc,
@@ -2632,7 +2632,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Book
 --- !u!4 &4846567990140997904 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4846567991487446344, guid: 84f186186acadc941a2e59ce12ace979,
@@ -3103,7 +3103,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Book
 --- !u!4 &4846567990181853001 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4846567991487446344, guid: 84f186186acadc941a2e59ce12ace979,
@@ -3230,7 +3230,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Book
 --- !u!4 &7585476488832662063 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7585476487642147347, guid: 6d0d85c7125dc534380e6015547d6bd9,
@@ -3544,7 +3544,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Vase
 --- !u!4 &3335799692456792723 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3335799690809901652, guid: 8eade45c1990818478b97a026d8bd5d8,
@@ -3671,7 +3671,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Book
 --- !u!4 &8748797830922055274 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8748797831416628104, guid: 6130c0222f26e7c4986fbe2ddac13dcc,
@@ -3804,7 +3804,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Book
 --- !u!1001 &1732723091
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3931,7 +3931,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Book
 --- !u!1001 &1858146091
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4058,7 +4058,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Book
 --- !u!1001 &1942374007
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4311,7 +4311,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Book
 --- !u!4 &8748797831216459892 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8748797831416628104, guid: 6130c0222f26e7c4986fbe2ddac13dcc,
@@ -4438,7 +4438,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Book
 --- !u!4 &7585476489609322721 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7585476487642147347, guid: 6d0d85c7125dc534380e6015547d6bd9,
@@ -4601,7 +4601,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Ceramic_tea_glass
 --- !u!1001 &6829782288748004860
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4767,7 +4767,7 @@ MonoBehaviour:
   Name:
     _dictionary:
     - Locale: 10
-      Value: 
+      Value: Ceramic_teapot
 --- !u!4 &4897449863725685649 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2107542214269984365, guid: b3770a25f84a3274ca3848a0e16463a1,

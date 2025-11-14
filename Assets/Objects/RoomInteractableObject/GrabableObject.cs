@@ -1,17 +1,19 @@
 using UnityEngine;
 using Varwin;
 using Varwin.Public;
+using Varwin.Types.RoomInteractableObject_f2d59f2c999d426cb16b4245588fb336;
 
 public class GrabableObject : MonoBehaviour, IGrabStartInteractionAware
 {
-    /*public delegate void EventHandler();
+    private RoomInteractableObject RoomInteractableObject;
 
-    // Событие, которое будет вызвано при нажатии на объект.
-    [LogicEvent(English: "The phone has started to be used")]
-    public event EventHandler Event;*/
+    private void Awake()
+    {
+        RoomInteractableObject = GetComponentInParent<RoomInteractableObject>();
+    }
 
     public void OnGrabStart(GrabInteractionContext context)
     {
-        //Event?.Invoke();
+        RoomInteractableObject.ObjectGrabbed(gameObject.name);
     }
 }

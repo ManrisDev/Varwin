@@ -1,0 +1,39 @@
+{
+  "ObjectsToBuild": [
+    {
+      "ObjectName": "RoomInteractableObject",
+      "ObjectGuid": "f2d59f2c-999d-426c-b16b-4245588fb336",
+      "PrefabPath": "Assets/Objects/RoomInteractableObject/RoomInteractableObject.prefab",
+      "RootGuid": "f2d59f2c-999d-426c-b16b-4245588fb336",
+      "NewGuid": "4fa3c88c-29b3-417f-acc1-588b2bd7e3c0",
+      "FolderPath": "Assets/Objects/RoomInteractableObject",
+      "ConfigBlockly": "{\"Name\":{\"en\":\"Room Interactable Object\",\"ru\":\"Room Interactable Object\"},\"Description\":{\"en\":\"Room Interactable Object\",\"ru\":\"Room Interactable Object\"},\"Guid\":\"4fa3c88c-29b3-417f-acc1-588b2bd7e3c0\",\"RootGuid\":\"f2d59f2c-999d-426c-b16b-4245588fb336\",\"Locked\":false,\"Embedded\":false,\"MobileReady\":true,\"LinuxReady\":false,\"SourcesIncluded\":false,\"DisableSceneLogic\":false,\"Config\":{\"type\":\"RoomInteractableObject_f2d59f2c999d426cb16b4245588fb336.RoomInteractableObjectWrapper\",\"blocks\":[{\"name\":\"Event\",\"type\":\"eventWithArguments\",\"isCoroutine\":false,\"isObsolete\":false,\"items\":[{\"method\":\"Event\",\"i18n\":{\"en\":\"The object has grabed\"}}],\"params\":[{\"name\":\"objectName\",\"valueType\":\"System.String\"},{\"name\":\"sender\",\"valueType\":\"Varwin.Wrapper\",\"i18n\":{\"en\":\"Room Interactable Object\",\"cn\":\"Room Interactable Object\",\"ko\":\"Room Interactable Object\",\"ru\":\"Room Interactable Object\",\"kk\":\"Room Interactable Object\"}}]}]},\"Author\":{\"Name\":\"ManrisDev\",\"Email\":\"\",\"Url\":\"\"},\"License\":{\"Code\":\"cc-by\",\"Version\":\"4.0\"},\"BuiltAt\":\"2025-11-13T08:58:18Z\",\"SdkVersion\":\"17.11.238\",\"UnityVersion\":\"2021.3.0f1\",\"Changelog\":{\"en\":\"\",\"ru\":\"\"}}",
+      "ConfigAssetBundle": "{\"AssetName\":\"RoomInteractableObject\",\"Assembly\":[\"RoomInteractableObject_f2d59f2c999d426cb16b4245588fb336_4a684a1d.dll\"]}",
+      "StartTime": "2025-11-13T11:58:18.0806795+03:00",
+      "HasError": false,
+      "Assemblies": [
+        "A:/Development/Varwin/Library/ScriptAssemblies/RoomInteractableObject_f2d59f2c999d426cb16b4245588fb336_4a684a1d.dll"
+      ],
+      "TagsPath": "Assets/Objects/RoomInteractableObject/tags.txt",
+      "IconPath": "Assets/Objects/RoomInteractableObject/icon.png"
+    }
+  ],
+  "CurrentBuildingSceneIndex": 0,
+  "CompletedStateCount": 11,
+  "IsStatesInitialized": true,
+  "BuildType": "Default",
+  "Data": {
+    "OldAssemblyNames": [
+      "RoomInteractableObject_f2d59f2c999d426cb16b4245588fb336"
+    ],
+    "NewAssemblyNames": [
+      "RoomInteractableObject_f2d59f2c999d426cb16b4245588fb336_4a684a1d"
+    ]
+  },
+  "Progress": 0.733333349,
+  "Label": "Building asset bundles...",
+  "DisplayProgress": 0.7260433,
+  "IsFinished": false,
+  "IsStopped": false,
+  "StateCount": 15
+}
