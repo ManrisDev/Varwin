@@ -1,0 +1,10 @@
+﻿{
+    "name": "Chair_863d29615b8f47538b8bd5f46fb7aa9f",
+    "references": [
+        "VarwinCore"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
