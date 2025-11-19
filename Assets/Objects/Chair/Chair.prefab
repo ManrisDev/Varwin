@@ -29,14 +29,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7397948095049053218}
-  m_LocalRotation: {x: 0, y: 0.21743868, z: -0, w: 0.976074}
+  m_LocalRotation: {x: 0, y: 0.2174363, z: 0, w: 0.9760746}
   m_LocalPosition: {x: 1.542, y: -1.5777735, z: 2.512}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 25.117, z: 0}
 --- !u!33 &5449393267337981984
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -156,7 +156,7 @@ MonoBehaviour:
   SourcesIncluded: 0
   MobileReady: 1
   DisableSceneLogic: 0
-  AddBehavioursAtRuntime: 0
+  AddBehavioursAtRuntime: 1
   AuthorName: ManrisDev
   AuthorEmail: 
   AuthorUrl: 
@@ -168,7 +168,9 @@ MonoBehaviour:
   CurrentVersionWasBuiltAsMobileReady: 0
   Changelog: 
   Components:
-    ComponentReferences: []
+    ComponentReferences:
+    - Name: Chair_0
+      Component: {fileID: 2037422477110491744}
   Signatures:
     PropertySignatures: []
     MethodSignatures: []

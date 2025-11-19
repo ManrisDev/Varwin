@@ -1,0 +1,10 @@
+﻿{
+    "name": "Keyboard_3494a171b33e48ce8e1f40b94334a47c",
+    "references": [
+        "VarwinCore"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

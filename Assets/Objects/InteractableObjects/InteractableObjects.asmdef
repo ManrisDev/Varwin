@@ -1,0 +1,10 @@
+﻿{
+    "name": "InteractableObjects_e6ff43d7e17b448d8dc89572dd528097",
+    "references": [
+        "VarwinCore"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
