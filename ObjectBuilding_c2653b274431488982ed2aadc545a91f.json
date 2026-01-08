@@ -1,0 +1,112 @@
+{
+  "PackageInfos": [
+    {
+      "Name": "Living Room",
+      "Config": "{\"Name\":{\"en\":\"Living Room\"},\"Description\":{\"en\":\"\"},\"ViewImage\":{\"en\":\"view.jpg\"},\"ThumbnailImage\":{\"en\":\"thumbnail.jpg\"},\"Locked\":false,\"Guid\":\"56e6be27-76dd-41d2-bf32-d1aa77b11490\",\"RootGuid\":\"17585a51-488f-41b4-86b7-963be96f6fce\",\"Author\":{\"Name\":\"ManrisDev\",\"Email\":\"\",\"Url\":\"\"},\"License\":{\"Code\":\"cc-by\",\"Version\":\"4.0\"},\"BuiltAt\":\"2025-11-01T22:25:52Z\",\"SdkVersion\":\"17.11.238\"}",
+      "ViewPaths": [
+        {
+          "key": "English"
+        }
+      ],
+      "ThumbnailPaths": [
+        {
+          "key": "English"
+        }
+      ],
+      "VarwinObjects": [
+        "Book",
+        "Photo",
+        "Phone"
+      ],
+      "VarwinScenes": [
+        "Room"
+      ],
+      "VarwinResources": []
+    }
+  ],
+  "ObjectsToBuild": [
+    {
+      "ObjectName": "Book",
+      "ObjectGuid": "73b0ff84-859e-4138-94fd-150214bd4c9f",
+      "PrefabPath": "Assets/Objects/Book/Book.prefab",
+      "RootGuid": "73b0ff84-859e-4138-94fd-150214bd4c9f",
+      "NewGuid": "a66dde2c-d4a2-4d35-9ad3-798c14b57a35",
+      "FolderPath": "Assets/Objects/Book",
+      "ConfigBlockly": "{\"Name\":{\"en\":\"Book\",\"ru\":\"Book\"},\"Description\":{\"en\":\"Book\",\"ru\":\"Book\"},\"Guid\":\"a66dde2c-d4a2-4d35-9ad3-798c14b57a35\",\"RootGuid\":\"73b0ff84-859e-4138-94fd-150214bd4c9f\",\"Locked\":false,\"Embedded\":false,\"MobileReady\":true,\"LinuxReady\":false,\"SourcesIncluded\":false,\"DisableSceneLogic\":false,\"Config\":{\"type\":\"Book_73b0ff84859e413894fd150214bd4c9f.BookWrapper\",\"blocks\":[]},\"Author\":{\"Name\":\"ManrisDev\",\"Email\":\"\",\"Url\":\"\"},\"License\":{\"Code\":\"cc-by\",\"Version\":\"4.0\"},\"BuiltAt\":\"2025-11-01T22:26:00Z\",\"SdkVersion\":\"17.11.238\",\"UnityVersion\":\"2021.3.0f1\",\"Changelog\":{\"en\":\"\",\"ru\":\"\"}}",
+      "ConfigAssetBundle": "{\"AssetName\":\"Book\",\"Assembly\":[\"Book_73b0ff84859e413894fd150214bd4c9f_f8b042b9.dll\"]}",
+      "StartTime": "2025-11-02T01:25:52.1242408+03:00",
+      "HasError": false,
+      "Assemblies": [
+        "A:/Development/Varwin/Library/ScriptAssemblies/Book_73b0ff84859e413894fd150214bd4c9f_f8b042b9.dll"
+      ],
+      "TagsPath": "Assets/Objects/Book/tags.txt",
+      "IconPath": "Assets/Objects/Book/icon.png"
+    },
+    {
+      "ObjectName": "Photo",
+      "ObjectGuid": "42c70e41-ce29-473e-9fc1-db82e85cd7cf",
+      "PrefabPath": "Assets/Objects/Photo/Photo.prefab",
+      "RootGuid": "42c70e41-ce29-473e-9fc1-db82e85cd7cf",
+      "NewGuid": "56f34680-7a70-48a3-a94b-cbe61166a98a",
+      "FolderPath": "Assets/Objects/Photo",
+      "ConfigBlockly": "{\"Name\":{\"en\":\"Photo\",\"ru\":\"Photo\"},\"Description\":{\"en\":\"Photo\",\"ru\":\"Photo\"},\"Guid\":\"56f34680-7a70-48a3-a94b-cbe61166a98a\",\"RootGuid\":\"42c70e41-ce29-473e-9fc1-db82e85cd7cf\",\"Locked\":false,\"Embedded\":false,\"MobileReady\":true,\"LinuxReady\":false,\"SourcesIncluded\":false,\"DisableSceneLogic\":false,\"Config\":{\"type\":\"Photo_42c70e41ce29473e9fc1db82e85cd7cf.PhotoWrapper\",\"blocks\":[]},\"Author\":{\"Name\":\"ManrisDev\",\"Email\":\"\",\"Url\":\"\"},\"License\":{\"Code\":\"cc-by\",\"Version\":\"4.0\"},\"BuiltAt\":\"2025-11-01T22:26:01Z\",\"SdkVersion\":\"17.11.238\",\"UnityVersion\":\"2021.3.0f1\",\"Changelog\":{\"en\":\"\",\"ru\":\"\"}}",
+      "ConfigAssetBundle": "{\"AssetName\":\"Photo\",\"Assembly\":[\"Photo_42c70e41ce29473e9fc1db82e85cd7cf_70f0f2e5.dll\"]}",
+      "StartTime": "2025-11-02T01:25:52.2046776+03:00",
+      "HasError": false,
+      "Assemblies": [
+        "A:/Development/Varwin/Library/ScriptAssemblies/Photo_42c70e41ce29473e9fc1db82e85cd7cf_70f0f2e5.dll"
+      ],
+      "TagsPath": "Assets/Objects/Photo/tags.txt",
+      "IconPath": "Assets/Objects/Photo/icon.png"
+    },
+    {
+      "ObjectName": "Phone",
+      "ObjectGuid": "99b291b2-2eea-4963-8269-8d7a4f337471",
+      "PrefabPath": "Assets/Objects/Phone/Phone.prefab",
+      "RootGuid": "99b291b2-2eea-4963-8269-8d7a4f337471",
+      "NewGuid": "cea0fed9-ca6b-4b58-963e-b5bb1f0b97c5",
+      "FolderPath": "Assets/Objects/Phone",
+      "ConfigBlockly": "{\"Name\":{\"en\":\"Phone\",\"ru\":\"Phone\"},\"Description\":{\"en\":\"Phone\",\"ru\":\"Phone\"},\"Guid\":\"cea0fed9-ca6b-4b58-963e-b5bb1f0b97c5\",\"RootGuid\":\"99b291b2-2eea-4963-8269-8d7a4f337471\",\"Locked\":false,\"Embedded\":false,\"MobileReady\":true,\"LinuxReady\":false,\"SourcesIncluded\":false,\"DisableSceneLogic\":false,\"Config\":{\"type\":\"Phone_99b291b22eea496382698d7a4f337471.PhoneWrapper\",\"blocks\":[]},\"Author\":{\"Name\":\"ManrisDev\",\"Email\":\"\",\"Url\":\"\"},\"License\":{\"Code\":\"cc-by\",\"Version\":\"4.0\"},\"BuiltAt\":\"2025-11-01T22:26:01Z\",\"SdkVersion\":\"17.11.238\",\"UnityVersion\":\"2021.3.0f1\",\"Changelog\":{\"en\":\"\",\"ru\":\"\"}}",
+      "ConfigAssetBundle": "{\"AssetName\":\"Phone\",\"Assembly\":[\"Phone_99b291b22eea496382698d7a4f337471_fc2c4c39.dll\"]}",
+      "StartTime": "2025-11-02T01:25:52.3046552+03:00",
+      "HasError": false,
+      "Assemblies": [
+        "A:/Development/Varwin/Library/ScriptAssemblies/Phone_99b291b22eea496382698d7a4f337471_fc2c4c39.dll"
+      ],
+      "TagsPath": "Assets/Objects/Phone/tags.txt",
+      "IconPath": "Assets/Objects/Phone/icon.png"
+    }
+  ],
+  "CurrentBuildingSceneIndex": 1,
+  "ScenesToBuild": [
+    {
+      "Name": "Room",
+      "Path": "Assets/Scenes/Room.unity",
+      "HasError": false,
+      "RootGuid": "56252f04-b99a-41f0-b5e9-7180c152fb28",
+      "NewGuid": "4a5de0c7-9a47-4dda-a842-e7d86aef0662"
+    }
+  ],
+  "ResourcesToBuild": [],
+  "CompletedStateCount": 14,
+  "IsStatesInitialized": true,
+  "BuildType": "Default",
+  "Data": {
+    "OldAssemblyNames": [
+      "Book_73b0ff84859e413894fd150214bd4c9f",
+      "Photo_42c70e41ce29473e9fc1db82e85cd7cf",
+      "Phone_99b291b22eea496382698d7a4f337471"
+    ],
+    "NewAssemblyNames": [
+      "Book_73b0ff84859e413894fd150214bd4c9f_f8b042b9",
+      "Photo_42c70e41ce29473e9fc1db82e85cd7cf_70f0f2e5",
+      "Phone_99b291b22eea496382698d7a4f337471_fc2c4c39"
+    ]
+  },
+  "Progress": 0.8235294,
+  "Label": "Scene template building",
+  "DisplayProgress": 0.8235294,
+  "IsFinished": false,
+  "IsStopped": false,
+  "StateCount": 17
+}

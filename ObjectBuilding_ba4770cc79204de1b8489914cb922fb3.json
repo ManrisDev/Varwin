@@ -1,0 +1,172 @@
+{
+  "PackageInfos": [
+    {
+      "Name": "Living Room",
+      "Config": "{\"Name\":{\"en\":\"Living Room\"},\"Description\":{\"en\":\"\"},\"ViewImage\":{\"en\":\"view.jpg\"},\"ThumbnailImage\":{\"en\":\"thumbnail.jpg\"},\"Locked\":false,\"Guid\":\"e026d650-bc53-4de2-9ef6-b1cbc25d7690\",\"RootGuid\":\"17585a51-488f-41b4-86b7-963be96f6fce\",\"Author\":{\"Name\":\"ManrisDev\",\"Email\":\"\",\"Url\":\"\"},\"License\":{\"Code\":\"cc-by\",\"Version\":\"4.0\"},\"BuiltAt\":\"2025-11-11T20:24:23Z\",\"SdkVersion\":\"17.11.238\"}",
+      "ViewPaths": [
+        {
+          "key": "English"
+        }
+      ],
+      "ThumbnailPaths": [
+        {
+          "key": "English"
+        }
+      ],
+      "VarwinObjects": [
+        "Book",
+        "Photo",
+        "Phone",
+        "Gramophone",
+        "RoomInteractableObject",
+        "LightDesk"
+      ],
+      "VarwinScenes": [
+        "Room"
+      ],
+      "VarwinResources": []
+    }
+  ],
+  "ObjectsToBuild": [
+    {
+      "ObjectName": "Book",
+      "ObjectGuid": "73b0ff84-859e-4138-94fd-150214bd4c9f",
+      "PrefabPath": "Assets/Objects/Book/Book.prefab",
+      "RootGuid": "73b0ff84-859e-4138-94fd-150214bd4c9f",
+      "NewGuid": "5a773c00-1567-48bb-b26b-1023b575a3c4",
+      "FolderPath": "Assets/Objects/Book",
+      "ConfigBlockly": "{\"Name\":{\"en\":\"Book\",\"ru\":\"Book\"},\"Description\":{\"en\":\"Book\",\"ru\":\"Book\"},\"Guid\":\"5a773c00-1567-48bb-b26b-1023b575a3c4\",\"RootGuid\":\"73b0ff84-859e-4138-94fd-150214bd4c9f\",\"Locked\":false,\"Embedded\":false,\"MobileReady\":true,\"LinuxReady\":false,\"SourcesIncluded\":false,\"DisableSceneLogic\":false,\"Config\":{\"type\":\"Book_73b0ff84859e413894fd150214bd4c9f.BookWrapper\",\"blocks\":[]},\"Author\":{\"Name\":\"ManrisDev\",\"Email\":\"\",\"Url\":\"\"},\"License\":{\"Code\":\"cc-by\",\"Version\":\"4.0\"},\"BuiltAt\":\"2025-11-11T20:24:24Z\",\"SdkVersion\":\"17.11.238\",\"UnityVersion\":\"2021.3.0f1\",\"Changelog\":{\"en\":\"\",\"ru\":\"\"}}",
+      "ConfigAssetBundle": "{\"AssetName\":\"Book\",\"Assembly\":[\"Book_73b0ff84859e413894fd150214bd4c9f_434f0fb6.dll\"]}",
+      "StartTime": "2025-11-11T23:24:23.8620198+03:00",
+      "HasError": false,
+      "Assemblies": [
+        "C:/Development/Varwin/Library/ScriptAssemblies/Book_73b0ff84859e413894fd150214bd4c9f_434f0fb6.dll"
+      ],
+      "TagsPath": "Assets/Objects/Book/tags.txt",
+      "IconPath": "Assets/Objects/Book/icon.png"
+    },
+    {
+      "ObjectName": "Photo",
+      "ObjectGuid": "42c70e41-ce29-473e-9fc1-db82e85cd7cf",
+      "PrefabPath": "Assets/Objects/Photo/Photo.prefab",
+      "RootGuid": "42c70e41-ce29-473e-9fc1-db82e85cd7cf",
+      "NewGuid": "4e3f943d-e901-40d8-bb5f-e06f5b874b80",
+      "FolderPath": "Assets/Objects/Photo",
+      "ConfigBlockly": "{\"Name\":{\"en\":\"Photo\",\"ru\":\"Photo\"},\"Description\":{\"en\":\"Photo\",\"ru\":\"Photo\"},\"Guid\":\"4e3f943d-e901-40d8-bb5f-e06f5b874b80\",\"RootGuid\":\"42c70e41-ce29-473e-9fc1-db82e85cd7cf\",\"Locked\":false,\"Embedded\":false,\"MobileReady\":true,\"LinuxReady\":false,\"SourcesIncluded\":false,\"DisableSceneLogic\":false,\"Config\":{\"type\":\"Photo_42c70e41ce29473e9fc1db82e85cd7cf.PhotoWrapper\",\"blocks\":[]},\"Author\":{\"Name\":\"ManrisDev\",\"Email\":\"\",\"Url\":\"\"},\"License\":{\"Code\":\"cc-by\",\"Version\":\"4.0\"},\"BuiltAt\":\"2025-11-11T20:24:24Z\",\"SdkVersion\":\"17.11.238\",\"UnityVersion\":\"2021.3.0f1\",\"Changelog\":{\"en\":\"\",\"ru\":\"\"}}",
+      "ConfigAssetBundle": "{\"AssetName\":\"Photo\",\"Assembly\":[\"Photo_42c70e41ce29473e9fc1db82e85cd7cf_3e42fca4.dll\"]}",
+      "StartTime": "2025-11-11T23:24:23.8693143+03:00",
+      "HasError": false,
+      "Assemblies": [
+        "C:/Development/Varwin/Library/ScriptAssemblies/Photo_42c70e41ce29473e9fc1db82e85cd7cf_3e42fca4.dll"
+      ],
+      "TagsPath": "Assets/Objects/Photo/tags.txt",
+      "IconPath": "Assets/Objects/Photo/icon.png"
+    },
+    {
+      "ObjectName": "Phone",
+      "ObjectGuid": "99b291b2-2eea-4963-8269-8d7a4f337471",
+      "PrefabPath": "Assets/Objects/Phone/Phone.prefab",
+      "RootGuid": "99b291b2-2eea-4963-8269-8d7a4f337471",
+      "NewGuid": "a221fc72-b379-4d39-886c-3098ffabd8f0",
+      "FolderPath": "Assets/Objects/Phone",
+      "ConfigBlockly": "{\"Name\":{\"en\":\"Phone\",\"ru\":\"Phone\"},\"Description\":{\"en\":\"Phone\",\"ru\":\"Phone\"},\"Guid\":\"a221fc72-b379-4d39-886c-3098ffabd8f0\",\"RootGuid\":\"99b291b2-2eea-4963-8269-8d7a4f337471\",\"Locked\":false,\"Embedded\":false,\"MobileReady\":true,\"LinuxReady\":false,\"SourcesIncluded\":false,\"DisableSceneLogic\":false,\"Config\":{\"type\":\"Phone_99b291b22eea496382698d7a4f337471.PhoneWrapper\",\"blocks\":[]},\"Author\":{\"Name\":\"ManrisDev\",\"Email\":\"\",\"Url\":\"\"},\"License\":{\"Code\":\"cc-by\",\"Version\":\"4.0\"},\"BuiltAt\":\"2025-11-11T20:24:24Z\",\"SdkVersion\":\"17.11.238\",\"UnityVersion\":\"2021.3.0f1\",\"Changelog\":{\"en\":\"\",\"ru\":\"\"}}",
+      "ConfigAssetBundle": "{\"AssetName\":\"Phone\",\"Assembly\":[\"Phone_99b291b22eea496382698d7a4f337471_26f224af.dll\"]}",
+      "StartTime": "2025-11-11T23:24:23.8738131+03:00",
+      "HasError": false,
+      "Assemblies": [
+        "C:/Development/Varwin/Library/ScriptAssemblies/Phone_99b291b22eea496382698d7a4f337471_26f224af.dll"
+      ],
+      "TagsPath": "Assets/Objects/Phone/tags.txt",
+      "IconPath": "Assets/Objects/Phone/icon.png"
+    },
+    {
+      "ObjectName": "Gramophone",
+      "ObjectGuid": "8c5f5d5c-0aec-43ee-b9fd-0091fceeb0da",
+      "PrefabPath": "Assets/Objects/Gramophone/Gramophone.prefab",
+      "RootGuid": "8c5f5d5c-0aec-43ee-b9fd-0091fceeb0da",
+      "NewGuid": "9e733a1c-5c46-4407-acdc-ae5f5012bb00",
+      "FolderPath": "Assets/Objects/Gramophone",
+      "ConfigBlockly": "{\"Name\":{\"en\":\"Gramophone\",\"ru\":\"\"},\"Description\":{\"en\":\"Gramophone\",\"ru\":\"\"},\"Guid\":\"9e733a1c-5c46-4407-acdc-ae5f5012bb00\",\"RootGuid\":\"8c5f5d5c-0aec-43ee-b9fd-0091fceeb0da\",\"Locked\":false,\"Embedded\":false,\"MobileReady\":true,\"LinuxReady\":false,\"SourcesIncluded\":false,\"DisableSceneLogic\":false,\"Config\":{\"type\":\"Gramophone_8c5f5d5c0aec43eeb9fd0091fceeb0da.GramophoneWrapper\",\"blocks\":[]},\"Author\":{\"Name\":\"ManrisDev\",\"Email\":\"\",\"Url\":\"\"},\"License\":{\"Code\":\"cc-by\",\"Version\":\"4.0\"},\"BuiltAt\":\"2025-11-11T20:24:24Z\",\"SdkVersion\":\"17.11.238\",\"UnityVersion\":\"2021.3.0f1\",\"Changelog\":{\"en\":\"\",\"ru\":\"\"}}",
+      "ConfigAssetBundle": "{\"AssetName\":\"Gramophone\",\"Assembly\":[\"Gramophone_8c5f5d5c0aec43eeb9fd0091fceeb0da_1b0d020a.dll\"]}",
+      "StartTime": "2025-11-11T23:24:23.8996615+03:00",
+      "HasError": false,
+      "Assemblies": [
+        "C:/Development/Varwin/Library/ScriptAssemblies/Gramophone_8c5f5d5c0aec43eeb9fd0091fceeb0da_1b0d020a.dll"
+      ],
+      "TagsPath": "Assets/Objects/Gramophone/tags.txt",
+      "IconPath": "Assets/Objects/Gramophone/icon.png"
+    },
+    {
+      "ObjectName": "RoomInteractableObject",
+      "ObjectGuid": "f2d59f2c-999d-426c-b16b-4245588fb336",
+      "PrefabPath": "Assets/Objects/RoomInteractableObject/RoomInteractableObject.prefab",
+      "RootGuid": "f2d59f2c-999d-426c-b16b-4245588fb336",
+      "NewGuid": "3bec1309-b1a2-4a96-bd81-54b4a61c70fb",
+      "FolderPath": "Assets/Objects/RoomInteractableObject",
+      "ConfigBlockly": "{\"Name\":{\"en\":\"Room Interactable Object\",\"ru\":\"Room Interactable Object\"},\"Description\":{\"en\":\"Room Interactable Object\",\"ru\":\"Room Interactable Object\"},\"Guid\":\"3bec1309-b1a2-4a96-bd81-54b4a61c70fb\",\"RootGuid\":\"f2d59f2c-999d-426c-b16b-4245588fb336\",\"Locked\":false,\"Embedded\":false,\"MobileReady\":true,\"LinuxReady\":false,\"SourcesIncluded\":false,\"DisableSceneLogic\":false,\"Config\":{\"type\":\"RoomInteractableObject_f2d59f2c999d426cb16b4245588fb336.RoomInteractableObjectWrapper\",\"blocks\":[]},\"Author\":{\"Name\":\"ManrisDev\",\"Email\":\"\",\"Url\":\"\"},\"License\":{\"Code\":\"cc-by\",\"Version\":\"4.0\"},\"BuiltAt\":\"2025-11-11T20:24:25Z\",\"SdkVersion\":\"17.11.238\",\"UnityVersion\":\"2021.3.0f1\",\"Changelog\":{\"en\":\"\",\"ru\":\"\"}}",
+      "ConfigAssetBundle": "{\"AssetName\":\"RoomInteractableObject\",\"Assembly\":[\"RoomInteractableObject_f2d59f2c999d426cb16b4245588fb336_38981cef.dll\"]}",
+      "StartTime": "2025-11-11T23:24:23.9229203+03:00",
+      "HasError": false,
+      "Assemblies": [
+        "C:/Development/Varwin/Library/ScriptAssemblies/RoomInteractableObject_f2d59f2c999d426cb16b4245588fb336_38981cef.dll"
+      ],
+      "TagsPath": "Assets/Objects/RoomInteractableObject/tags.txt",
+      "IconPath": "Assets/Objects/RoomInteractableObject/icon.png"
+    },
+    {
+      "ObjectName": "LightDesk",
+      "ObjectGuid": "a4ee68c0-cf65-4ca4-b181-536644315523",
+      "PrefabPath": "Assets/Objects/LightDesk/LightDesk.prefab",
+      "RootGuid": "a4ee68c0-cf65-4ca4-b181-536644315523",
+      "NewGuid": "2c765324-8bbf-4988-a277-c08a5253af2b",
+      "FolderPath": "Assets/Objects/LightDesk",
+      "ConfigBlockly": "{\"Name\":{\"en\":\"Light Desk\",\"ru\":\"\"},\"Description\":{\"en\":\"Light Desk\",\"ru\":\"\"},\"Guid\":\"2c765324-8bbf-4988-a277-c08a5253af2b\",\"RootGuid\":\"a4ee68c0-cf65-4ca4-b181-536644315523\",\"Locked\":false,\"Embedded\":false,\"MobileReady\":true,\"LinuxReady\":false,\"SourcesIncluded\":false,\"DisableSceneLogic\":false,\"Config\":{\"type\":\"LightDesk_a4ee68c0cf654ca4b181536644315523.LightDeskWrapper\",\"blocks\":[]},\"Author\":{\"Name\":\"ManrisDev\",\"Email\":\"\",\"Url\":\"\"},\"License\":{\"Code\":\"cc-by\",\"Version\":\"4.0\"},\"BuiltAt\":\"2025-11-11T20:24:27Z\",\"SdkVersion\":\"17.11.238\",\"UnityVersion\":\"2021.3.0f1\",\"Changelog\":{\"en\":\"\",\"ru\":\"\"}}",
+      "ConfigAssetBundle": "{\"AssetName\":\"LightDesk\",\"Assembly\":[\"LightDesk_a4ee68c0cf654ca4b181536644315523_8f23c570.dll\"]}",
+      "StartTime": "2025-11-11T23:24:23.928922+03:00",
+      "HasError": false,
+      "Assemblies": [
+        "C:/Development/Varwin/Library/ScriptAssemblies/LightDesk_a4ee68c0cf654ca4b181536644315523_8f23c570.dll"
+      ],
+      "TagsPath": "Assets/Objects/LightDesk/tags.txt",
+      "IconPath": "Assets/Objects/LightDesk/icon.png"
+    }
+  ],
+  "CurrentBuildingSceneIndex": 1,
+  "ScenesToBuild": [
+    {
+      "Name": "Room",
+      "Path": "Assets/Scenes/Room.unity",
+      "HasError": false,
+      "RootGuid": "56252f04-b99a-41f0-b5e9-7180c152fb28",
+      "NewGuid": "3c648dd3-ce26-4264-b9b7-e6c237e252c6"
+    }
+  ],
+  "ResourcesToBuild": [],
+  "CompletedStateCount": 14,
+  "IsStatesInitialized": true,
+  "BuildType": "Default",
+  "Data": {
+    "OldAssemblyNames": [
+      "Book_73b0ff84859e413894fd150214bd4c9f",
+      "Photo_42c70e41ce29473e9fc1db82e85cd7cf",
+      "Phone_99b291b22eea496382698d7a4f337471",
+      "Gramophone_8c5f5d5c0aec43eeb9fd0091fceeb0da",
+      "RoomInteractableObject_f2d59f2c999d426cb16b4245588fb336",
+      "LightDesk_a4ee68c0cf654ca4b181536644315523"
+    ],
+    "NewAssemblyNames": [
+      "Book_73b0ff84859e413894fd150214bd4c9f_434f0fb6",
+      "Photo_42c70e41ce29473e9fc1db82e85cd7cf_3e42fca4",
+      "Phone_99b291b22eea496382698d7a4f337471_26f224af",
+      "Gramophone_8c5f5d5c0aec43eeb9fd0091fceeb0da_1b0d020a",
+      "RoomInteractableObject_f2d59f2c999d426cb16b4245588fb336_38981cef",
+      "LightDesk_a4ee68c0cf654ca4b181536644315523_8f23c570"
+    ]
+  },
+  "Progress": 0.8235294,
+  "Label": "Scene template building",
+  "DisplayProgress": 0.8235294,
+  "IsFinished": false,
+  "IsStopped": false,
+  "StateCount": 17
+}

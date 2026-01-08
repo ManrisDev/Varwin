@@ -1,0 +1,13 @@
+{
+  "name": "Gramophone_8c5f5d5c0aec43eeb9fd0091fceeb0da",
+  "references": [
+    "VarwinCore",
+    "Unity.Netcode.Runtime"
+  ],
+  "optionalUnityReferences": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "overrideReferences": false,
+  "allowUnsafeCode": false,
+  "autoReferenced": false
+}
