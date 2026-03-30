@@ -1,0 +1,39 @@
+{
+  "ObjectsToBuild": [
+    {
+      "ObjectName": "Child",
+      "ObjectGuid": "93994bf1-75ae-4ff1-9efb-f5c24a1fb2e1",
+      "PrefabPath": "Assets/Objects/Child/Child.prefab",
+      "RootGuid": "93994bf1-75ae-4ff1-9efb-f5c24a1fb2e1",
+      "NewGuid": "10d8325f-6b38-452e-97d7-37fbcd477c64",
+      "FolderPath": "Assets/Objects/Child",
+      "ConfigBlockly": "{\"Name\":{\"en\":\"Playground\"},\"Description\":{\"en\":\"Playground\"},\"Guid\":\"10d8325f-6b38-452e-97d7-37fbcd477c64\",\"RootGuid\":\"93994bf1-75ae-4ff1-9efb-f5c24a1fb2e1\",\"Locked\":false,\"Embedded\":false,\"MobileReady\":true,\"LinuxReady\":false,\"SourcesIncluded\":false,\"DisableSceneLogic\":false,\"Config\":{\"type\":\"Child_93994bf175ae4ff19efbf5c24a1fb2e1.ChildWrapper\",\"blocks\":[]},\"Author\":{\"Name\":\"ManrisDev\",\"Email\":\"\",\"Url\":\"\"},\"License\":{\"Code\":\"cc-by\",\"Version\":\"4.0\"},\"BuiltAt\":\"2026-03-30T10:06:16Z\",\"SdkVersion\":\"17.11.238\",\"UnityVersion\":\"2021.3.0f1\",\"Changelog\":{\"en\":\"\",\"ru\":\"\"}}",
+      "ConfigAssetBundle": "{\"AssetName\":\"Child\",\"Assembly\":[\"Child_93994bf175ae4ff19efbf5c24a1fb2e1_81dbecc0.dll\"]}",
+      "StartTime": "2026-03-30T13:06:08.962451+03:00",
+      "HasError": false,
+      "Assemblies": [
+        "C:/Development/Freelance/Varwin/Library/ScriptAssemblies/Child_93994bf175ae4ff19efbf5c24a1fb2e1_81dbecc0.dll"
+      ],
+      "TagsPath": "Assets/Objects/Child/tags.txt",
+      "IconPath": "Assets/Objects/Child/icon.png"
+    }
+  ],
+  "CurrentBuildingSceneIndex": 0,
+  "CompletedStateCount": 11,
+  "IsStatesInitialized": true,
+  "BuildType": "Default",
+  "Data": {
+    "OldAssemblyNames": [
+      "Child_93994bf175ae4ff19efbf5c24a1fb2e1"
+    ],
+    "NewAssemblyNames": [
+      "Child_93994bf175ae4ff19efbf5c24a1fb2e1_81dbecc0"
+    ]
+  },
+  "Progress": 0.733333349,
+  "Label": "Building asset bundles...",
+  "DisplayProgress": 0.7260433,
+  "IsFinished": false,
+  "IsStopped": false,
+  "StateCount": 15
+}
