@@ -1,7 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using UnityEngine;
 using Varwin.Public;
 using Varwin.SocketLibrary.Extension;
 
@@ -10,7 +10,7 @@ namespace Varwin.SocketLibrary
     /// <summary>
     /// Класс, реализующий логику контроллера соединений одного объекта.
     /// </summary>
-    public partial class SocketController : BaseComponentsBehaviour, IGrabbingAware
+    public partial class SocketController : BaseComponentsBehaviour, IHierarchyGrabStartAware, IHierarchyGrabEndAware
     {
         /// <summary>
         /// Граф соединений.
@@ -77,7 +77,11 @@ namespace Varwin.SocketLibrary
         /// <summary>
         /// Взят ли объект в руку.
         /// </summary>
-        public bool IsLocalGrabbed => InteractableObjectBehaviour && InteractableObjectBehaviour.IsGrabbed;
+#if VARWINCLIENT    
+        public bool IsLocalGrabbed => ObjectController.GetHierarchyController().IsGrabbed;
+#else
+        public bool IsLocalGrabbed => InteractableObjectBehaviour.IsGrabbed;
+#endif
 
         /// <summary>
         /// Подключается ли.
@@ -93,33 +97,16 @@ namespace Varwin.SocketLibrary
         }
 
         /// <summary>
-        /// Подписка на события.
+        /// Инициализация событий.
         /// </summary>
         private void Start()
         {
-            InitEvents();
-        }
-
-        /// <summary>
-        /// Инициализация событий.
-        /// </summary>
-        private void InitEvents()
-        {
-            if (!InteractableObjectBehaviour)
-            {
-                return;
-            }
-            
+#if VARWINCLIENT            
+            ObjectController.GetHierarchyController().InitializeHandlers();
+#else
             InteractableObjectBehaviour.OnGrabStarted.AddListener(OnGrabStart);
-            InteractableObjectBehaviour.OnGrabEnded.AddListener(OnGrabEnd);
-        }
-
-        /// <summary>
-        /// Метод, вызываемый при броске объекта.
-        /// </summary>
-        private void OnGrabEnd()
-        {
-            ConnectionGraphBehaviour.OnGrabEnd();
+            InteractableObjectBehaviour.OnGrabEnded.AddListener(OnGrabEnd);      
+#endif
         }
 
         /// <summary>
@@ -159,8 +146,32 @@ namespace Varwin.SocketLibrary
         /// </summary>
         private void OnGrabStart()
         {
+            OnGrabStart(ObjectController);
+        }
+        
+        /// <summary>
+        /// Метод, вызываемый при броске объекта.
+        /// </summary>
+        private void OnGrabEnd()
+        {
+            OnGrabEnd(ObjectController);
+        }
+
+        /// <summary>
+        /// Метод, вызываемый при поднятии объекта.
+        /// </summary>
+        public void OnGrabStart(ObjectController sender)
+        {
             DisconnectIfPossible();
             ConnectionGraphBehaviour.OnGrabStart();
+        }
+        
+        /// <summary>
+        /// Метод, вызываемый при броске объекта.
+        /// </summary>
+        public void OnGrabEnd(ObjectController sender)
+        {
+            ConnectionGraphBehaviour.OnGrabEnd();
         }
 
         /// <summary>
@@ -364,28 +375,19 @@ namespace Varwin.SocketLibrary
                 _previewPlugPoint.SocketController.PreviewBehaviour.Show(_previewSocketPoint, _previewPlugPoint);
             }
         }
-        
-        /// <summary>
-        /// При изменении ускорения рукой.
-        /// </summary>
-        /// <param name="angularVelocity">Угловое ускорение.</param>
-        /// <param name="velocity">Линейное ускорение.</param>
-        public void OnHandTransformChanged(Vector3 angularVelocity, Vector3 velocity)
-        {
-            ConnectionGraphBehaviour.TransformChildByRigidbody(ConnectionGraphBehaviour.HeadOfTree, Rigidbody);
-        }
-        
+
         /// <summary>
         /// Удаление объекта провайдера.
         /// </summary>
         private void OnDestroy()
         {
-            if (InteractableObjectBehaviour)
-            {
-                InteractableObjectBehaviour.OnGrabStarted.RemoveListener(OnGrabStart);
-                InteractableObjectBehaviour.OnGrabEnded.RemoveListener(OnGrabEnd);
-            }
-
+#if VARWINCLIENT            
+            ObjectController?.GetHierarchyController()?.InitializeHandlers();
+#else
+            InteractableObjectBehaviour.OnGrabStarted.RemoveListener(OnGrabStart);
+            InteractableObjectBehaviour.OnGrabEnded.RemoveListener(OnGrabEnd);      
+#endif
+            
             foreach (var jointPoint in JointPoints)
             {
                 Disconnect(jointPoint);

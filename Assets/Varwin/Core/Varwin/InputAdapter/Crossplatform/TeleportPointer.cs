@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Varwin.PlatformAdapter
@@ -35,7 +36,7 @@ namespace Varwin.PlatformAdapter
             }
         }
 
-        private GameObject _destinationReticle;
+        protected GameObject _destinationReticle;
 
         private GameObject DestinationReticle
         {
@@ -230,6 +231,16 @@ namespace Varwin.PlatformAdapter
         {
             var angle = Vector3.Angle(normal, Vector3.up);
             return angle < PlayerManager.TeleportAngleLimit;
+        }
+
+        private void OnDestroy()
+        {
+            if (!_destinationReticle)
+            {
+                return;
+            }
+            
+            Destroy(_destinationReticle);
         }
     }
 }

@@ -90,7 +90,6 @@ namespace Varwin.SocketLibrary.Extension
                     ForEach(a => a.SelfObject.CollisionProvider.OnGrabEnd());
                 }
             }
-
         }
 
         /// <summary>
@@ -155,6 +154,10 @@ namespace Varwin.SocketLibrary.Extension
             return isGrabbed;
         }
 
+        /// <summary>
+        /// Удалена ли связка.
+        /// </summary>
+        /// <returns>Истина, если удалена.</returns>
         private bool IsDeleted()
         {
             var isDeleted = false;
@@ -207,7 +210,7 @@ namespace Varwin.SocketLibrary.Extension
         /// <returns>Голова дерева.</returns>
         private ElementOfTree RecursiveAppendingTree(SocketController socketController, HashSet<SocketController> pullControllers = null)
         {
-            if (socketController == null)
+            if (!socketController)
             {
                 return null;
             }
@@ -347,29 +350,7 @@ namespace Varwin.SocketLibrary.Extension
                 return;
             }
 
-            if (ProjectData.PlatformMode != PlatformMode.Vr)
-            {
-                TransformChild(HeadOfTree);
-            }
-        }
-
-        /// <summary>
-        /// Трансформация объектов дерева в VR.
-        /// </summary>
-        /// <param name="headOfTree">Голова списка.</param>
-        /// <param name="mainRigidbody">Взятый объект.</param>
-        public void TransformChildByRigidbody(ElementOfTree headOfTree, Rigidbody mainRigidbody)
-        {
-            foreach (var element in headOfTree.Childs)
-            {
-                element.SelfObject.transform.rotation = headOfTree.SelfObject.transform.rotation * element.ConnectionRotationOffset;
-                element.SelfObject.transform.position = headOfTree.SelfObject.transform.TransformPoint(element.ConnectionPositionOffset);
-                element.SelfObject.Rigidbody.velocity = mainRigidbody.GetPointVelocity(element.SelfObject.transform.position);
-                element.SelfObject.Rigidbody.angularVelocity = mainRigidbody.angularVelocity;
-                element.SelfObject.Rigidbody.ResetInertiaTensor();
-
-                TransformChildByRigidbody(element, mainRigidbody);
-            }
+            TransformChild(HeadOfTree);
         }
 
         /// <summary>
@@ -385,9 +366,21 @@ namespace Varwin.SocketLibrary.Extension
 
                 element.SelfObject.transform.position = headOfTree.SelfObject.transform.TransformPoint(element.ConnectionPositionOffset);
                 element.SelfObject.transform.rotation = headOfTree.SelfObject.transform.rotation * element.ConnectionRotationOffset;
-
+#if VARWINCLIENT                
+                UpdateGraphTransforms(element.SelfObject.ObjectController.GetHierarchyController());
+#endif
                 TransformChild(element);
             }
         }
+
+#if VARWINCLIENT           
+        private void UpdateGraphTransforms(HierarchyController item)
+        {
+            foreach (var descendant in item.Descendants)
+            {
+                descendant.UpdateTransforms();
+            }
+        }
+#endif
     }
 }

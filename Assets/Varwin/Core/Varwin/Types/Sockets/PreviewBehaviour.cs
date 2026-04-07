@@ -129,7 +129,6 @@ namespace Varwin.SocketLibrary
                 var childInstance = CompareTreePreviewObjects(child, headGameObject.transform);
 
                 var position = headGameObject.transform.TransformPoint(child.ConnectionPositionOffset);
-                
                 var rotation = headGameObject.transform.rotation * child.ConnectionRotationOffset;
 
                 childInstance.transform.position = position;

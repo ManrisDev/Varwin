@@ -289,22 +289,21 @@ namespace Varwin.ObjectsInteractions
             }
 
             _inputController.EnableDrop();
-            StartCoroutine(DropAfterOneFrame());
+            _inputController.ForceDropIfNeeded();
             _inputController.ControllerEvents.OnGripReleased(_controllerInteractionEventArgs);
         }
 
         private List<CollisionControllerElement> CreateTriggersColliders(GameObject originalColliderHolder)
         {
             var elements = new List<CollisionControllerElement>();
-            
-            GameObject collidersContainer = CreateColliderContainer(originalColliderHolder, "TempCollidersContainer");
+            var collidersContainer = CreateColliderContainer(originalColliderHolder, "TempCollidersContainer");
 
-            MovableBehaviour movableBehaviour = originalColliderHolder.GetComponent<MovableBehaviour>();
+            var movableBehaviour = originalColliderHolder.GetComponent<MovableBehaviour>();
             bool movableBehExist = movableBehaviour;
             
-            Collider[] colliders = originalColliderHolder.GetComponents<Collider>();
+            var colliders = originalColliderHolder.GetComponents<Collider>();
 
-            foreach (Collider col in colliders)
+            foreach (var col in colliders)
             {
                 if (col is CharacterController characterController)
                 {

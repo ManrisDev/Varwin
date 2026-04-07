@@ -334,7 +334,7 @@ namespace Varwin
                 return;    
             }
 
-            if (ControllerEvents == null || InteractObject.IsForceGrabbed())
+            if (ControllerEvents == null || InteractObject == null|| InteractObject.IsForceGrabbed())
             {
                 return;
             }

@@ -103,14 +103,19 @@ namespace Varwin.XR
 
             public override void ForceStopInteracting()
             {
-                _interactableObject.GrabbedBy?.ForceDrop();
-                _interactableObject.UsedBy?.ForceUnUse();
-                _interactableObject.TouchedBy?.ForceUnTouch();
+                if (_interactableObject.GrabbedBy && !_interactableObject.GrabbedBy.ForcedGrab)
+                {
+                    _interactableObject.GrabbedBy.ForceDrop();
+                }
             }
 
             public override void DropGrabbedObjectAndDeactivate()
             {
-                ForceStopInteracting();
+                if (_interactableObject.GrabbedBy && !_interactableObject.GrabbedBy.ForcedGrab)
+                {
+                    _interactableObject.GrabbedBy.ForceDrop();
+                }
+                
                 _interactableObject.gameObject.SetActive(false);
             }
 

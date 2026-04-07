@@ -126,9 +126,14 @@ namespace Varwin
                 return;
             }
 
-            if (GameStateData.UnloadResource(DTO))
+            var resource = GameStateData.GetResource(DTO.Guid);
+            if (resource != null && resource.Data.OnDemand && GameStateData.UnloadResource(DTO))
             {
                 OnResourceUnloaded();    
+            }
+            else
+            {
+                OnUnloaded?.Invoke();
             }
         }
 

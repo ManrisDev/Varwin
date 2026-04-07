@@ -59,6 +59,11 @@ namespace Varwin.XR
         {
             Controller.InputHandler.Initialized -= OnControllerInitialized;
             VarwinXRSettings.UseVarwinPointerDirectionChanged -= OnUseVarwinPointerDirectionChanged;
+            
+            if (_destinationReticle)
+            {
+                Destroy(_destinationReticle);
+            }
         }
     }
 }

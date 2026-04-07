@@ -18,6 +18,18 @@ namespace Varwin
         EducationKorea,
         
         [EnumMember(Value = "education-kazakh")]
-        EducationKazakh
+        EducationKazakh,
+        
+        [EnumMember(Value = "education-python")]
+        EducationPython,
+        
+        [EnumMember(Value = "education-python-korea")]
+        EducationPythonKorea,
+        
+        [EnumMember(Value = "education-python-kazakh")]
+        EducationPythonKazakh,
+        
+        [EnumMember(Value = "nettledesk-python")]
+        NettleDeskPython
     }
 }

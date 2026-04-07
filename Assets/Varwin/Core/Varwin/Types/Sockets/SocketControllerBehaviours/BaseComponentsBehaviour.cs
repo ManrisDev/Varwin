@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using Varwin.PlatformAdapter;
 using Varwin.Public;
@@ -64,11 +67,13 @@ namespace Varwin.SocketLibrary
         /// <summary>
         /// Подсветка объекта.
         /// </summary>
+        [Obsolete("Use Highlighters instead")]
         private Highlighter _highlighter;
 
         /// <summary>
         /// Подсветка объекта.
         /// </summary>
+        [Obsolete("Use Highlighters instead")]
         public Highlighter Highlighter
         {
             get
@@ -83,12 +88,68 @@ namespace Varwin.SocketLibrary
         }
 
         /// <summary>
+        /// Подсветка списка объектов.
+        /// </summary>
+        private List<Highlighter> _highlighters;
+        
+        /// <summary>
+        /// Подсветка списка объектов.
+        /// </summary>
+        public List<Highlighter> Highlighters
+        {
+            get
+            {
+                if (_highlighters != null)
+                {
+                    return _highlighters;
+                }
+                
+                _highlighters = new List<Highlighter>();
+#if VARWINCLIENT                
+                var descendants = ObjectController.LockParent.Descendants;
+                descendants.Add(ObjectController.LockParent);
+                foreach (var descendant in descendants)
+                {
+                    var highlighter = descendant.gameObject.GetComponentInChildren<Highlighter>(true);
+                    if (!highlighter)
+                    {
+                        continue;
+                    }
+                        
+                    _highlighters.Add(highlighter);
+                }
+#else
+                _highlighters.Add(gameObject.GetComponentInChildren<Highlighter>());          
+#endif
+                return _highlighters;
+            }
+        }
+
+        /// <summary>
+        /// Контроллер объекта.
+        /// </summary>
+        private ObjectController _objectController;
+        
+        /// <summary>
+        /// Контроллер объекта.
+        /// </summary>
+        public ObjectController ObjectController => _objectController ??= gameObject.GetWrapper().GetObjectController();
+
+        /// <summary>
         /// Включить подсветку при подсоединении.
         /// </summary>
         public void SetJoinHighlight()
         {
-            Highlighter.IsEnabled = true;
-            Highlighter.SetConfig(HighlightAdapter.Instance.Configs.JointHighlight, null, false);
+            foreach (var highlighter in Highlighters)
+            {
+                if (!highlighter)
+                {
+                    continue;
+                }
+                
+                highlighter.IsEnabled = true;
+                highlighter.SetConfig(HighlightAdapter.Instance.Configs.JointHighlight, null, false);
+            }
         }
 
         /// <summary>
@@ -99,18 +160,25 @@ namespace Varwin.SocketLibrary
             var isDeleting = gameObject.GetWrapper()?.GetObjectController()?.IsDeleted ?? true;
             if (isDeleting)
             {
-                Highlighter.IsEnabled = false;
+                foreach (var highlighter in Highlighters.Where(highlighter => highlighter))
+                {
+                    highlighter.IsEnabled = false;
+                }
+
                 return;
             }
 
-            var rootController = gameObject.GetRootInputController();
-            if (rootController != null && rootController.InteractObject.IsTouching() && !rootController.InteractObject.IsGrabbed())
+            foreach (var highlighter in Highlighters.Where(highlighter => highlighter))
             {
-                rootController.SetupHighlightWithConfig(true, rootController.DefaultHighlightConfig);
-            }
-            else
-            {
-                Highlighter.IsEnabled = false;
+                var rootController = highlighter.gameObject.GetRootInputController();
+                if (rootController != null && rootController.InteractObject.IsTouching() && !rootController.InteractObject.IsGrabbed())
+                {
+                    rootController.SetupHighlightWithConfig(true, rootController.DefaultHighlightConfig);
+                }
+                else
+                {
+                    highlighter.IsEnabled = false;
+                }
             }
         }
     }

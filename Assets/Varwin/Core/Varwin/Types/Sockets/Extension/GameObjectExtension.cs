@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using Varwin.Public;
 
 namespace Varwin.SocketLibrary.Extension
 {
@@ -19,7 +20,29 @@ namespace Varwin.SocketLibrary.Extension
         /// <returns>Новый объект-превью.</returns>
         public static GameObject GetPreviewObject(this GameObject gameObject)
         {
-            return GetPreviewObject(gameObject, null, null);
+            var preview = GetPreviewObject(gameObject, null, null);
+            var objectController = gameObject.GetWrapper()?.GetObjectController();
+            if (objectController == null)
+            {
+                return preview;
+            }
+            
+            var lockParent = objectController.LockParent;
+            var descendants = lockParent.Descendants;
+            descendants.Add(lockParent);
+            foreach (var child in descendants)
+            {
+                if (child == objectController)
+                {
+                    continue;
+                }
+
+                var childPreview = GetPreviewObject(child.gameObject, preview.transform, null);
+                childPreview.transform.localPosition = gameObject.transform.InverseTransformPoint(child.gameObject.transform.position);
+                childPreview.transform.localRotation = Quaternion.Inverse(gameObject.transform.rotation) * child.gameObject.transform.rotation;
+            }
+
+            return preview;
         }
 
         /// <summary>

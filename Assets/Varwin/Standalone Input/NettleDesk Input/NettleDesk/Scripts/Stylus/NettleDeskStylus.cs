@@ -64,11 +64,6 @@ namespace Varwin.NettleDeskPlayer
         public float RadiusCast = 0.075f;
 
         /// <summary>
-        /// Форсграбнутый ли объект.
-        /// </summary>
-        public bool ForcedGrab { get; private set; }
-
-        /// <summary>
         /// Позиция объекта относительно руки.
         /// </summary>
         private Vector3 _grabbedPositionOffset;
@@ -118,6 +113,7 @@ namespace Varwin.NettleDeskPlayer
         /// </summary>
         private void Start()
         {
+            Initialized = true;
             _velocityList = new FixedList<Vector3>(FilterListSize);
             _angularVelocityList = new FixedList<Vector3>(FilterListSize);
             
@@ -150,7 +146,7 @@ namespace Varwin.NettleDeskPlayer
         /// </summary>
         private void OnInitialized()
         {
-            Initialized = true;
+
         }
 
         /// <summary>
@@ -339,6 +335,11 @@ namespace Varwin.NettleDeskPlayer
         /// <param name="force">ForceGrab.</param>
         private void GrabObject(NettleDeskInteractableObject interactableObject, bool force = false)
         {
+            if (TouchedObject != interactableObject)
+            {
+                UnTouchObject();
+            }
+
             if (!interactableObject || (!interactableObject.IsGrabbable && !force))
             {
                 return;
@@ -601,7 +602,7 @@ namespace Varwin.NettleDeskPlayer
                 return;
             }
 
-            var interactableObject = targetGameObject.GetComponentInParent<NettleDeskInteractableObject>();
+            var interactableObject = targetGameObject.GetComponentInParent<NettleDeskInteractableObject>(true);
             if (!interactableObject)
             {
                 return;

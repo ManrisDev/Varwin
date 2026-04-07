@@ -663,13 +663,23 @@ English:"Returns true if the specified object is currently changing color. Other
             visualizationBehaviour._rendererOcclusionTextures = _rendererOcclusionTextures;
             visualizationBehaviour._rendererBumpScale = _rendererBumpScale;
             visualizationBehaviour._materialTexture = _materialTexture;
+            visualizationBehaviour._unlit = _unlit;
 
             visualizationBehaviour.PassPropertiesToRenderers();
-            
+
+            visualizationBehaviour._mainColor = _mainColor;
             visualizationBehaviour.SetColor();
+
+            if (visualizationBehaviour._receiveShadowsOtherObjects != _receiveShadowsOtherObjects)
+            {
+                visualizationBehaviour._receiveShadowsOtherObjects = _receiveShadowsOtherObjects;
+                visualizationBehaviour.Renderers[0].receiveShadows = _receiveShadowsOtherObjects;
+            }
+            
             visualizationBehaviour.SetVector(MaterialProperties[PropertyType.MainTextureOffset], Offset);
             visualizationBehaviour.SetFloat(MaterialProperties[PropertyType.Glossiness], Smoothness);
             visualizationBehaviour.SetFloat(MaterialProperties[PropertyType.Metallic], Metallic);
+            visualizationBehaviour.RenderQueueOffset = RenderQueueOffset;
         }
 
         private void FillMaterialArray(ref Material[] materials, Material setupMaterial)

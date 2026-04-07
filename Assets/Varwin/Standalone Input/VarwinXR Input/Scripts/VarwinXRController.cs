@@ -363,6 +363,11 @@ namespace Varwin.XR
         /// <param name="force">ForceGrab.</param>
         private void GrabObject(VarwinXRInteractableObject interactableObject, bool force = false)
         {
+            if (TouchedObject != interactableObject)
+            {
+                UnTouchObject();
+            }
+            
             if (!interactableObject || (!interactableObject.IsGrabbable && !force))
             {
                 return;
@@ -648,7 +653,7 @@ namespace Varwin.XR
                 return;
             }
             
-            var interactableObject = targetGameObject.GetComponentInParent<VarwinXRInteractableObject>();
+            var interactableObject = targetGameObject.GetComponentInParent<VarwinXRInteractableObject>(true);
             if (!interactableObject)
             {
                 return;

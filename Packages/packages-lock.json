@@ -243,9 +243,9 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {
+        "com.unity.inputsystem": "1.0.2",
         "com.unity.xr.management": "4.0.1",
-        "com.unity.xr.legacyinputhelpers": "2.1.2",
-        "com.unity.inputsystem": "1.0.2"
+        "com.unity.xr.legacyinputhelpers": "2.1.2"
       },
       "url": "https://packages.unity.com"
     },
